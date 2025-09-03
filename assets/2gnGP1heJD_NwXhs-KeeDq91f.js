@@ -1,0 +1,1 @@
+import{_ as o}from"./preload-helper-D9Z9MdNV.js";let e=null;async function a(){return e||(e=new Promise(async(i,l)=>{let r=null;try{r=await o(()=>import("https://esm.sh/typescript@5.7.2"),[],import.meta.url)}catch(t){console.error("Error initializing Browser TypeScript module:",t)}r||console.log("use script fallback"),i(r)}),e)}export{a as initialize};
