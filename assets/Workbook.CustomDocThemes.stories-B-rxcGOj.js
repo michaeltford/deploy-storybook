@@ -1,0 +1,66 @@
+import{j as o}from"./index-DWKpDUR-.js";import{r}from"./iframe-CpXbX42E.js";import{r as m,a as n,h as d,K as u}from"./index-C4mmmnnj.js";import"./index-DOP-sD40.js";import{i as c}from"./CzdBzjYgP1i3pkPL-BkLvlJQf.js";import"./index-z4VAroti.js";import"./preload-helper-PPVm8Dsz.js";import"./index-fWxn02CS.js";import"./client-Ba8_ROJ4.js";import"./index-C3bn2QFg.js";import"./Tooltip-CDPNXS5Z.js";const p=()=>{const s=r.useMemo(()=>new m({name:"Holiday",colors:{dk1:n.Named.Red,dk2:n.Named.Green,accent1:n.Named.LtGreen,accent2:n.Named.LtPink,accent3:"blue",accent4:"#ff6e40"}}),[]),a=r.useMemo(()=>{const t=new d,h=new m({name:"Halloween",colors:{dk1:"#130912",dk2:"#42331E",lt1:"#FFEFC9",lt2:"#E9Cb95",accent1:"#FFC502",accent2:"#F56F16",accent3:"#B14624",accent4:"#602749",accent5:"#5A7E5A",accent6:"#A21A00"}});return t.setCustomTheme(h),t.setDefaultTheme(s),t},[s]),l=()=>o.jsx(u,{themes:a,children:o.jsx(c,{square:!1,sx:{flex:"1 1 100%"}})});return o.jsx(l,{})},e=p.bind({});e.args={};e.storyName="Custom DocThemes";const b={title:"Workbook/Custom DocThemes",component:c};e.parameters={...e.parameters,docs:{...e.parameters?.docs,source:{originalSource:`() => {
+  // For new workbooks
+  const defaultDocTheme = useMemo(() => {
+    return new Theme({
+      name: 'Holiday',
+      colors: {
+        dk1: IColor.Named.Red,
+        dk2: IColor.Named.Green,
+        accent1: IColor.Named.LtGreen,
+        accent2: IColor.Named.LtPink,
+        accent3: 'blue',
+        accent4: '#ff6e40'
+      }
+    });
+  }, []);
+
+  // For themes select dropdown
+  const customThemes = useMemo(() => {
+    const themes: IThemeCollection = new ThemeCollection();
+
+    /**
+     * Add Halloween as option theme in ThemesSelector
+     */
+    const theme = new Theme({
+      name: 'Halloween',
+      colors: {
+        dk1: '#130912',
+        dk2: '#42331E',
+        lt1: '#FFEFC9',
+        // yellow
+        lt2: '#E9Cb95',
+        // light orange
+        accent1: '#FFC502',
+        // yellow
+        accent2: '#F56F16',
+        // orange
+        accent3: '#B14624',
+        // brown
+        accent4: '#602749',
+        // purple
+        accent5: '#5A7E5A',
+        // green
+        accent6: '#A21A00' // red
+      }
+    });
+    themes.setCustomTheme(theme);
+    /**
+     * Set a default custom theme.
+     *
+     * @remarks
+     * * Adds the theme to the themes collection.
+     * * Redundant with passing the theme via attachStudioOptions.
+     * * Another Example that also updates the available themes in the drop down.
+     */
+    themes.setDefaultTheme(defaultDocTheme);
+    return themes;
+  }, [defaultDocTheme]);
+  const App = () => {
+    return <DocThemesProvider themes={customThemes}>
+        <Studio square={false} sx={{
+        flex: '1 1 100%'
+      }} />
+      </DocThemesProvider>;
+  };
+  return <App />;
+}`,...e.parameters?.docs?.source}}};const N=["WorkbookAppCustomDocThemes"];export{e as WorkbookAppCustomDocThemes,N as __namedExportsOrder,b as default};

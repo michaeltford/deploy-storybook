@@ -1,0 +1,12 @@
+import{q as J}from"./index-C4mmmnnj.js";import"./preload-helper-PPVm8Dsz.js";import"./index-fWxn02CS.js";import"./index-DWKpDUR-.js";import"./iframe-CpXbX42E.js";import"./index-z4VAroti.js";import"./client-Ba8_ROJ4.js";import"./index-C3bn2QFg.js";/**
+ * @license @sheetxl/io - IO - Import/Export Libraries for SheetXL. - v0.7.7
+ *
+ * (C) 2025-present SheetXL Inc. & Michael T. Ford
+ * License: The license can be found at https://www.sheetxl.com/license.
+ */const L=async(w,p)=>{const u=await w.toJSON(),b=p?.whiteSpace??0;let g;p?.beforeWrite?.(w,u),g=b===0?JSON.stringify(u):(function(i,n=2){const r=[];function f(o){const e=n*o;return r[e]===void 0&&(r[e]=" ".repeat(e)),r[e]}return(function o(e,a,s,B){if(e==null||typeof e!="object")return JSON.stringify(e);const A=f(a),d=f(a+1);if(Array.isArray(e)){const c=e.length;if(c===0)return"[]";if(s!==0)return JSON.stringify(e);let y=`[
+`;for(let h=0;h<c;h++)y+=d+o(e[h],a+1,s+1,!0),h<c-1&&(y+=`,
+`);return y+=`
+`+A+"]",y}const O=Object.keys(e),m=O.length;if(m===0)return"{}";if(!(s<2))return JSON.stringify(e);let S=`{
+`;B||(s=0);for(let c=0;c<m;c++){const y=O[c];S+=d+JSON.stringify(y)+": "+o(e[y],a+1,s,!1),c<m-1&&(S+=`,
+`)}return S+=`
+`+A+"}",S})(i,0,0,!1)})(u,b);let l=new TextEncoder().encode(g).buffer;const t=p?.compress??!0;return t&&(l=await(async function(i,n="gzip"){let r;typeof SharedArrayBuffer<"u"&&i instanceof SharedArrayBuffer?(r=new ArrayBuffer(i.byteLength),new Uint8Array(r).set(new Uint8Array(i))):r=i;const f=new ReadableStream({start(a){a.enqueue(r),a.close()}}),o=new CompressionStream(n),e=f.pipeThrough(o);return(await new Response(e).blob()).arrayBuffer()})(l,typeof t=="string"?t:void 0)),l},R=async(w,p)=>{let u=w;(function(t){if(t.byteLength<4)return!1;const i=new Uint8Array(t),n={gzip:[31,139],zip:[80,75,3,4],bz2:[66,90,104],br:[206,178,207,129]},r=Object.keys(n);for(let f=0;f<r.length;f++){const o=r[f],e=n[o];let a=!0;for(let s=0;s<e.length;s++)if(i[s]!==e[s]){a=!1;break}if(a)return o}return!1})(u)&&(u=await(async function(t,i="gzip"){let n;typeof SharedArrayBuffer<"u"&&t instanceof SharedArrayBuffer?(n=new ArrayBuffer(t.byteLength),new Uint8Array(n).set(new Uint8Array(t))):n=t;const r=new Blob([n]).stream(),f=new DecompressionStream(i),o=r.pipeThrough(f);return(await new Response(o).blob()).arrayBuffer()})(u));let b=new TextDecoder().decode(u);const g=JSON.parse(b),l={...p?.createWorkbookOptions??{},json:g};return new J(l)};export{R as fromBufferJSON,L as toBufferJSON};
