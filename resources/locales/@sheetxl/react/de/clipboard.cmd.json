@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "app",
+  "label": "Anwendung",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "cut": {
+      "label": "Ausschneiden",
+      "description": "Die Auswahl entfernen und in die Zwischenablage legen, um sie an anderer Stelle einzufügen.",
+      "icon": "cut",
+      "shortcut": [
+        "ctrl+X",
+        "shift+Delete"
+      ]
+    },
+    "copy": {
+      "label": "Kopieren",
+      "description": "Eine Kopie der Auswahl in die Zwischenablage legen, um sie an anderer Stelle einzufügen.",
+      "icon": "copy",
+      "shortcut": [
+        "ctrl+C",
+        "ctrl+Insert"
+      ]
+    },
+    "paste": {
+      "label": "Einfügen",
+      "description": "Inhalte aus der Zwischenablage in Ihr Dokument einfügen.",
+      "icon": "paste.yellow",
+      "shortcut": [
+        "ctrl+V",
+        "shift+Insert"
+      ]
+    }
+  }
+}

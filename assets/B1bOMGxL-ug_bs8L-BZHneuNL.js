@@ -1,0 +1,1 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";var t;e((()=>{t={PHONETIC:{s:`Returns the phonetic spelling of a text string.`,p:{reference:{d:`Text string or a reference to a single cell or a range of cells that contain a furigana text string.`}},h:`Unimplemented Japanese.`}}}))();export{t as default};

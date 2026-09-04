@@ -1,0 +1,296 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "workbook",
+  "label": "Workbook",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "addSheet": {
+      "label": "Insert Sheet",
+      "description": "Insert sheet before the current sheet.",
+      "groupLabels": {
+        "sheet": "Insert"
+      },
+      "shortcut": [
+        "shift+F11",
+        "shift+alt+F1"
+      ]
+    },
+    "deleteSheet": {
+      "label": "Delete Sheet",
+      "description": "Delete the sheet and all the data.",
+      "groupLabels": {
+        "sheet": "Delete"
+      }
+    },
+    "duplicateSheet": {
+      "label": "Duplicate Sheet",
+      "description": "Duplicate the current sheet.",
+      "groupLabels": {
+        "sheet": "Duplicate"
+      }
+    },
+    "hideSheet": {
+      "label": "Hide Sheet",
+      "description": "Hide the sheet from appearing in the tabs. This keeps the data but de-clutters the tabs.",
+      "groupLabels": {
+        "sheet": "Hide"
+      },
+      "icon": "VisibilityOff"
+    },
+    "nextSheet": {
+      "label": "Next Sheet",
+      "description": "Activate the next sheet.",
+      "groupLabels": {
+        "sheet": "Next"
+      },
+      "shortcut": "ctrl+PageDown"
+    },
+    "previousSheet": {
+      "label": "Previous Sheet",
+      "description": "Activate the previous sheet.",
+      "groupLabels": {
+        "sheet": "Previous"
+      },
+      "shortcut": "ctrl+PageUp"
+    },
+    "selectNextSheet": {
+      "label": "Select Next Sheet",
+      "description": "Select the next sheet.",
+      "groupLabels": {
+        "sheet": "Select Next"
+      },
+      "shortcut": "ctrl+shift+PageDown"
+    },
+    "selectPreviousSheet": {
+      "label": "Select Previous Sheet",
+      "description": "Select the previous sheet.",
+      "groupLabels": {
+        "sheet": "Select Previous"
+      },
+      "shortcut": "ctrl+shift+PageUp"
+    },
+    "workbookViewToggleShowFormulaBar": {
+      "label": "View Formula bar",
+      "description": "Show or hide the formula bar.",
+      "groupLabels": {
+        "view": "Formula Bar"
+      }
+    },
+    "workbookViewToggleShowTabs": {
+      "label": "View Sheet Tabs",
+      "description": "Show or hide the sheet tabs.",
+      "groupLabels": {
+        "view": "Sheet Tabs"
+      }
+    },
+    "workbookViewToggleShowStatusBar": {
+      "label": "View Status Bar",
+      "description": "Show or hide the status bar.",
+      "groupLabels": {
+        "view": "Status Bar"
+      }
+    },
+    "workbookViewToggleShowHorizontalScrollBar": {
+      "label": "View Horizontal Scrollbar",
+      "description": "Show or hide the horizontal scrollbar.",
+      "groupLabels": {
+        "view": "Horizontal Scrollbar"
+      }
+    },
+    "workbookViewToggleShowVerticalScrollBar": {
+      "label": "View Vertical Scrollbar",
+      "description": "Show or hide the vertical scrollbar.",
+      "groupLabels": {
+        "view": "Vertical Scrollbar"
+      }
+    },
+    "workbookViewToggleExpandFormulaBar": {
+      "label": "Toggle Expand Formula bar",
+      "description": "Expand or collapse the formula bar.",
+      "shortcut": "ctrl+shift+U"
+    },
+    "locale": {
+      "label": "Regional Format",
+      "description": "The regional format used for numbers and dates. This is saved with the workbook.",
+      "icon": "Locale"
+    },
+    "newCellStyle": {
+      "label": "New Cell Style…",
+      "description": "Create a new named style can can be quickly used later.",
+      "groupLabels": {
+        "cellStyle": "New Cell Style"
+      },
+      "icon": "NewPresetStyles"
+    },
+    "deleteCellStyle": {
+      "label": "Delete Cell Style",
+      "description": "Remove a named style that is no longer needed.",
+      "groupLabels": {
+        "cellStyle": "Delete"
+      }
+    },
+    "modifyCellStyle": {
+      "label": "Modify Cell Style",
+      "description": "Update a style with the currently style.",
+      "groupLabels": {
+        "cellStyle": "Modify"
+      }
+    },
+    "find": {
+      "label": "Find",
+      "description": "Open the Find window.",
+      "icon": "Find",
+      "shortcut": [
+        "ctrl+F",
+        "shift+F5"
+      ]
+    },
+    "findReplace": {
+      "label": "Find & Replace",
+      "description": "Open the Find & Replace window.",
+      "icon": "FindReplace",
+      "shortcut": [
+        "ctrl+H",
+        "ctrl+alt+H"
+      ]
+    },
+    "findNext": {
+      "label": "Find Next",
+      "description": "Find the next match of the last search, without opening the Find window.",
+      "icon": "Find",
+      "shortcut": "shift+F4"
+    },
+    "findPrevious": {
+      "label": "Find Previous",
+      "description": "Find the previous match of the last search, without opening the Find window.",
+      "icon": "Find",
+      "shortcut": "ctrl+shift+F4"
+    },
+    "goto": {
+      "label": "Go To",
+      "description": "Open the 'Go To' window.",
+      "icon": "GoTo",
+      "shortcut": "ctrl+G"
+    },
+    "selectNamed": {
+      "label": "Select Named",
+      "description": "Select the named item."
+    },
+    "addNamedReference": {
+      "label": "Define Named Reference",
+      "description": "Add a new named reference. Names can be used as a substitute for cell references.",
+      "groupLabels": {
+        "namedItem": "Define Name…"
+      },
+      "icon": "InsertNamedRange"
+    },
+    "editNamedReference": {
+      "label": "Edit Named Reference…",
+      "description": "Edit the named reference. Names can be used as a substitute for cell references.",
+      "groupLabels": {
+        "namedItem": "Edit…"
+      },
+      "icon": "NamedRangeEdit"
+    },
+    "deleteNamedReference": {
+      "label": "Delete Named Reference",
+      "description": "Remove the named reference.",
+      "groupLabels": {
+        "namedItem": "Delete"
+      },
+      "icon": "DeleteNamedRange"
+    },
+    "insertFunction": {
+      "label": "Insert Function",
+      "description": "Insert a function into the current cell.",
+      "icon": "FunctionThin"
+    },
+    "selectTheme": {
+      "label": "Theme",
+      "description": "Select a theme that coveys a style suitable for your data."
+    },
+    "calculateAll": {
+      "label": "Calculate Now",
+      "description": "Recalculate the formulas whose values are out of date, on every sheet.",
+      "icon": "Calculate",
+      "shortcut": "F9"
+    },
+    "calculateFull": {
+      "label": "Calculate Full",
+      "description": "Recalculate every formula in the workbook, including those already up to date. Use this to replace the values a file was opened with.",
+      "icon": "Calculate",
+      "shortcut": "ctrl+alt+F9"
+    },
+    "calcModeAutomatic": {
+      "label": "Automatic",
+      "description": "Recalculate formulas whenever their inputs change."
+    },
+    "calcModeAutomaticExceptTables": {
+      "label": "Automatic Except for Data Tables",
+      "description": "Recalculate formulas whenever their inputs change, except what-if data tables. Without data tables this is the same as Automatic."
+    },
+    "calcModeManual": {
+      "label": "Manual",
+      "description": "Recalculate only when you ask (F9). Edits leave dependent formulas out of date until then."
+    },
+    "calcIterativeToggle": {
+      "label": "Enable Iterative Calculation",
+      "description": "Resolve circular references by recalculating them repeatedly until they settle or the maximum iterations is reached. Off, a circular reference evaluates to 0."
+    },
+    "selectDirectPrecedents": {
+      "label": "Select Direct Precedents",
+      "description": "Select the cells directly referenced by the formulas in the selection.",
+      "shortcut": "ctrl+["
+    },
+    "selectPrecedents": {
+      "label": "Select All Precedents",
+      "description": "Select all cells that contribute to the formulas in the selection, following the entire calculation chain.",
+      "shortcut": "ctrl+shift+{"
+    },
+    "selectDirectDependents": {
+      "label": "Select Direct Dependents",
+      "description": "Select the cells with formulas that directly reference the selection.",
+      "shortcut": "ctrl+]"
+    },
+    "selectDependents": {
+      "label": "Select All Dependents",
+      "description": "Select all cells that are eventually affected by the selection, following the entire calculation chain.",
+      "shortcut": "ctrl+shift+}"
+    },
+    "maximumWorkbookToggle": {
+      "label": "Maximize",
+      "description": "Toggle showing the workbook maximized.",
+      "shortcut": "ctrl+F10"
+    },
+    "activeNameBox": {
+      "label": "Activate Name Box",
+      "description": "Move the focus to the name box.",
+      "shortcut": "alt+F3"
+    },
+    "activeNameManager": {
+      "label": "Name Manager",
+      "description": "Create, edit, delete, and find all the names used in the workbook.\n\nNames can be used as a substitute for cell references.",
+      "shortcut": "ctrl+F3",
+      "icon": "NamedManager",
+      "groupLabels": {
+        "namedItem": "Manage Names…"
+      }
+    },
+    "createNamedReferenceFromSelection": {
+      "label": "Create from Selection",
+      "description": "Automatically generate names from the selected cells.",
+      "shortcut": "ctrl+shift+F3"
+    },
+    "spellCheck": {
+      "label": "Spell Check",
+      "description": "Check the workbook for spelling mistakes.",
+      "shortcut": "F7"
+    },
+    "workbookStatistics": {
+      "label": "Workbook Statistics",
+      "description": "Show the workbook statistics.",
+      "shortcut": "ctrl+shift+G"
+    }
+  }
+}

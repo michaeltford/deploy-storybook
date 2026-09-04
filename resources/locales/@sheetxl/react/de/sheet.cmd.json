@@ -1,0 +1,1663 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "sheet",
+  "label": "Blatt",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "gridlinesToggle": {
+      "label": "Gitternetzlinien",
+      "groupLabels": {
+        "view": "Gitternetzlinien"
+      },
+      "description": "Umschalten, ob die Linien zwischen Zeilen und Spalten angezeigt werden."
+    },
+    "sheetViewToggleGridlinesRows": {
+      "label": "Zeilen-Gitternetzlinien",
+      "groupLabels": {
+        "gridlinesOptions": "Zeilen",
+        "view": "Zeilen-Gitternetzlinien"
+      },
+      "description": "Umschalten, ob die Linien zwischen Zeilen angezeigt werden."
+    },
+    "sheetViewToggleGridlinesColumns": {
+      "label": "Spalten-Gitternetzlinien",
+      "groupLabels": {
+        "gridlinesOptions": "Spalten",
+        "view": "Spalten-Gitternetzlinien"
+      },
+      "description": "Umschalten, ob die Linien zwischen Spalten angezeigt werden."
+    },
+    "sheetViewFormatGridlinesColor": {
+      "label": "Farbe der Gitternetzlinien",
+      "description": "Die Gitternetzlinien der Zeilen und Spalten einfärben."
+    },
+    "sheetViewToggleShowHeadings": {
+      "label": "Überschriften",
+      "groupLabels": {
+        "view": "Überschriften"
+      },
+      "description": "Umschalten, ob die Zeilen- und Spaltenüberschriften angezeigt werden."
+    },
+    "sheetViewToggleShowHeadingRows": {
+      "label": "Zeilenüberschriften",
+      "groupLabels": {
+        "headingsOptions": "Zeilen",
+        "view": "Zeilenüberschriften"
+      },
+      "description": "Umschalten, ob die Zeilenüberschriften angezeigt werden."
+    },
+    "sheetViewToggleShowHeadingColumns": {
+      "label": "Spaltenüberschriften",
+      "groupLabels": {
+        "headingsOptions": "Spalten",
+        "view": "Spaltenüberschriften"
+      },
+      "description": "Umschalten, ob die Spaltenüberschriften angezeigt werden."
+    },
+    "sheetViewToggleShowHeadingsNumeric": {
+      "label": "Numerische Überschriften",
+      "description": "Umschalten, ob Zellüberschriften Zahlen oder A1-Konventionen anzeigen.",
+      "shortcut": "ctrl+shift+h"
+    },
+    "sheetViewToggleFormulaView": {
+      "label": "Formeln anzeigen",
+      "description": "Umschalten, ob Zellen Formeln oder Werte anzeigen.",
+      "icon": "FormulaView",
+      "shortcut": "ctrl+`"
+    },
+    "sheetViewToggleShowZeros": {
+      "label": "Nullwerte anzeigen",
+      "description": "Umschalten, ob Zellen mit dem Wert Null „0“ oder nichts anzeigen.",
+      "icon": "ViewZero"
+    },
+    "selectComments": {
+      "label": "Kommentare auswählen",
+      "description": "Die Zellen mit Kommentaren auswählen.",
+      "shortcut": "ctrl+shift+O"
+    },
+    "selectAll": {
+      "label": "Alles auswählen",
+      "description": "Die nächstgelegenen Daten auswählen, oder das gesamte Blatt, wenn keine Daten in der Nähe sind.",
+      "shortcut": [
+        "ctrl+A",
+        "ctrl+shift+Space"
+      ]
+    },
+    "selectRegion": {
+      "label": "Bereich auswählen",
+      "description": "Die nächstgelegenen Daten auswählen.",
+      "shortcut": "ctrl+shift+*"
+    },
+    "clearHiddenSelection": {
+      "label": "Nur sichtbare Zellen markieren",
+      "description": "Die Auswahl an ausgeblendeten Zeilen und Spalten auftrennen, sodass nur die sichtbaren Zellen markiert bleiben.",
+      "shortcut": "alt+Semicolon"
+    },
+    "formatTextRotate0": {
+      "label": "Keine Textdrehung",
+      "description": "Alle Textdrehungen entfernen.",
+      "icon": "TextRotation315",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextRotate45": {
+      "label": "Im Uhrzeigersinn neigen",
+      "description": "Text 45 Grad nach unten neigen.",
+      "icon": "TextRotation45",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextRotate90": {
+      "label": "Text nach unten drehen",
+      "description": "Text so drehen, dass er links anliegt.",
+      "icon": "TextRotation90",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextRotate270": {
+      "label": "Text nach oben drehen",
+      "description": "Text so drehen, dass er rechts anliegt.",
+      "icon": "TextRotation2702",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextRotate315": {
+      "label": "Gegen den Uhrzeigersinn neigen",
+      "description": "Text 45 Grad nach oben neigen.",
+      "icon": "TextRotation315",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextRotateCustom": {
+      "label": "Benutzerdefinierte Textdrehung",
+      "description": "Text in einem benutzerdefinierten Winkel neigen.",
+      "icon": "TextRotationCustom",
+      "tags": [
+        "mutator"
+      ],
+      "groupLabels": {
+        "textRotateOptions": "Benutzerdefiniert"
+      }
+    },
+    "formatTextRotateVertical": {
+      "label": "Vertikaler Text",
+      "description": "Text vertikal stapeln.",
+      "icon": "TextRotationVertical",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sortAscending": {
+      "label": "Aufsteigend sortieren",
+      "groupLabels": {
+        "sortFilterOptions": "Aufsteigend",
+        "sortOptions": "Aufsteigend"
+      },
+      "description": "Vom niedrigsten zum höchsten Wert.",
+      "icon": "SortIncrease",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sortDescending": {
+      "label": "Absteigend sortieren",
+      "groupLabels": {
+        "sortFilterOptions": "Absteigend",
+        "sortOptions": "Absteigend"
+      },
+      "description": "Vom höchsten zum niedrigsten Wert.",
+      "icon": "SortDecrease",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sortCustom": {
+      "label": "Benutzerdefiniertes Sortieren…",
+      "groupLabels": {
+        "sortFilterOptions": "Benutzerdefiniert…",
+        "sortOptions": "Benutzerdefiniert…"
+      },
+      "description": "Weitere Optionen wählen, z. B. Sortieren nach mehreren Spalten oder Zeilen sowie Sortieren mit Groß-/Kleinschreibung.",
+      "icon": "SortCustom",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "protectionSheetToggle": {
+      "label": "{locked, select, true{Blattschutz aufheben} other{Blatt schützen}}",
+      "groupLabels": {
+        "sheet": "{locked, select, true{Schutz aufheben} other{Schützen}}"
+      },
+      "description": "Unerwünschte Änderungen durch andere verhindern, indem deren Bearbeitungsmöglichkeiten eingeschränkt werden.\\nSie können z. B. verhindern, dass gesperrte Zellen bearbeitet oder Formatierungen geändert werden.",
+      "icon": "Lock",
+      "params": {
+        "locked": false
+      }
+    },
+    "protectionSheetPause": {
+      "label": "{paused, select, true{Schutz fortsetzen} other{Schutz anhalten}}",
+      "groupLabels": {
+        "protectionOptions": "{paused, select, true{Schutz fortsetzen} other{Schutz anhalten}}"
+      },
+      "description": "Den Schutz dieses Blatts vorübergehend aufheben, ohne den Blattschutz zu entfernen.\nFragt nach dem Blattkennwort, falls eines gesetzt ist. Gilt nur für diese Sitzung und wird nie mit der Datei gespeichert.",
+      "icon": "LockOpen",
+      "params": {
+        "paused": false
+      }
+    },
+    "protectionHighlightLocked": {
+      "label": "Gesperrte Zellen hervorheben",
+      "groupLabels": {
+        "protectionOptions": "Gesperrte Zellen hervorheben"
+      },
+      "description": "Die Zellen schattieren, die der Blattschutz sperrt, und die weiterhin bearbeitbaren Bereiche frei lassen.\nEine Ansichtseinstellung: Sie ändert nichts an der Arbeitsmappe und funktioniert unabhängig davon, ob das Blatt geschützt ist."
+    },
+    "manageProtection": {
+      "label": "Schutz verwalten",
+      "groupLabels": {
+        "protectionOptions": "Schutz verwalten…",
+        "sheetTabMenu": "Schutz verwalten…",
+        "contextMenu": "Schutz verwalten…"
+      },
+      "description": "Blattschutz und seine Optionen, die bearbeitbar bleibenden Bereiche und der Arbeitsmappenschutz – an einem Ort.",
+      "icon": "Lock"
+    },
+    "protectionUnlockRange": {
+      "label": "Bereich freigeben…",
+      "groupLabels": {
+        "protectionOptions": "Bereich freigeben…"
+      },
+      "description": "Die ausgewählten Zellen bearbeitbar lassen, während der Rest des Blatts geschützt ist.",
+      "icon": "LockRange"
+    },
+    "formatSheetTabColor": {
+      "label": "Registerfarbe",
+      "description": "Die Registerkarte einfärben, um sie von anderen Blättern zu unterscheiden.",
+      "icon": "stroke.colored"
+    },
+    "formatCellStyle": {
+      "label": "Zellenformatvorlagen",
+      "groupLabels": {
+        "cellStyle": "Anwenden"
+      },
+      "description": "Eine farbige Formatvorlage ist eine gute Möglichkeit, wichtige Daten auf dem Blatt hervorzuheben.",
+      "icon": "PresetStyles",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTableStyle": {
+      "label": "{hasTable, select, true{Tabellenformatvorlage anwenden} other{Als Tabelle formatieren}}",
+      "groupLabels": {
+        "tableStyleOptions": "Anwenden (Formate behalten)"
+      },
+      "description": "Eine Tabelle erstellen oder eine Formatvorlage auf die aktuelle Tabelle anwenden.",
+      "icon": "PresetStyles",
+      "tags": [
+        "mutator"
+      ],
+      "params": {
+        "hasTable": false
+      }
+    },
+    "formatTableStyleClearCellStyles": {
+      "label": "Als Tabelle formatieren (Formate löschen)",
+      "groupLabels": {
+        "tableStyleOptions": "Anwenden (Formate löschen)"
+      },
+      "description": "Eine Tabelle erstellen oder eine Formatvorlage anwenden und alle Zellformate löschen.",
+      "icon": "PresetStyles"
+    },
+    "setDefaultTableStyle": {
+      "label": "Standard-Tabellenformat festlegen",
+      "groupLabels": {
+        "tableStyleOptions": "Als Standard festlegen"
+      },
+      "description": "Legt die Standard-Tabellenformatvorlage fest, die beim Einfügen einer Tabelle verwendet wird."
+    },
+    "deleteTableStyle": {
+      "label": "Tabellenformatvorlage löschen",
+      "groupLabels": {
+        "tableStyleOptions": "Löschen"
+      },
+      "description": "Die aktuelle Tabellenformatvorlage entfernen."
+    },
+    "formatBorder": {
+      "label": "Rahmen",
+      "description": "Einen Umrandungsrahmen erstellen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatFillColor": {
+      "label": "Füllfarbe",
+      "description": "Den Hintergrund der Zellen einfärben, um sie hervorzuheben.",
+      "icon": "fill.colored",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatFontColor": {
+      "label": "Schriftfarbe",
+      "description": "Die Farbe Ihres Texts ändern.",
+      "icon": "text.colored",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatBoldToggle": {
+      "label": "Fett",
+      "description": "Fettformatierung des Texts umschalten.",
+      "icon": "TextBold",
+      "shortcut": [
+        "ctrl+shift+F",
+        "ctrl+2"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatItalicToggle": {
+      "label": "Kursiv",
+      "description": "Kursivformatierung des Texts umschalten.",
+      "icon": "TextItalic",
+      "shortcut": [
+        "ctrl+shift+K",
+        "ctrl+3"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatUnderlinedToggle": {
+      "label": "Unterstreichen",
+      "groupLabels": {
+        "underlineOptions": "Einfach"
+      },
+      "description": "Den Text unterstreichen.",
+      "icon": "TextUnderline",
+      "shortcut": [
+        "ctrl+u",
+        "ctrl+4"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatUnderlinedDoubleToggle": {
+      "label": "Doppelt unterstreichen",
+      "groupLabels": {
+        "underlineOptions": "Doppelt"
+      },
+      "description": "Den Text doppelt unterstreichen.",
+      "icon": "TextUnderlineDouble"
+    },
+    "formatUnderlinedAccountingToggle": {
+      "label": "Buchhaltungsunterstreichung",
+      "groupLabels": {
+        "underlineOptions": "Buchhaltung"
+      },
+      "description": "Buchhaltungsunterstreichung für den Text verwenden.",
+      "icon": "TextUnderlineAccounting"
+    },
+    "formatUnderlinedAccountingDoubleToggle": {
+      "label": "Doppelte Buchhaltungsunterstreichung",
+      "groupLabels": {
+        "underlineOptions": "Doppelte Buchhaltung"
+      },
+      "description": "Doppelte Buchhaltungsunterstreichung für den Text verwenden.",
+      "icon": "TextUnderlineAccountingDouble"
+    },
+    "formatStrikeThroughToggle": {
+      "label": "Durchgestrichen",
+      "description": "Durchstreichung des Texts umschalten.",
+      "icon": "TextStrike",
+      "shortcut": "ctrl+5",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatSuperscriptToggle": {
+      "label": "Hochgestellt",
+      "description": "Text verkleinern und an den oberen Rand der Zeile stellen.",
+      "icon": "TextSuperscript",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatSubscriptToggle": {
+      "label": "Tiefgestellt",
+      "description": "Text verkleinern und an den unteren Rand der Zeile stellen.",
+      "icon": "TextSubscript",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignTopToggle": {
+      "label": "Oben ausrichten",
+      "description": "Text am oberen Rand ausrichten.",
+      "icon": "TextVerticalTop",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextOverflowVisibleToggle": {
+      "label": "Text überlaufen",
+      "description": "Text in die nächsten Zellen überlaufen lassen.",
+      "icon": "TextHorizontalOverflow",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextOverflowWrapToggle": {
+      "label": "Zeilenumbruch",
+      "description": "Text innerhalb der Zelle umbrechen und die Höhe nach Bedarf vergrößern.",
+      "icon": "TextHorizontalWrap",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextOverflowClipToggle": {
+      "label": "Text abschneiden",
+      "description": "Text abschneiden, der über die Zelle hinausragt.",
+      "icon": "TextHorizontalClip",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextOverflowShrinkToggle": {
+      "label": "Text verkleinern",
+      "description": "Die Schriftgröße verkleinern, damit der Text in die Zelle passt.",
+      "icon": "TextHorizontalShrink",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextOverflowEllipsisToggle": {
+      "label": "Text mit Auslassungspunkten",
+      "description": "Ein nachgestelltes „…“ zeigt an, dass Text teilweise ausgeblendet ist."
+    },
+    "formatAlignMiddleToggle": {
+      "label": "Vertikal zentrieren",
+      "description": "Text mittig zwischen oberem und unterem Zellrand ausrichten.",
+      "icon": "TextVerticalCenter",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignBottomToggle": {
+      "label": "Unten ausrichten",
+      "description": "Text am unteren Rand ausrichten.",
+      "icon": "TextVerticalBottom",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignJustifyVerticalToggle": {
+      "label": "Vertikaler Blocksatz",
+      "description": "Jedes „Wort“ in jeder Textzeile wird gleichmäßig über die Höhe der Zelle verteilt.",
+      "icon": "FormatAlignJustify",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignDistributedVerticalToggle": {
+      "label": "Vertikal verteilen",
+      "description": "Ihren Inhalt vertikal verteilen.",
+      "icon": "FormatAlignJustify",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignLeftToggle": {
+      "label": "Linksbündig",
+      "description": "Ihren Inhalt links ausrichten.",
+      "icon": "FormatAlignLeft",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignCenterToggle": {
+      "label": "Zentriert",
+      "description": "Ihren Inhalt zentrieren.",
+      "icon": "FormatAlignCenter",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignRightToggle": {
+      "label": "Rechtsbündig",
+      "description": "Ihren Inhalt rechts ausrichten.",
+      "icon": "FormatAlignRight",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignJustifyToggle": {
+      "label": "Blocksatz",
+      "description": "Ihren Inhalt im Blocksatz ausrichten.",
+      "icon": "FormatAlignJustify",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignCenterContinuousToggle": {
+      "label": "Über Auswahl zentrieren",
+      "description": "Ihren Inhalt über mehrere Zellen zentrieren.",
+      "icon": "FormatAlignCenter",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignFillToggle": {
+      "label": "Ausfüllen",
+      "description": "Den Wert wiederholen, um die gesamte Zelle zu füllen.",
+      "icon": "FormatAlignJustify",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignDistributedHorizontalToggle": {
+      "label": "Horizontal verteilen",
+      "description": "Jedes „Wort“ in jeder Textzeile wird gleichmäßig über die Breite der Zelle verteilt.",
+      "icon": "FormatAlignJustify",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatFontSizeIncrease": {
+      "label": "Schriftgrad vergrößern",
+      "description": "Ihren Text etwas vergrößern.",
+      "icon": "TextSizeIncrease",
+      "shortcut": "ctrl+shift+>",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatFontSizeDecrease": {
+      "label": "Schriftgrad verkleinern",
+      "description": "Ihren Text etwas verkleinern.",
+      "icon": "TextSizeDecrease",
+      "shortcut": "ctrl+shift+<",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatFontFamily": {
+      "label": "Schriftart",
+      "description": "Die Schriftart für Ihren Text auswählen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatFontSize": {
+      "label": "Schriftgrad",
+      "description": "Die Größe Ihres Texts ändern.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatCells": {
+      "label": "Zellen formatieren",
+      "icon": "CellsFormat",
+      "groupLabels": {
+        "numberFormatOptions": "Weitere Zahlenformate…",
+        "cellsFormatOptions": "Zellen formatieren…",
+        "contextMenu": "Zellen formatieren…"
+      },
+      "description": "Bereich „Zellen formatieren“ öffnen — Zahl, Ausrichtung, Schrift, Füllung und Rahmen."
+    },
+    "formatCellsNumber": {
+      "icon": "CellsFormat",
+      "shortcut": [
+        "ctrl+1",
+        "ctrl+alt+1"
+      ],
+      "label": "Zellen formatieren: Zahlen",
+      "description": "Bereich „Zellen formatieren“ auf der Registerkarte „Zahlen“ öffnen."
+    },
+    "formatCellsFont": {
+      "icon": "CellsFormat",
+      "shortcut": [
+        "ctrl+alt+F"
+      ],
+      "label": "Zellen formatieren: Schrift",
+      "description": "Bereich „Zellen formatieren“ auf der Registerkarte „Schrift“ öffnen."
+    },
+    "formatNumberFormat": {
+      "label": "Zahlenformat",
+      "description": "Das Format für Ihre Zellen wählen, z. B. Prozent, Währung, Datum oder Uhrzeit.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatGeneralStyle": {
+      "label": "Standard",
+      "description": "Alle spezifischen Formatierungen entfernen.",
+      "shortcut": "ctrl+shift+Backquote",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatNumberStyle": {
+      "label": "Zahl",
+      "description": "Als Zahl mit zwei Dezimalstellen und Tausendertrennzeichen formatieren.",
+      "shortcut": "ctrl+shift+1",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatTimeStyle": {
+      "label": "Uhrzeitformat",
+      "description": "Als Uhrzeit mit Stunde und Minute sowie AM oder PM formatieren.",
+      "shortcut": "ctrl+shift+2",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatDateStyle": {
+      "label": "Datumsformat",
+      "description": "Als Datum mit Tag, Monat und Jahr formatieren.",
+      "shortcut": "ctrl+shift+3",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatAccountingStyle": {
+      "label": "Buchhaltungszahlenformat",
+      "description": "Als Dollar, Euro oder andere Währung formatieren.",
+      "icon": "CurrencyDollar",
+      "shortcut": "ctrl+shift+4",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatNumberFormatPercentStyle": {
+      "label": "Prozentformat",
+      "description": "Als Prozentsatz formatieren.",
+      "icon": "Percent",
+      "shortcut": "ctrl+shift+5",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatNumberFormatScientificStyle": {
+      "label": "Wissenschaftliches Format",
+      "description": "Als wissenschaftliche Zahl mit zwei Dezimalstellen formatieren.",
+      "shortcut": "ctrl+shift+6",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatCommaStyle": {
+      "label": "1000er-Trennzeichen",
+      "description": "Mit Tausendertrennzeichen formatieren.",
+      "icon": "Comma",
+      "shortcut": "ctrl+,",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatNumberFormatIncreaseDecimal": {
+      "label": "Dezimalstelle hinzufügen",
+      "description": "Mehr Dezimalstellen für einen genaueren Wert anzeigen.",
+      "icon": "IncreaseDecimal2",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatNumberFormatDecreaseDecimal": {
+      "label": "Dezimalstelle löschen",
+      "description": "Weniger Dezimalstellen anzeigen.",
+      "icon": "DecreaseDecimal2",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "displayPlaceholdersToggle": {
+      "label": "Platzhalter anzeigen",
+      "description": "Zwischen dem Ausblenden von Objekten, dem Anzeigen von Objekten und dem Anzeigen von Platzhaltern wechseln.",
+      "shortcut": "ctrl+6"
+    },
+    "noOp": {
+      "label": "Nichts tun",
+      "description": "Nichts tun.",
+      "shortcut": "ctrl+7"
+    },
+    "displayOutlineSymbolsToggle": {
+      "label": "Gliederungssymbole anzeigen",
+      "description": "Die Gliederungssymbole ein- oder ausblenden.",
+      "shortcut": "ctrl+8"
+    },
+    "hideRows": {
+      "label": "{count, plural, one{Zeile ausblenden} other{# Zeilen ausblenden}}",
+      "description": "Die Zeilen ausblenden.",
+      "icon": "HideRow",
+      "shortcut": "ctrl+9",
+      "tags": [
+        "mutator"
+      ],
+      "params": {
+        "count": 1
+      }
+    },
+    "unhideRows": {
+      "label": "Zeilen einblenden",
+      "description": "Die Zeilen einblenden.",
+      "icon": "ShowRow",
+      "shortcut": "ctrl+shift+(",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "hideColumns": {
+      "label": "{count, plural, one{Spalte ausblenden} other{# Spalten ausblenden}}",
+      "description": "Die Spalten ausblenden.",
+      "icon": "HideColumn",
+      "shortcut": [
+        "ctrl+0",
+        "ctrl+alt+0"
+      ],
+      "tags": [
+        "mutator"
+      ],
+      "params": {
+        "count": 1
+      }
+    },
+    "unhideColumns": {
+      "label": "Spalten einblenden",
+      "description": "Die Spalten einblenden.",
+      "icon": "ShowColumn",
+      "shortcut": "ctrl+shift+)",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "calculate": {
+      "label": "Blatt berechnen",
+      "description": "Die Formeln des aktuellen Blatts neu berechnen.",
+      "icon": "CalculateSheet",
+      "shortcut": [
+        "shift+F9",
+        "ctrl+="
+      ]
+    },
+    "insertFunctionDialog": {
+      "label": "Funktion einfügen",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Weitere Funktionen…"
+      },
+      "description": "Mit der Funktion in der aktuellen Zelle arbeiten.",
+      "icon": "FunctionThin",
+      "shortcut": "shift+F3",
+      "borrow": [
+        "workbook"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetZoomOut": {
+      "label": "Verkleinern",
+      "description": "Verkleinern, um weniger Details, aber mehr Fläche zu sehen.",
+      "shortcut": [
+        "ctrl+alt+-",
+        "ctrl+alt+NumpadSubtract"
+      ]
+    },
+    "sheetZoomIn": {
+      "label": "Vergrößern",
+      "description": "Vergrößern, um mehr Details, aber weniger Fläche zu sehen.",
+      "shortcut": [
+        "ctrl+alt+=",
+        "ctrl+alt+NumpadAdd"
+      ]
+    },
+    "sheetZoom100": {
+      "label": "Zoom 100 %",
+      "description": "Dokument auf 100 % zoomen.",
+      "shortcut": "ctrl+alt+o"
+    },
+    "sheetZoom200": {
+      "label": "Zoom 200 %",
+      "description": "Dokument auf 200 % zoomen."
+    },
+    "sheetZoom75": {
+      "label": "Zoom 75 %",
+      "description": "Dokument auf 75 % zoomen."
+    },
+    "sheetZoom50": {
+      "label": "Zoom 50 %",
+      "description": "Dokument auf 50 % zoomen."
+    },
+    "sheetZoom25": {
+      "label": "Zoom 25 %",
+      "description": "Dokument auf 25 % zoomen."
+    },
+    "sheetZoomCustom": {
+      "label": "Benutzerdefinierter Zoom",
+      "description": "Dokument auf einen benutzerdefinierten Maßstab zoomen.",
+      "groupLabels": {
+        "sheetZoomOptions": "Benutzerdefiniert"
+      }
+    },
+    "updateHyperlink": {
+      "label": "Link",
+      "groupLabels": {
+        "contextMenu": "Link einfügen…",
+        "hyperlinkOptions": "Bearbeiten"
+      },
+      "description": "Einen Link zu einer anderen Webseite oder einer anderen Stelle in diesem Dokument erstellen.",
+      "icon": "HyperlinkInsert",
+      "shortcut": [
+        "ctrl+K",
+        "ctrl+alt+K"
+      ]
+    },
+    "openContextMenu": {
+      "label": "Kontextmenü",
+      "description": "Das Kontextmenü öffnen.",
+      "shortcut": [
+        "shift+F10",
+        "ContextMenu"
+      ]
+    },
+    "openHyperlink": {
+      "label": "Link öffnen",
+      "groupLabels": {
+        "hyperlinkOptions": "Öffnen"
+      },
+      "description": "Den Link öffnen oder zu einer anderen Stelle in diesem Dokument wechseln.",
+      "icon": "HyperlinkGoto",
+      "shortcut": "ctrl+Enter"
+    },
+    "deleteHyperlink": {
+      "label": "Link löschen",
+      "groupLabels": {
+        "hyperlinkOptions": "Löschen"
+      },
+      "description": "Den Link entfernen.",
+      "icon": "HyperlinkDelete"
+    },
+    "insertNote": {
+      "label": "Notiz einfügen",
+      "groupLabels": {
+        "contextMenu": "Notiz einfügen…"
+      },
+      "description": "Der Zelle eine Notiz hinzufügen.",
+      "shortcut": "shift+F2"
+    },
+    "updateComments": {
+      "label": "Kommentare",
+      "groupLabels": {
+        "contextMenu": "Kommentare einfügen…"
+      },
+      "description": "Der aktuellen Zelle einen Kommentar hinzufügen.",
+      "icon": "CommentInsert",
+      "shortcut": "ctrl+alt+M",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "deleteComments": {
+      "label": "Kommentare löschen",
+      "description": "Alle Kommentare entfernen.",
+      "icon": "CommentDelete",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "insertImageFromFile": {
+      "label": "Bild einfügen",
+      "groupLabels": {
+        "contextMenu": "Bild einfügen…",
+        "insertImageOptions": "Vom Gerät…"
+      },
+      "description": "Ein Bild von Ihrem Gerät einfügen.",
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "insertImageFromURL": {
+      "label": "Bild aus dem Web einfügen",
+      "groupLabels": {
+        "insertImageOptions": "Aus dem Web…"
+      },
+      "description": "Ein Bild aus dem Web einfügen.",
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundToggle": {
+      "label": "Hintergrund",
+      "description": "Das Bild, das hinter den Zellen des Blattes gekachelt wird, hinzufügen oder entfernen.",
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundFromFile": {
+      "label": "Blatthintergrund",
+      "description": "Ein Bild von Ihrem Gerät als Hintergrund des Blattes verwenden.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "Vom Gerät…"
+      },
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundFromURL": {
+      "label": "Blatthintergrund aus dem Web",
+      "description": "Ein Bild aus dem Web als Hintergrund des Blattes verwenden.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "Aus dem Web…"
+      },
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundDelete": {
+      "label": "Hintergrund löschen",
+      "description": "Das Hintergrundbild des Blattes entfernen.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "Hintergrund löschen"
+      },
+      "icon": "Delete",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "manageDataValidation": {
+      "label": "Datenüberprüfung",
+      "groupLabels": {
+        "contextMenu": "Datenüberprüfung…"
+      },
+      "description": "Regeln zur Datenüberprüfung verwalten, um die Art der Dateneingabe in einer Zelle zu beschränken.",
+      "icon": "DataValidation"
+    },
+    "manageConditionalFormat": {
+      "label": "Bedingte Formatierung",
+      "groupLabels": {
+        "contextMenu": "Bedingte Formatierung…",
+        "conditionalFormatOptions": "Regeln verwalten…"
+      },
+      "description": "Regeln für bedingte Formatierung verwalten, um das Aussehen von Zellen abhängig von ihren Werten zu ändern.",
+      "icon": "ConditionalFormatOptions"
+    },
+    "conditionalFormatNewRule": {
+      "label": "Neue Regel für bedingte Formatierung",
+      "groupLabels": {
+        "conditionalFormatOptions": "Neue Regel…"
+      },
+      "description": "Eine neue Regel für bedingte Formatierung für die ausgewählten Zellen erstellen."
+    },
+    "conditionalFormatGreaterThan": {
+      "label": "Zellen größer als hervorheben",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Größer als…"
+      },
+      "description": "Zellen hervorheben, deren Wert größer als ein festgelegter Wert ist.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatLessThan": {
+      "label": "Zellen kleiner als hervorheben",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Kleiner als…"
+      },
+      "description": "Zellen hervorheben, deren Wert kleiner als ein festgelegter Wert ist.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatBetween": {
+      "label": "Zellen zwischen Werten hervorheben",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Zwischen…"
+      },
+      "description": "Zellen hervorheben, deren Wert zwischen zwei festgelegten Werten liegt.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatEqualTo": {
+      "label": "Zellen gleich einem Wert hervorheben",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Gleich…"
+      },
+      "description": "Zellen hervorheben, deren Wert einem festgelegten Wert entspricht.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatTextContains": {
+      "label": "Zellen mit Textinhalt hervorheben",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Textinhalt…"
+      },
+      "description": "Zellen hervorheben, deren Text einen festgelegten Wert enthält.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatDateOccurring": {
+      "label": "Zellen mit Datum hervorheben",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Datum…"
+      },
+      "description": "Zellen hervorheben, deren Datum in einen festgelegten Zeitraum fällt.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatDuplicateValues": {
+      "label": "Doppelte Werte hervorheben",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Doppelte Werte…"
+      },
+      "description": "Zellen hervorheben, deren Wert in der Auswahl mehrfach vorkommt.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatTopItems": {
+      "label": "Obere 10 Elemente hervorheben",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Obere 10 Elemente…"
+      },
+      "description": "Die höchsten Werte der Auswahl hervorheben.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatTopPercent": {
+      "label": "Obere 10 % hervorheben",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Obere 10 %…"
+      },
+      "description": "Den oberen Prozentanteil der Werte in der Auswahl hervorheben.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatBottomItems": {
+      "label": "Untere 10 Elemente hervorheben",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Untere 10 Elemente…"
+      },
+      "description": "Die niedrigsten Werte der Auswahl hervorheben.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatBottomPercent": {
+      "label": "Untere 10 % hervorheben",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Untere 10 %…"
+      },
+      "description": "Den unteren Prozentanteil der Werte in der Auswahl hervorheben.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatAboveAverage": {
+      "label": "Über dem Durchschnitt hervorheben",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Über dem Durchschnitt…"
+      },
+      "description": "Werte über dem Durchschnitt der Auswahl hervorheben.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatBelowAverage": {
+      "label": "Unter dem Durchschnitt hervorheben",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Unter dem Durchschnitt…"
+      },
+      "description": "Werte unter dem Durchschnitt der Auswahl hervorheben.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatDataBar": {
+      "label": "Datenbalken",
+      "groupLabels": {
+        "conditionalFormatOptions": "Datenbalken"
+      },
+      "description": "Jeder Zelle einen farbigen Balken hinzufügen, dessen Länge ihren Wert darstellt.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatColorScale": {
+      "label": "Farbskalen",
+      "groupLabels": {
+        "conditionalFormatOptions": "Farbskalen"
+      },
+      "description": "Jede Zelle entsprechend ihrem Wert entlang eines Farbverlaufs einfärben.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatIconSet": {
+      "label": "Symbolsätze",
+      "groupLabels": {
+        "conditionalFormatOptions": "Symbolsätze"
+      },
+      "description": "In jeder Zelle ein Symbol entsprechend ihrem Wert anzeigen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatClearSelection": {
+      "label": "Regeln aus ausgewählten Zellen löschen",
+      "groupLabels": {
+        "conditionalFormatClearOptions": "Aus ausgewählten Zellen"
+      },
+      "description": "Die Regeln für bedingte Formatierung entfernen, die die ausgewählten Zellen berühren.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatClearSheet": {
+      "label": "Regeln aus gesamtem Blatt löschen",
+      "groupLabels": {
+        "conditionalFormatClearOptions": "Aus gesamtem Blatt"
+      },
+      "description": "Alle Regeln für bedingte Formatierung auf diesem Blatt entfernen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "manageProtectedRange": {
+      "label": "Bereiche bearbeiten zulassen",
+      "groupLabels": {
+        "contextMenu": "Bereiche bearbeiten zulassen…"
+      },
+      "description": "Bereiche verwalten, die bearbeitbar bleiben, während das Blatt geschützt ist.",
+      "icon": "Lock"
+    },
+    "dataRemoveDuplicates": {
+      "label": "Duplikate entfernen",
+      "description": "Doppelte Zeilen aus einem Blatt entfernen.",
+      "icon": "DataRemoveDuplicates",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "dataTextToColumns": {
+      "label": "Text in Spalten",
+      "description": "Eine einzelne Textspalte in mehrere Spalten aufteilen.",
+      "icon": "DataTextToColumns",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "insertTable": {
+      "label": "Tabelle einfügen",
+      "groupLabels": {
+        "contextMenu": "Tabelle einfügen…"
+      },
+      "description": "Eine Tabelle erstellen. Tabellen ermöglichen automatische Formatierung, Sortieren, Filtern und andere erweiterte Funktionen.",
+      "icon": "TableInsert",
+      "shortcut": [
+        "ctrl+L"
+      ]
+    },
+    "editTable": {
+      "label": "Tabelle bearbeiten…",
+      "groupLabels": {
+        "namedItem": "Bearbeiten…",
+        "tableOptions": "Bearbeiten…"
+      },
+      "description": "Die Tabelle bearbeiten, um Formatierung, Sortierung, Filter oder andere erweiterte Funktionen anzupassen.",
+      "icon": "TableInsert"
+    },
+    "deleteTable": {
+      "label": "Tabelle löschen",
+      "groupLabels": {
+        "namedItem": "Löschen",
+        "tableOptions": "Löschen"
+      },
+      "description": "Die Tabelle entfernen.\\n\\nDie Tabelle und ihre spezifische Formatierung werden entfernt, die Werte bleiben erhalten.",
+      "icon": "TableInsert",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "convertTableToRange": {
+      "label": "In Bereich konvertieren",
+      "description": "Die Tabelle in einen normalen Zellbereich konvertieren.\\n\\nWerte und Formatierung bleiben erhalten.",
+      "icon": "TableInsert"
+    },
+    "tableFilterToggle": {
+      "label": "Sortieren und Filtern",
+      "groupLabels": {
+        "filterOptions": "Filtern",
+        "sortFilterOptions": "Sortieren und Filtern"
+      },
+      "description": "Auto-Tabelle ein-/ausschalten.",
+      "icon": "FilterToggle",
+      "shortcut": "ctrl+shift+L"
+    },
+    "formatPainterToggle": {
+      "label": "Format übertragen",
+      "description": "Format auf einen anderen Bereich Ihrer Arbeitsmappe übertragen.",
+      "icon": "FormatPaint.yellow"
+    },
+    "insertCells": {
+      "label": "{span, select, rows{{mode, select, copy{Kopierte Zeilen einfügen} cut{Ausgeschnittene Zeilen einfügen} other{{count, plural, one{Zeile einfügen} other{# Zeilen einfügen}}}}} columns{{mode, select, copy{Kopierte Spalten einfügen} cut{Ausgeschnittene Spalten einfügen} other{{count, plural, one{Spalte einfügen} other{# Spalten einfügen}}}}} other{{mode, select, copy{Kopierte Zellen einfügen} cut{Ausgeschnittene Zellen einfügen} other{Zellen einfügen}}{shift, select, right{ (nach rechts verschieben)} down{ (nach unten verschieben)} other{}}}}",
+      "groupLabels": {
+        "insertCellsOptions": "{mode, select, copy{Kopierte an der Auswahl} cut{Ausgeschnittene an der Auswahl} other{An der Auswahl}}"
+      },
+      "description": "Zellen an der aktuellen Auswahl einfügen.",
+      "icon": "InsertCells",
+      "shortcut": "ctrl+shift+Equal",
+      "params": {
+        "mode": "none",
+        "shift": "none",
+        "span": "none",
+        "count": 1
+      }
+    },
+    "insertCellsShiftRight": {
+      "label": "{span, select, columns{{mode, select, copy{Kopierte Spalten einfügen} cut{Ausgeschnittene Spalten einfügen} other{{count, plural, one{Spalte einfügen} other{# Spalten einfügen}}}}} other{Zellen einfügen (nach rechts)}}",
+      "groupLabels": {
+        "insertCellsOptions": "{span, select, columns{{mode, select, copy{Kopierte Spalten} cut{Ausgeschnittene Spalten} other{{count, plural, one{Spalte} other{# Spalten}}}}} other{Nach rechts verschieben}}"
+      },
+      "description": "Zellen links einfügen und die aktuellen Zellen nach rechts verschieben.",
+      "icon": "InsertCellsRight",
+      "params": {
+        "mode": "none",
+        "span": "none",
+        "count": 1
+      }
+    },
+    "insertCellsShiftDown": {
+      "label": "{span, select, rows{{mode, select, copy{Kopierte Zeilen einfügen} cut{Ausgeschnittene Zeilen einfügen} other{{count, plural, one{Zeile einfügen} other{# Zeilen einfügen}}}}} other{Zellen einfügen (nach unten)}}",
+      "groupLabels": {
+        "insertCellsOptions": "{span, select, rows{{mode, select, copy{Kopierte Zeilen} cut{Ausgeschnittene Zeilen} other{{count, plural, one{Zeile} other{# Zeilen}}}}} other{Nach unten verschieben}}"
+      },
+      "description": "Zellen oberhalb einfügen und die aktuellen Zellen nach unten verschieben.",
+      "icon": "InsertCellsDown",
+      "params": {
+        "mode": "none",
+        "span": "none",
+        "count": 1
+      }
+    },
+    "insertRows": {
+      "label": "{mode, select, copy{Kopierte Zeilen einfügen} cut{Ausgeschnittene Zeilen einfügen} other{{count, plural, one{Zeile einfügen} other{# Zeilen einfügen}}}}",
+      "groupLabels": {
+        "insertCellsOptions": "{mode, select, copy{Kopierte Zeilen} cut{Ausgeschnittene Zeilen} other{{count, plural, one{Zeile} other{# Zeilen}}}}"
+      },
+      "description": "Eine Zeile oberhalb der aktuellen Position einfügen.",
+      "icon": "InsertRow",
+      "params": {
+        "count": 1,
+        "mode": "none"
+      }
+    },
+    "insertColumns": {
+      "label": "{mode, select, copy{Kopierte Spalten einfügen} cut{Ausgeschnittene Spalten einfügen} other{{count, plural, one{Spalte einfügen} other{# Spalten einfügen}}}}",
+      "groupLabels": {
+        "insertCellsOptions": "{mode, select, copy{Kopierte Spalten} cut{Ausgeschnittene Spalten} other{{count, plural, one{Spalte} other{# Spalten}}}}"
+      },
+      "description": "Eine Spalte vor der aktuellen Position einfügen.",
+      "icon": "InsertColumn2",
+      "params": {
+        "count": 1,
+        "mode": "none"
+      }
+    },
+    "insertRowsAfter": {
+      "label": "{mode, select, copy{Kopierte Zeilen darunter einfügen} cut{Ausgeschnittene Zeilen darunter einfügen} other{{count, plural, one{Zeile darunter einfügen} other{# Zeilen darunter einfügen}}}}",
+      "groupLabels": {
+        "insertCellsOptions": "Zeile darunter"
+      },
+      "description": "Eine Zeile unterhalb der aktuellen Position einfügen.",
+      "params": {
+        "count": 1,
+        "mode": "none"
+      }
+    },
+    "insertColumnsAfter": {
+      "label": "{mode, select, copy{Kopierte Spalten danach einfügen} cut{Ausgeschnittene Spalten danach einfügen} other{{count, plural, one{Spalte danach einfügen} other{# Spalten danach einfügen}}}}",
+      "groupLabels": {
+        "insertCellsOptions": "Spalte danach"
+      },
+      "description": "Eine Spalte nach der aktuellen Position einfügen.",
+      "params": {
+        "count": 1,
+        "mode": "none"
+      }
+    },
+    "deleteCells": {
+      "label": "{span, select, rows{{count, plural, one{Zeile löschen} other{# Zeilen löschen}}} columns{{count, plural, one{Spalte löschen} other{# Spalten löschen}}} other{Zellen löschen{shift, select, left{ (nach links verschieben)} up{ (nach oben verschieben)} other{}}}}",
+      "groupLabels": {
+        "deleteCellsOptions": "An der Auswahl"
+      },
+      "description": "Die Zellen löschen.",
+      "icon": "DeleteCells",
+      "shortcut": "ctrl+Minus",
+      "params": {
+        "span": "none",
+        "count": 1,
+        "shift": "none"
+      }
+    },
+    "deleteCellsShiftUp": {
+      "label": "{span, select, rows{{count, plural, one{Zeile löschen} other{# Zeilen löschen}}} other{Zellen löschen (nach oben)}}",
+      "groupLabels": {
+        "deleteCellsOptions": "{span, select, rows{{count, plural, one{Zeile} other{# Zeilen}}} other{Nach oben verschieben}}"
+      },
+      "description": "Zellen löschen und die darunterliegenden Zellen nach oben verschieben.",
+      "icon": "DeleteCellsUp",
+      "params": {
+        "span": "none",
+        "count": 1
+      }
+    },
+    "deleteCellsShiftLeft": {
+      "label": "{span, select, columns{{count, plural, one{Spalte löschen} other{# Spalten löschen}}} other{Zellen löschen (nach links)}}",
+      "groupLabels": {
+        "deleteCellsOptions": "{span, select, columns{{count, plural, one{Spalte} other{# Spalten}}} other{Nach links verschieben}}"
+      },
+      "description": "Zellen löschen und die rechts liegenden Zellen nach links verschieben.",
+      "icon": "DeleteCellsLeft",
+      "params": {
+        "span": "none",
+        "count": 1
+      }
+    },
+    "deleteRows": {
+      "label": "{count, plural, one{Zeile löschen} other{# Zeilen löschen}}",
+      "groupLabels": {
+        "deleteCellsOptions": "{count, plural, one{Zeile} other{# Zeilen}}"
+      },
+      "description": "Die Zeilen an der aktuellen Auswahl löschen.",
+      "icon": "DeleteRows",
+      "params": {
+        "count": 1
+      }
+    },
+    "deleteColumns": {
+      "label": "{count, plural, one{Spalte löschen} other{# Spalten löschen}}",
+      "groupLabels": {
+        "deleteCellsOptions": "{count, plural, one{Spalte} other{# Spalten}}"
+      },
+      "description": "Die Spalten an der aktuellen Auswahl löschen.",
+      "icon": "DeleteColumns",
+      "params": {
+        "count": 1
+      }
+    },
+    "flashFill": {
+      "label": "Blitzvorschau",
+      "description": "Eine Blitzvorschau ausführen.",
+      "shortcut": [
+        "ctrl+e",
+        "ctrl+alt+e"
+      ]
+    },
+    "fillDown": {
+      "label": "Nach unten ausfüllen",
+      "description": "Den obersten Wert der Auswahl nach unten kopieren.",
+      "icon": "FillDown",
+      "shortcut": [
+        "ctrl+d",
+        "ctrl+alt+d"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "fillRight": {
+      "label": "Nach rechts ausfüllen",
+      "description": "Den äußersten linken Wert der Auswahl nach rechts kopieren.",
+      "icon": "FillRight",
+      "shortcut": [
+        "ctrl+r"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "fillUp": {
+      "label": "Nach oben ausfüllen",
+      "description": "Den untersten Wert der Auswahl nach oben kopieren.",
+      "icon": "FillUp",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "fillLeft": {
+      "label": "Nach links ausfüllen",
+      "description": "Den äußersten rechten Wert der Auswahl nach links kopieren.",
+      "icon": "FillLeft",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "fillSeries": {
+      "label": "Reihe…",
+      "description": "Die Auswahl mit einer Reihe von Zahlen oder Daten füllen — Typ, Schrittwert und Endwert wählbar.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatBorderAddOutline": {
+      "label": "Umrandungsrahmen hinzufügen",
+      "description": "Einen Umrandungsrahmen anwenden.",
+      "shortcut": "ctrl+shift+7",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatBorderClearOutline": {
+      "label": "Umrandungsrahmen entfernen",
+      "description": "Den Umrandungsrahmen entfernen.",
+      "shortcut": "ctrl+shift+_",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatIndentDecrease": {
+      "label": "Einzug verkleinern",
+      "description": "Ihren Inhalt näher an den Rand rücken.",
+      "icon": "FormatIndentDecrease",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatIndentIncrease": {
+      "label": "Einzug vergrößern",
+      "description": "Ihren Inhalt weiter vom Rand entfernen.",
+      "icon": "FormatIndentIncrease",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "mergeToggle": {
+      "label": "Verbinden",
+      "description": "Inhalte verbinden und in einer einzigen Zelle zentrieren.",
+      "icon": "MergeAll",
+      "shortcut": "ctrl+m"
+    },
+    "mergeHorizontal": {
+      "label": "Horizontal verbinden",
+      "description": "Inhalte zeilenweise verbinden.",
+      "icon": "MergeHorizontal"
+    },
+    "mergeVertical": {
+      "label": "Vertikal verbinden",
+      "description": "Inhalte spaltenweise verbinden.",
+      "icon": "MergeVertical"
+    },
+    "unmerge": {
+      "label": "Zellverbund aufheben",
+      "description": "Verbundene Zellen in mehrere Zellen aufteilen.",
+      "icon": "MergeUnMerge"
+    },
+    "clearContents": {
+      "label": "Inhalte löschen",
+      "groupLabels": {
+        "clearOptions": "Inhalte"
+      },
+      "description": "Nur die Inhalte der Zellen löschen.\\n\\nDie Formatierung bleibt erhalten.",
+      "icon": "ClearContents",
+      "shortcut": "Delete",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "clearFormats": {
+      "label": "Formate löschen",
+      "groupLabels": {
+        "clearOptions": "Formate"
+      },
+      "description": "Nur die auf die Zellen angewendete Formatierung löschen.",
+      "icon": "ClearFormats",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "clearHyperlinks": {
+      "label": "Links löschen",
+      "groupLabels": {
+        "clearOptions": "Links"
+      },
+      "description": "Nur die Links in den Zellen löschen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "clearComments": {
+      "label": "Kommentare löschen",
+      "groupLabels": {
+        "clearOptions": "Kommentare"
+      },
+      "description": "Die Kommentare aus den Zellen löschen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "clearAll": {
+      "label": "Alle löschen",
+      "groupLabels": {
+        "clearOptions": "Alle"
+      },
+      "description": "Alles aus den Zellen löschen.\\n\\nAlle Inhalte und Formatierungen werden entfernt.",
+      "icon": "ClearAll",
+      "shortcut": "ctrl+shift+Delete",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "freezeToggle": {
+      "label": "Fenster fixieren",
+      "description": "Zeilen und Spalten sichtbar halten, während der Rest des Blatts scrollt (basierend auf der aktuellen Auswahl).",
+      "icon": "FreezeBoth"
+    },
+    "freezeToggleHorizontal": {
+      "label": "Obere Zeilen fixieren",
+      "description": "Die oberen Zeilen beim Scrollen durch den Rest des Blatts sichtbar halten.",
+      "icon": "FreezeRows"
+    },
+    "freezeToggleVertical": {
+      "label": "Linke Spalten fixieren",
+      "description": "Die linken Spalten beim Scrollen durch den Rest des Blatts sichtbar halten.",
+      "icon": "FreezeColumns"
+    },
+    "unfreeze": {
+      "label": "Fixierung aufheben",
+      "description": "Die Fixierung von Zeilen und Spalten aufheben.",
+      "icon": "MergeUnMerge"
+    },
+    "autoFitRows": {
+      "label": "Zeilenhöhe automatisch anpassen",
+      "description": "Die Zeilen auf die optimale Höhe anpassen.",
+      "icon": "RowsResizeAuto",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "resizeRows": {
+      "label": "Zeilenhöhe ändern",
+      "description": "Die Zeilen auf die angegebene Höhe anpassen.",
+      "icon": "RowsResize",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "autoFitColumns": {
+      "label": "Spaltenbreite automatisch anpassen",
+      "description": "Die Spalten auf die optimale Breite anpassen.",
+      "icon": "ColumnsResizeAuto",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "resizeColumns": {
+      "label": "Spaltenbreite ändern",
+      "description": "Die Spalten auf die angegebene Breite anpassen.",
+      "icon": "ColumnsResize",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "pasteValues": {
+      "label": "Werte einfügen",
+      "groupLabels": {
+        "pasteOptions": "Werte"
+      },
+      "description": "Nur die Werte der ausgewählten Zellen einfügen.\\n\\nDie Formatierung wird nicht übernommen.",
+      "icon": "PasteValues",
+      "shortcut": "ctrl+shift+V"
+    },
+    "pasteFormats": {
+      "label": "Formatierung einfügen",
+      "groupLabels": {
+        "pasteOptions": "Formatierung"
+      },
+      "description": "Nur die Formate der ausgewählten Zellen einfügen.\\n\\nDer Inhalt wird nicht übernommen.",
+      "icon": "PasteFormats"
+    },
+    "pasteFormulas": {
+      "label": "Formeln einfügen",
+      "groupLabels": {
+        "pasteOptions": "Formeln"
+      },
+      "description": "Nur die Formeln der ausgewählten Zellen einfügen. Werte und Formatierung werden nicht übernommen.",
+      "icon": "PasteFormulas"
+    },
+    "pasteTranspose": {
+      "label": "Transponiert einfügen",
+      "groupLabels": {
+        "pasteOptions": "Transponieren"
+      },
+      "description": "Mit vertauschten Zeilen und Spalten einfügen.",
+      "icon": "PasteTranspose"
+    },
+    "pasteLinks": {
+      "label": "Verknüpfungen einfügen",
+      "groupLabels": {
+        "pasteOptions": "Verknüpfungen"
+      },
+      "description": "Als Formelbezüge auf die ursprünglichen Zellen einfügen.",
+      "icon": "PasteLinks"
+    },
+    "undo": {
+      "label": "Rückgängig",
+      "icon": "Undo",
+      "shortcut": "ctrl+z",
+      "borrow": [
+        "workbook"
+      ],
+      "description": "{hasAction, select, true{Rückgängig: {action}} other{Letzte Aktion rückgängig machen.}}",
+      "params": {
+        "hasAction": false,
+        "action": ""
+      }
+    },
+    "redo": {
+      "label": "Wiederholen",
+      "icon": "Redo",
+      "shortcut": [
+        "ctrl+y",
+        "F4",
+        "alt+Enter"
+      ],
+      "borrow": [
+        "workbook"
+      ],
+      "description": "{hasAction, select, true{Wiederholen: {action}} other{Letzte Aktion wiederholen oder das Rückgängigmachen aufheben.}}",
+      "params": {
+        "hasAction": false,
+        "action": ""
+      }
+    }
+  }
+}

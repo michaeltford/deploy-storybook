@@ -1,0 +1,1 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{n as t}from"./DbbNRNQoWgagkLma-C84TCOyY.js";async function n(e,t){let n=e;return t?.sourceMap&&(n+=`\n//# sourceMappingURL=${t.sourceMap}`),Function(`url`,`return import(url)`)(`data:text/javascript,${encodeURIComponent(n)}`)}e((()=>{t()}))();export{n as loadCompiledModule};

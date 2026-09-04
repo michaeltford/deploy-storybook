@@ -1,0 +1,58 @@
+{
+  "kind": "locales",
+  "package": "@sheetxl/scripting-react",
+  "entries": [
+    {
+      "path": "de/groups.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "ui",
+      "sourceId": "groups"
+    },
+    {
+      "path": "de/scriptEditor.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "scriptEditor",
+      "sourceId": "scriptEditor"
+    },
+    {
+      "path": "de/ui.msg.json",
+      "locale": "de",
+      "role": "messages"
+    },
+    {
+      "path": "de/workbookScript.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "workbook",
+      "sourceId": "workbookScript"
+    },
+    {
+      "path": "en/groups.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "ui",
+      "sourceId": "groups"
+    },
+    {
+      "path": "en/scriptEditor.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "scriptEditor",
+      "sourceId": "scriptEditor"
+    },
+    {
+      "path": "en/ui.msg.json",
+      "locale": "en",
+      "role": "messages"
+    },
+    {
+      "path": "en/workbookScript.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "workbook",
+      "sourceId": "workbookScript"
+    }
+  ]
+}

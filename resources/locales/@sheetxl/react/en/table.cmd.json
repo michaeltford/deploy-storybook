@@ -1,0 +1,83 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "table",
+  "label": "Table",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "tableStyleOptions": {
+      "label": "Table Style Options",
+      "description": "Toggle which structural elements (header, total, banded rows/columns, filter) the table shows."
+    },
+    "tableTotalRowToggle": {
+      "label": "Toggle Table Total Row",
+      "description": "Toggle Total Row on/off.",
+      "groupLabels": {
+        "tableStyleOptions": "Total Row"
+      },
+      "shortcut": "ctrl+alt+T"
+    },
+    "tableHeaderRowToggle": {
+      "label": "Toggle Table Header Row",
+      "description": "Toggle Header Row on/off.",
+      "groupLabels": {
+        "tableStyleOptions": "Header Row"
+      }
+    },
+    "tableBandedRowsToggle": {
+      "label": "Toggle Table Banded Rows",
+      "description": "Toggle Banded Rows on/off.",
+      "groupLabels": {
+        "tableStyleOptions": "Banded Rows"
+      }
+    },
+    "tableFirstColumnToggle": {
+      "label": "Toggle Table First Column",
+      "description": "Toggle First Column on/off.",
+      "groupLabels": {
+        "tableStyleOptions": "First Column"
+      }
+    },
+    "tableLastColumnToggle": {
+      "label": "Toggle Table Last Column",
+      "description": "Toggle Last Column on/off.",
+      "groupLabels": {
+        "tableStyleOptions": "Last Column"
+      }
+    },
+    "tableBandedColumnsToggle": {
+      "label": "Toggle Table Banded Columns",
+      "description": "Toggle Banded Columns on/off.",
+      "groupLabels": {
+        "tableStyleOptions": "Banded Columns"
+      }
+    },
+    "tableFilterRefresh": {
+      "label": "Reapply Sort & Filter",
+      "description": "Reapply the sort and filter with the latest changes.",
+      "groupLabels": {
+        "filterOptions": "Reapply",
+        "sortFilterOptions": "Reapply"
+      },
+      "icon": "FilterReapply",
+      "shortcut": "ctrl+alt+L"
+    },
+    "tableFilterClear": {
+      "label": "Clear Sort & Filter",
+      "description": "Clear the sort and filters criteria from the current area..",
+      "groupLabels": {
+        "filterOptions": "Clear",
+        "sortFilterOptions": "Clear"
+      },
+      "icon": "FilterClear"
+    },
+    "formatTableStyleClearTableStyle": {
+      "label": "Clear Table Style",
+      "description": "Remove all the styling that is specific for the table.",
+      "groupLabels": {
+        "tableStyleOptions": "Clear Style"
+      },
+      "icon": "ClearFormats"
+    }
+  }
+}

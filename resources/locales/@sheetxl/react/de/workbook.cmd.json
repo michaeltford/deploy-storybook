@@ -1,0 +1,296 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "workbook",
+  "label": "Arbeitsmappe",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "addSheet": {
+      "label": "Blatt einfügen",
+      "groupLabels": {
+        "sheet": "Einfügen"
+      },
+      "description": "Blatt vor dem aktuellen Blatt einfügen.",
+      "shortcut": [
+        "shift+F11",
+        "shift+alt+F1"
+      ]
+    },
+    "deleteSheet": {
+      "label": "Blatt löschen",
+      "groupLabels": {
+        "sheet": "Löschen"
+      },
+      "description": "Das Blatt und alle Daten löschen."
+    },
+    "duplicateSheet": {
+      "label": "Blatt duplizieren",
+      "groupLabels": {
+        "sheet": "Duplizieren"
+      },
+      "description": "Das aktuelle Blatt duplizieren."
+    },
+    "hideSheet": {
+      "label": "Blatt ausblenden",
+      "groupLabels": {
+        "sheet": "Ausblenden"
+      },
+      "description": "Das Blatt aus den Registerkarten ausblenden. Die Daten bleiben erhalten, aber die Registerkarten werden übersichtlicher.",
+      "icon": "VisibilityOff"
+    },
+    "nextSheet": {
+      "label": "Nächstes Blatt",
+      "groupLabels": {
+        "sheet": "Nächstes"
+      },
+      "description": "Das nächste Blatt aktivieren.",
+      "shortcut": "ctrl+PageDown"
+    },
+    "previousSheet": {
+      "label": "Vorheriges Blatt",
+      "groupLabels": {
+        "sheet": "Vorheriges"
+      },
+      "description": "Das vorherige Blatt aktivieren.",
+      "shortcut": "ctrl+PageUp"
+    },
+    "selectNextSheet": {
+      "label": "Nächstes Blatt auswählen",
+      "groupLabels": {
+        "sheet": "Nächstes auswählen"
+      },
+      "description": "Das nächste Blatt auswählen.",
+      "shortcut": "ctrl+shift+PageDown"
+    },
+    "selectPreviousSheet": {
+      "label": "Vorheriges Blatt auswählen",
+      "groupLabels": {
+        "sheet": "Vorheriges auswählen"
+      },
+      "description": "Das vorherige Blatt auswählen.",
+      "shortcut": "ctrl+shift+PageUp"
+    },
+    "workbookViewToggleShowFormulaBar": {
+      "label": "Bearbeitungsleiste anzeigen",
+      "groupLabels": {
+        "view": "Bearbeitungsleiste"
+      },
+      "description": "Die Bearbeitungsleiste ein- oder ausblenden."
+    },
+    "workbookViewToggleShowTabs": {
+      "label": "Blattregisterkarten anzeigen",
+      "groupLabels": {
+        "view": "Blattregisterkarten"
+      },
+      "description": "Die Blattregisterkarten ein- oder ausblenden."
+    },
+    "workbookViewToggleShowStatusBar": {
+      "label": "Statusleiste anzeigen",
+      "groupLabels": {
+        "view": "Statusleiste"
+      },
+      "description": "Die Statusleiste ein- oder ausblenden."
+    },
+    "workbookViewToggleShowHorizontalScrollBar": {
+      "label": "Horizontale Bildlaufleiste anzeigen",
+      "groupLabels": {
+        "view": "Horizontale Bildlaufleiste"
+      },
+      "description": "Die horizontale Bildlaufleiste ein- oder ausblenden."
+    },
+    "workbookViewToggleShowVerticalScrollBar": {
+      "label": "Vertikale Bildlaufleiste anzeigen",
+      "groupLabels": {
+        "view": "Vertikale Bildlaufleiste"
+      },
+      "description": "Die vertikale Bildlaufleiste ein- oder ausblenden."
+    },
+    "workbookViewToggleExpandFormulaBar": {
+      "label": "Bearbeitungsleiste erweitern/reduzieren",
+      "description": "Die Bearbeitungsleiste erweitern oder reduzieren.",
+      "shortcut": "ctrl+shift+U"
+    },
+    "locale": {
+      "label": "Regionales Format",
+      "description": "Das regionale Format für Zahlen und Datumsangaben. Wird mit der Arbeitsmappe gespeichert.",
+      "icon": "Locale"
+    },
+    "newCellStyle": {
+      "label": "Neue Zellenformatvorlage…",
+      "groupLabels": {
+        "cellStyle": "Neue Zellenformatvorlage"
+      },
+      "description": "Eine neue benannte Formatvorlage erstellen, die später schnell verwendet werden kann.",
+      "icon": "NewPresetStyles"
+    },
+    "deleteCellStyle": {
+      "label": "Zellenformatvorlage löschen",
+      "groupLabels": {
+        "cellStyle": "Löschen"
+      },
+      "description": "Eine benannte Formatvorlage entfernen, die nicht mehr benötigt wird."
+    },
+    "modifyCellStyle": {
+      "label": "Zellenformatvorlage ändern",
+      "groupLabels": {
+        "cellStyle": "Ändern"
+      },
+      "description": "Eine Formatvorlage mit dem aktuellen Format aktualisieren."
+    },
+    "find": {
+      "label": "Suchen",
+      "description": "Das Suchfenster öffnen.",
+      "icon": "Find",
+      "shortcut": [
+        "ctrl+F",
+        "shift+F5"
+      ]
+    },
+    "findReplace": {
+      "label": "Suchen und Ersetzen",
+      "description": "Das Fenster „Suchen und Ersetzen“ öffnen.",
+      "icon": "FindReplace",
+      "shortcut": [
+        "ctrl+H",
+        "ctrl+alt+H"
+      ]
+    },
+    "findNext": {
+      "label": "Weitersuchen",
+      "description": "Das nächste Ergebnis der letzten Suche finden, ohne das Suchfenster zu öffnen.",
+      "icon": "Find",
+      "shortcut": "shift+F4"
+    },
+    "findPrevious": {
+      "label": "Rückwärts suchen",
+      "description": "Das vorherige Ergebnis der letzten Suche finden, ohne das Suchfenster zu öffnen.",
+      "icon": "Find",
+      "shortcut": "ctrl+shift+F4"
+    },
+    "goto": {
+      "label": "Gehe zu",
+      "description": "Das Fenster „Gehe zu“ öffnen.",
+      "icon": "GoTo",
+      "shortcut": "ctrl+G"
+    },
+    "selectNamed": {
+      "label": "Benannten Bezug auswählen",
+      "description": "Den benannten Bezug auswählen."
+    },
+    "addNamedReference": {
+      "label": "Namen definieren",
+      "groupLabels": {
+        "namedItem": "Namen definieren…"
+      },
+      "description": "Einen neuen benannten Bezug hinzufügen. Namen können anstelle von Zellbezügen verwendet werden.",
+      "icon": "InsertNamedRange"
+    },
+    "editNamedReference": {
+      "label": "Benannten Bezug bearbeiten…",
+      "groupLabels": {
+        "namedItem": "Bearbeiten…"
+      },
+      "description": "Einen benannten Bezug bearbeiten. Namen können anstelle von Zellbezügen verwendet werden.",
+      "icon": "NamedRangeEdit"
+    },
+    "deleteNamedReference": {
+      "label": "Benannten Bezug löschen",
+      "groupLabels": {
+        "namedItem": "Löschen"
+      },
+      "description": "Den benannten Bezug entfernen.",
+      "icon": "DeleteNamedRange"
+    },
+    "insertFunction": {
+      "label": "Funktion einfügen",
+      "description": "Eine Funktion in die aktuelle Zelle einfügen.",
+      "icon": "FunctionThin"
+    },
+    "selectTheme": {
+      "label": "Design",
+      "description": "Ein Design auswählen, das zu Ihren Daten passt."
+    },
+    "calculateAll": {
+      "label": "Jetzt berechnen",
+      "description": "Formeln mit veralteten Werten auf allen Blättern neu berechnen.",
+      "icon": "Calculate",
+      "shortcut": "F9"
+    },
+    "calculateFull": {
+      "label": "Vollständig berechnen",
+      "description": "Alle Formeln in der Arbeitsmappe neu berechnen, auch die bereits aktuellen. Damit lassen sich die Werte ersetzen, mit denen eine Datei geöffnet wurde.",
+      "icon": "Calculate",
+      "shortcut": "ctrl+alt+F9"
+    },
+    "calcModeAutomatic": {
+      "label": "Automatisch",
+      "description": "Formeln neu berechnen, sobald sich ihre Eingaben ändern."
+    },
+    "calcModeAutomaticExceptTables": {
+      "label": "Automatisch außer bei Datentabellen",
+      "description": "Formeln neu berechnen, sobald sich ihre Eingaben ändern, mit Ausnahme von Was-wäre-wenn-Datentabellen. Ohne Datentabellen entspricht dies „Automatisch“."
+    },
+    "calcModeManual": {
+      "label": "Manuell",
+      "description": "Nur auf Anforderung neu berechnen (F9). Bis dahin bleiben abhängige Formeln nach einer Änderung veraltet."
+    },
+    "calcIterativeToggle": {
+      "label": "Iterative Berechnung aktivieren",
+      "description": "Zirkelbezüge durch wiederholtes Neuberechnen auflösen, bis sie sich stabilisieren oder die maximale Iterationszahl erreicht ist. Ausgeschaltet ergibt ein Zirkelbezug 0."
+    },
+    "selectDirectPrecedents": {
+      "label": "Direkte Vorgänger auswählen",
+      "description": "Die Zellen auswählen, auf die die Formeln in der Auswahl direkt verweisen.",
+      "shortcut": "ctrl+["
+    },
+    "selectPrecedents": {
+      "label": "Alle Vorgänger auswählen",
+      "description": "Alle Zellen auswählen, die zu den Formeln in der Auswahl beitragen, entlang der gesamten Berechnungskette.",
+      "shortcut": "ctrl+shift+{"
+    },
+    "selectDirectDependents": {
+      "label": "Direkte Nachfolger auswählen",
+      "description": "Die Zellen mit Formeln auswählen, die direkt auf die Auswahl verweisen.",
+      "shortcut": "ctrl+]"
+    },
+    "selectDependents": {
+      "label": "Alle Nachfolger auswählen",
+      "description": "Alle Zellen auswählen, die letztlich von der Auswahl betroffen sind, entlang der gesamten Berechnungskette.",
+      "shortcut": "ctrl+shift+}"
+    },
+    "maximumWorkbookToggle": {
+      "label": "Maximieren",
+      "description": "Die maximierte Anzeige der Arbeitsmappe umschalten.",
+      "shortcut": "ctrl+F10"
+    },
+    "activeNameBox": {
+      "label": "Namensfeld aktivieren",
+      "description": "Den Fokus auf das Namensfeld setzen.",
+      "shortcut": "alt+F3"
+    },
+    "activeNameManager": {
+      "label": "Namens-Manager",
+      "description": "Alle in der Arbeitsmappe verwendeten Namen erstellen, bearbeiten, löschen und finden.\\n\\nNamen können anstelle von Zellbezügen verwendet werden.",
+      "shortcut": "ctrl+F3",
+      "icon": "NamedManager",
+      "groupLabels": {
+        "namedItem": "Namen verwalten…"
+      }
+    },
+    "createNamedReferenceFromSelection": {
+      "label": "Aus Auswahl erstellen",
+      "description": "Namen automatisch aus den ausgewählten Zellen generieren.",
+      "shortcut": "ctrl+shift+F3"
+    },
+    "spellCheck": {
+      "label": "Rechtschreibprüfung",
+      "description": "Die Arbeitsmappe auf Rechtschreibfehler prüfen.",
+      "shortcut": "F7"
+    },
+    "workbookStatistics": {
+      "label": "Arbeitsmappenstatistiken",
+      "description": "Die Statistiken der Arbeitsmappe anzeigen.",
+      "shortcut": "ctrl+shift+G"
+    }
+  }
+}

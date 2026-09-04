@@ -1,0 +1,19 @@
+{
+  "kind": "locales",
+  "package": "@sheetxl/sdk",
+  "entries": [
+    {
+      "path": "de/grammar.json"
+    },
+    {
+      "path": "de/model.msg.json",
+      "locale": "de",
+      "role": "messages"
+    },
+    {
+      "path": "en/model.msg.json",
+      "locale": "en",
+      "role": "messages"
+    }
+  ]
+}

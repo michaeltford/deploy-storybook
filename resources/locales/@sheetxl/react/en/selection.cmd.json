@@ -1,0 +1,381 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "selection",
+  "label": "Selection",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "moveToPageDown": {
+      "label": "Page Down",
+      "description": "Shift viewport down one page.",
+      "shortcut": "PageDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToPageDown": {
+      "label": "Select To Page Down",
+      "description": "Shift viewport and select down one page.",
+      "shortcut": "shift+PageDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToPageRight": {
+      "label": "Page Right",
+      "description": "Shift viewport right one page.",
+      "shortcut": "alt+PageDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToPageRight": {
+      "label": "Page Right",
+      "description": "Shift viewport right one page.",
+      "shortcut": "shift+alt+PageDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToPageUp": {
+      "label": "Page Up",
+      "description": "Shift viewport up one page.",
+      "shortcut": "PageUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToPageUp": {
+      "label": "Page Up",
+      "description": "Shift viewport up one page.",
+      "shortcut": "shift+PageUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToPageLeft": {
+      "label": "Page Left",
+      "description": "Shift viewport left one page.",
+      "shortcut": "alt+PageUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToPageLeft": {
+      "label": "Page Left",
+      "description": "Shift viewport left one page.",
+      "shortcut": "shift+alt+PageUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectArray": {
+      "label": "Select Array",
+      "description": "Select the whole spilled or array-entered block containing the active cell.",
+      "shortcut": "ctrl+shift+?",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectColumn": {
+      "label": "Select Column",
+      "description": "Select the columns for the selected cells.",
+      "shortcut": "ctrl+Space",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectRow": {
+      "label": "Select Row",
+      "description": "Select the rows for the selected cells.",
+      "shortcut": "shift+Space",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToColumnStart": {
+      "label": "Select To Column Start",
+      "description": "Select the columns to the beginning of the sheet.",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToColumnEnd": {
+      "label": "Select To Column End",
+      "description": "Select the columns to the end of the sheet.",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToRowStart": {
+      "label": "Move to Row Home",
+      "description": "Move to the beginning of the row.",
+      "shortcut": "Home",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToRowStart": {
+      "label": "Select to Row Home",
+      "description": "Select to the beginning of the row.",
+      "shortcut": "shift+Home",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToGridStart": {
+      "label": "Move to Grid Home",
+      "description": "Move to the beginning of the grid.",
+      "shortcut": "ctrl+Home",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToGridStart": {
+      "label": "Select to Grid Home",
+      "description": "Select to the beginning of the grid.",
+      "shortcut": "ctrl+shift+Home",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToRowEnd": {
+      "label": "Move to Row End",
+      "description": "Move to the end of the row.",
+      "shortcut": "End",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToRowEnd": {
+      "label": "Select to Row End",
+      "description": "Select to the end of the row.",
+      "shortcut": "shift+End",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToGridEnd": {
+      "label": "Move to Grid End",
+      "description": "Move to the end of the grid.",
+      "shortcut": "ctrl+End",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToGridEnd": {
+      "label": "Select to Grid End",
+      "description": "Select to the end of the grid.",
+      "shortcut": "ctrl+shift+End",
+      "tags": [
+        "selection"
+      ]
+    },
+    "scrollToActiveCoords": {
+      "label": "Scroll to Active Cell",
+      "description": "Scroll to the Active Cell.",
+      "shortcut": "ctrl+Backspace",
+      "tags": [
+        "selection"
+      ]
+    },
+    "scrollToActiveCoordsClearSelection": {
+      "label": "Scroll to Active Cell",
+      "description": "Scroll to the Active Cell and clear selection.",
+      "shortcut": "shift+Backspace",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionRight": {
+      "label": "Traverse Right",
+      "description": "Traverse the selection moving rightward.",
+      "shortcut": "Tab",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionLeft": {
+      "label": "Traverse Left",
+      "description": "Traverse the selection moving leftward.",
+      "shortcut": "shift+Tab",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionDown": {
+      "label": "Traverse Down",
+      "description": "Traverse the selection moving downward.",
+      "shortcut": [
+        "Enter",
+        "NumpadEnter"
+      ],
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionUp": {
+      "label": "Traverse Up",
+      "description": "Traverse the selection moving upward.",
+      "shortcut": [
+        "shift+Enter",
+        "shift+NumpadEnter"
+      ],
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveLeft": {
+      "label": "Move Left",
+      "description": "Move active cell to the left.",
+      "shortcut": "ArrowLeft",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectLeft": {
+      "label": "Select Left",
+      "description": "Extend selection left.",
+      "shortcut": "shift+ArrowLeft",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveContentfulLeft": {
+      "label": "Move Left Contentful",
+      "description": "Move left to the next cell with content.",
+      "shortcut": "ctrl+ArrowLeft",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectContentfulLeft": {
+      "label": "Select Left Contentful",
+      "description": "Extend selection left to the next cell with content.",
+      "shortcut": "ctrl+shift+ArrowLeft",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveRight": {
+      "label": "Move Right",
+      "description": "Move active cell to the right.",
+      "shortcut": "ArrowRight",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectRight": {
+      "label": "Select Right",
+      "description": "Extend selection right.",
+      "shortcut": "shift+ArrowRight",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveContentfulRight": {
+      "label": "Move Right Contentful",
+      "description": "Move right to the next cell with content.",
+      "shortcut": "ctrl+ArrowRight",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectContentfulRight": {
+      "label": "Select Right Contentful",
+      "description": "Extend selection right to the next cell with content.",
+      "shortcut": "ctrl+shift+ArrowRight",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveUp": {
+      "label": "Move Up",
+      "description": "Move active cell to the up.",
+      "shortcut": "ArrowUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectUp": {
+      "label": "Select Up",
+      "description": "Extend selection up.",
+      "shortcut": "shift+ArrowUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveContentfulUp": {
+      "label": "Move Up Contentful",
+      "description": "Move up to the next cell with content.",
+      "shortcut": "ctrl+ArrowUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectContentfulUp": {
+      "label": "Select Up Contentful",
+      "description": "Extend selection up to the next cell with content.",
+      "shortcut": "ctrl+shift+ArrowUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveDown": {
+      "label": "Move Down",
+      "description": "Move active cell to the down.",
+      "shortcut": "ArrowDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectDown": {
+      "label": "Select Down",
+      "description": "Extend selection down.",
+      "shortcut": "shift+ArrowDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveContentfulDown": {
+      "label": "Move Down Contentful",
+      "description": "Move down to the next cell with content.",
+      "shortcut": "ctrl+ArrowDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectContentfulDown": {
+      "label": "Select Down Contentful",
+      "description": "Extend selection down to the next cell with content.",
+      "shortcut": "ctrl+shift+ArrowDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionPreviousRange": {
+      "label": "Traverse Previous Range",
+      "description": "Traverse the selection to the previous range.",
+      "shortcut": "ctrl+alt+ArrowLeft",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionNextRange": {
+      "label": "Traverse Next Range",
+      "description": "Traverse the selection to the next range.",
+      "shortcut": "ctrl+alt+ArrowRight",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionCorners": {
+      "label": "Traverse Corners",
+      "description": "Traverse the selection through the corners of the selected range.",
+      "shortcut": "ctrl+.",
+      "tags": [
+        "selection"
+      ]
+    }
+  }
+}

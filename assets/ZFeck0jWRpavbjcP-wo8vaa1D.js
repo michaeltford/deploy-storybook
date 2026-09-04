@@ -1,0 +1,1 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";var t;e((()=>{t={CONVERT:{s:`Converts a number from one measurement system to another.`,p:{number:{d:`is the value in fromUnit to convert.`},fromUnit:{d:`is the units for number.`},toUnit:{d:`is the units for the result.`}}}}}))();export{t as default};

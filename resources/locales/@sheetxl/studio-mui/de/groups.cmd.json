@@ -1,0 +1,235 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "ui",
+  "label": "Benutzeroberfläche",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "appearanceOptions": {
+      "label": "Darstellung",
+      "description": "Hellen/dunklen Modus an Ihre Anzeigeeinstellungen anpassen. Dies wirkt sich nicht auf die Ansicht anderer aus."
+    },
+    "borderOptions": {
+      "label": "Rahmen",
+      "description": "Rahmen auf die ausgewählten Zellen anwenden."
+    },
+    "calculationOptions": {
+      "label": "Berechnungsoptionen",
+      "description": "Festlegen, wann Formeln neu berechnet werden und wie Zirkelbezüge aufgelöst werden.",
+      "icon": "Calculate"
+    },
+    "cellsFormatOptions": {
+      "label": "Format",
+      "description": "Zeilen- und Spaltengrößen oder deren Sichtbarkeit ändern oder den Bereich „Zellen formatieren“ öffnen.",
+      "icon": "CellsFormat"
+    },
+    "clearOptions": {
+      "label": "Löschen",
+      "description": "Alles in der Zelle löschen oder nur die Formatierung bzw. den Inhalt entfernen.",
+      "icon": "ClearAll"
+    },
+    "conditionalFormatOptions": {
+      "label": "Bedingte Formatierung",
+      "description": "Trends und Muster in Ihren Daten mit Balken, Farben und Symbolen leicht erkennen, um wichtige Werte visuell hervorzuheben.",
+      "icon": "ConditionalFormatOptions"
+    },
+    "conditionalFormatHighlightOptions": {
+      "label": "Regeln zum Hervorheben von Zellen",
+      "description": "Zellen hervorheben, die eine Bedingung erfüllen."
+    },
+    "conditionalFormatTopBottomOptions": {
+      "label": "Obere/untere Regeln",
+      "description": "Die höchsten oder niedrigsten Werte hervorheben."
+    },
+    "conditionalFormatClearOptions": {
+      "label": "Regeln löschen",
+      "description": "Regeln für bedingte Formatierung entfernen."
+    },
+    "darkModeOptions": {
+      "label": "Dunkelmodus-Optionen",
+      "description": "Verfügbare Optionen im dunklen Modus",
+      "icon": "DarkMode"
+    },
+    "dataTextToColumnsOptions": {
+      "label": "Text in Spalten",
+      "description": "Eine einzelne Textspalte in mehrere Spalten aufteilen"
+    },
+    "dataToolbar": {
+      "label": "Daten"
+    },
+    "dataValidationDetails": {
+      "label": "Datenüberprüfung",
+      "icon": "DataValidation"
+    },
+    "deleteCellsOptions": {
+      "description": "Löschen Sie Zellen, Zeilen, Spalten oder Blätter aus Ihrer Arbeitsmappe.\nUm mehrere Zeilen oder Spalten gleichzeitig zu löschen, markieren Sie mehrere Zeilen oder Spalten und klicken Sie auf Löschen."
+    },
+    "deleteSheetOptions": {
+      "description": "Löschen Sie Zellen, Zeilen, Spalten oder Blätter aus Ihrer Arbeitsmappe.\nUm mehrere Zeilen oder Spalten gleichzeitig zu löschen, markieren Sie mehrere Zeilen oder Spalten und klicken Sie auf Löschen."
+    },
+    "drawAlignOptions": {
+      "label": "Ausrichten",
+      "description": "Ändern Sie schnell die Platzierung Ihrer Zeichnungen.",
+      "icon": "DrawAlignLeft"
+    },
+    "drawSizingOptions": {
+      "label": "Größenanpassung",
+      "description": "Legen Sie fest, wie sich die Zeichnungsgröße bei Änderungen der Zellgröße anpasst.",
+      "icon": "DrawResize"
+    },
+    "fileOptions": {
+      "label": "Datei",
+      "description": "Optionen zum Speichern und Laden der Arbeitsmappe."
+    },
+    "fillOptions": {
+      "label": "Ausfüllen",
+      "description": "Die ausgewählten Zellen mit dem Wert aus einer der Ecken füllen.",
+      "icon": "FillDown"
+    },
+    "filterOptions": {
+      "label": "Filter",
+      "description": "Ordnen Sie Ihre Daten, damit sie leichter auszuwerten sind.\nSie können die ausgewählten Daten aufsteigend oder absteigend sortieren."
+    },
+    "findOptions": {
+      "label": "Suchen und Auswählen",
+      "description": "Zellen suchen und ersetzen oder zu einer bestimmten Position wechseln.",
+      "icon": "Find"
+    },
+    "formatCells": {
+      "label": "Zellen formatieren",
+      "description": "Ändern Sie das Aussehen der ausgewählten Zellen — Zahl, Ausrichtung, Schrift, Füllung und Rahmen.",
+      "icon": "CellsFormat"
+    },
+    "formulaToolbar": {
+      "label": "Formeln"
+    },
+    "freezeOptions": {
+      "label": "Fenster fixieren",
+      "description": "Einen Teil des Blatts fixieren, damit er beim Scrollen durch den Rest des Blatts sichtbar bleibt.\\n\\nNützlich, um Daten in anderen Bereichen anzuzeigen, ohne Überschriften oder Beschriftungen zu verlieren.",
+      "icon": "Freeze"
+    },
+    "gridlinesOptions": {
+      "label": "Gitternetzlinien",
+      "description": "Festlegen, wie die Linien zwischen Zeilen und Spalten im Blatt angezeigt werden."
+    },
+    "headingsOptions": {
+      "label": "Überschriften",
+      "description": "Festlegen, wie die Spalten- und Zeilenüberschriften im Blatt angezeigt werden."
+    },
+    "helpOptions": {
+      "label": "Hilfe",
+      "description": "Hilfe, Feedback und Tastenkombinationen."
+    },
+    "hideUnhideOptions": {
+      "label": "Ausblenden und Einblenden"
+    },
+    "homeToolbar": {
+      "label": "Start"
+    },
+    "horizontalAlignOptions": {
+      "label": "Horizontale Ausrichtung",
+      "description": "Festlegen, wie Text in horizontaler Richtung in der Zelle platziert wird."
+    },
+    "insertCellsOptions": {
+      "description": "Fügen Sie neue Zellen, Zeilen oder Spalten in Ihre Arbeitsmappe ein.\nUm mehrere Zeilen oder Spalten gleichzeitig einzufügen, markieren Sie mehrere Zeilen oder Spalten und klicken Sie auf Einfügen."
+    },
+    "insertChartOptions": {
+      "label": "Diagramm einfügen",
+      "description": "Ein Diagramm zur Visualisierung der ausgewählten Daten hinzufügen."
+    },
+    "insertDataOptions": {
+      "label": "Daten importieren",
+      "description": "Eine Datei oder Web-Arbeitsmappe importieren und ihre Blätter als neue Registerkarten hinzufügen.",
+      "icon": "DataInsert"
+    },
+    "insertFunctionSumOptions": {
+      "label": "Schnellfunktion",
+      "description": "Weitere Funktionen."
+    },
+    "insertImageOptions": {
+      "description": "Ein Bild aus dem Web einfügen, um Ihre Daten zu ergänzen.",
+      "icon": "InsertImage"
+    },
+    "insertSheetOptions": {
+      "description": "Fügen Sie neue Zellen, Zeilen oder Spalten in Ihre Arbeitsmappe ein.\nUm mehrere Zeilen oder Spalten gleichzeitig einzufügen, markieren Sie mehrere Zeilen oder Spalten und klicken Sie auf Einfügen."
+    },
+    "insertToolbar": {
+      "label": "Einfügen"
+    },
+    "languageOptions": {
+      "label": "Sprache & Region",
+      "description": "Sprache der Benutzeroberfläche wählen sowie die regionale Formatierung dieser Arbeitsmappe.",
+      "icon": "Language"
+    },
+    "managedNames": {
+      "label": "Namen",
+      "description": "Definieren und verwalten Sie die Namen, die in Formeln anstelle von Adressen verwendet werden.",
+      "icon": "NamedManager"
+    },
+    "mergeOptions": {
+      "description": "Zellen verbinden oder trennen.",
+      "icon": "MergeAll"
+    },
+    "pasteOptions": {
+      "label": "Einfügen",
+      "description": "Inhalte aus der Zwischenablage in Ihr Dokument einfügen."
+    },
+    "protectionOptions": {
+      "label": "Schützen",
+      "description": "Das Blatt schützen, festlegen was bearbeitbar bleibt, und den Arbeitsmappenschutz verwalten.",
+      "icon": "Lock"
+    },
+    "sheetBackgroundOptions": {
+      "description": "Ein Bild hinter den Zellen des Blattes kacheln. Ein Hintergrund wird nur am Bildschirm angezeigt und nie gedruckt.",
+      "label": "Hintergrund",
+      "icon": "BackgroundImage"
+    },
+    "sheetZoomOptions": {
+      "label": "Zoom",
+      "description": "Zoomstufe des aktuellen Blatts festlegen."
+    },
+    "sortFilterOptions": {
+      "label": "Sortieren und Filtern",
+      "description": "Ordnen Sie Ihre Daten, damit sie leichter auszuwerten sind.\nSie können die ausgewählten Daten aufsteigend oder absteigend sortieren.",
+      "icon": "SortFilter"
+    },
+    "sortOptions": {
+      "label": "Sortieren",
+      "description": "Ordnen Sie Ihre Daten, damit sie leichter auszuwerten sind.\nSie können die ausgewählten Daten aufsteigend oder absteigend sortieren."
+    },
+    "tableDetails": {
+      "label": "Tabellendetails",
+      "icon": "Table"
+    },
+    "tableToolbar": {
+      "label": "Tabelle"
+    },
+    "textEffectsOptions": {
+      "label": "Texteffekte",
+      "description": "Gestalten Sie Ihren Text, um ihn hervorzuheben."
+    },
+    "textOverflowOptions": {
+      "label": "Textüberlauf",
+      "description": "Festlegen, wie sich Text verhält, wenn er nicht in eine Zelle passt."
+    },
+    "textRotateOptions": {
+      "label": "Orientierung",
+      "description": "Text diagonal oder vertikal drehen. Eine gute Möglichkeit, schmale Spalten zu beschriften."
+    },
+    "underlineOptions": {
+      "label": "Unterstreichen",
+      "description": "Alle Unterstreichungsarten."
+    },
+    "verticalAlignOptions": {
+      "label": "Vertikale Ausrichtung",
+      "description": "Festlegen, wie Text in vertikaler Richtung in der Zelle platziert wird."
+    },
+    "viewToolbar": {
+      "label": "Ansicht"
+    },
+    "workbookViewOptions": {
+      "label": "Arbeitsmappenansicht",
+      "description": "Optionen zur Anzeige der Arbeitsmappe."
+    }
+  }
+}

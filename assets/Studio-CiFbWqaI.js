@@ -1,0 +1,6 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{t}from"./jsx-runtime-f3rHp9ZU.js";import{a as n,o as r,v as i}from"./blocks-DgUQCv0Y.js";import{t as a}from"./mdx-react-shim-DRd-ZC1m.js";function o(e){let t={a:`a`,h1:`h1`,h2:`h2`,p:`p`,...i(),...e.components};return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(n,{title:`Studio`}),`
+`,(0,c.jsx)(t.h1,{id:`overview`,children:`Overview`}),`
+`,(0,c.jsx)(t.p,{children:`SheetXL is a designed a model View control design that decouples the widgets (view) from the logic (sdk).`}),`
+`,(0,c.jsx)(t.h2,{id:`sdk`,children:`SDK`}),`
+`,(0,c.jsxs)(t.p,{children:[`SheetXL is implemented as a headless TypeScript library that can be used in the browser or in a NodeJS environment.
+See the `,(0,c.jsx)(t.a,{href:`https://www.sheetxl.com/docs/guides/concepts/concept-overview`,rel:`nofollow`,children:`Guide`}),` or the `,(0,c.jsx)(t.a,{href:`https://api.sheetxl.com/`,rel:`nofollow`,children:`API`}),`.`]})]})}function s(e={}){let{wrapper:t}={...i(),...e.components};return t?(0,c.jsx)(t,{...e,children:(0,c.jsx)(o,{...e})}):o(e)}var c;e((()=>{c=t(),a(),r()}))();export{s as default};

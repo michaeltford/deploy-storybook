@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "scriptEditor",
+  "label": "Skript-Editor",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "scriptingHelp": {
+      "label": "Skripting-Hilfe",
+      "groupLabels": {
+        "scriptsOptions": "Hilfe"
+      },
+      "description": "Die Dokumentation zum Skripting öffnen.",
+      "icon": "Help"
+    },
+    "showScriptingCommands": {
+      "label": "Skript-Befehlspalette",
+      "groupLabels": {
+        "scriptsOptions": "Befehlspalette"
+      },
+      "description": "Befehle für Skripting anzeigen.",
+      "icon": "Keyboard",
+      "shortcut": "F1"
+    },
+    "insertScript": {
+      "label": "Skript einfügen",
+      "description": "Ein Skript aus einer Reihe von Vorlagen einfügen.",
+      "icon": "ScriptInsert"
+    },
+    "saveScripts": {
+      "label": "Skript speichern",
+      "description": "Die aktuellen Skripte speichern.",
+      "icon": "ScriptSave"
+    }
+  }
+}

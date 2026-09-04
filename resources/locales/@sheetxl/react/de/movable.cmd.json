@@ -1,0 +1,209 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "movable",
+  "label": "Objekte",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "moveToFront": {
+      "label": "In den Vordergrund",
+      "description": "Vor alle anderen Zeichnungen verschieben.",
+      "icon": "DrawToFront",
+      "shortcut": "ctrl+shift+BracketRight"
+    },
+    "moveForward": {
+      "label": "Ebene nach vorne",
+      "description": "Eine Ebene in der Z-Reihenfolge nach vorne verschieben.",
+      "icon": "DrawMoveForward",
+      "shortcut": "ctrl+BracketRight"
+    },
+    "moveToBack": {
+      "label": "In den Hintergrund",
+      "description": "Hinter alle anderen Zeichnungen verschieben.",
+      "icon": "DrawToBack",
+      "shortcut": "ctrl+shift+BracketLeft"
+    },
+    "moveBackward": {
+      "label": "Ebene nach hinten",
+      "description": "Eine Ebene in der Z-Reihenfolge nach hinten verschieben.",
+      "icon": "DrawMoveBackward",
+      "shortcut": "ctrl+BracketLeft"
+    },
+    "deleteDrawings": {
+      "label": "Löschen",
+      "description": "Die ausgewählten Zeichnungen löschen.",
+      "shortcut": "Delete"
+    },
+    "selectAllDrawings": {
+      "label": "Alle Zeichnungen auswählen",
+      "description": "Alle Zeichnungen auf dem Blatt auswählen.",
+      "shortcut": "ctrl+A"
+    },
+    "toggleLockAspectRatio": {
+      "label": "Seitenverhältnis sperren",
+      "description": "Umschalten, ob das Seitenverhältnis beim Ändern der Größe über die Ecken beibehalten wird.",
+      "icon": "DrawAspect"
+    },
+    "formatAnchorTypeTwoCell": {
+      "label": "Von Zellposition und -größe abhängig",
+      "description": "Die Zeichnung verschieben und ihre Größe ändern, wenn sich das darunterliegende Blatt ändert.",
+      "icon": "DrawResize"
+    },
+    "formatAnchorTypeOneCell": {
+      "label": "Nur von Zellposition abhängig",
+      "description": "Die Zeichnung nur verschieben, wenn sich das darunterliegende Blatt ändert.",
+      "icon": "DrawResize"
+    },
+    "formatAnchorTypeAbsolute": {
+      "label": "Von Zellposition und -größe unabhängig",
+      "description": "Die Zeichnung weder verschieben noch ihre Größe ändern, wenn sich das darunterliegende Blatt ändert.",
+      "icon": "DrawResize"
+    },
+    "formatDrawNudgeLeft": {
+      "label": "Nach links verschieben",
+      "description": "Die ausgewählten Zeichnungen um 1 Pixel nach links verschieben.",
+      "shortcut": "ArrowLeft"
+    },
+    "formatDrawNudgeRight": {
+      "label": "Nach rechts verschieben",
+      "description": "Die ausgewählten Zeichnungen um 1 Pixel nach rechts verschieben.",
+      "shortcut": "ArrowRight"
+    },
+    "formatDrawNudgeUp": {
+      "label": "Nach oben verschieben",
+      "description": "Die ausgewählten Zeichnungen um 1 Pixel nach oben verschieben.",
+      "shortcut": "ArrowUp"
+    },
+    "formatDrawNudgeDown": {
+      "label": "Nach unten verschieben",
+      "description": "Die ausgewählten Zeichnungen um 1 Pixel nach unten verschieben.",
+      "shortcut": "ArrowDown"
+    },
+    "formatDrawNudgeLeftLarge": {
+      "label": "Nach links verschieben (grob)",
+      "description": "Die ausgewählten Zeichnungen um 10 Pixel nach links verschieben.",
+      "shortcut": "ctrl+ArrowLeft"
+    },
+    "formatDrawNudgeRightLarge": {
+      "label": "Nach rechts verschieben (grob)",
+      "description": "Die ausgewählten Zeichnungen um 10 Pixel nach rechts verschieben.",
+      "shortcut": "ctrl+ArrowRight"
+    },
+    "formatDrawNudgeUpLarge": {
+      "label": "Nach oben verschieben (grob)",
+      "description": "Die ausgewählten Zeichnungen um 10 Pixel nach oben verschieben.",
+      "shortcut": "ctrl+ArrowUp"
+    },
+    "formatDrawNudgeDownLarge": {
+      "label": "Nach unten verschieben (grob)",
+      "description": "Die ausgewählten Zeichnungen um 10 Pixel nach unten verschieben.",
+      "shortcut": "ctrl+ArrowDown"
+    },
+    "formatDrawSizeIncrease": {
+      "label": "Vergrößern",
+      "description": "Die ausgewählten Zeichnungen um 10 % vergrößern.",
+      "shortcut": [
+        "shift+ArrowRight",
+        "shift+ArrowUp",
+        "ctrl+shift+ArrowRight",
+        "ctrl+shift+ArrowUp"
+      ]
+    },
+    "formatDrawSizeDecrease": {
+      "label": "Verkleinern",
+      "description": "Die ausgewählten Zeichnungen um 10 % verkleinern.",
+      "shortcut": [
+        "shift+ArrowLeft",
+        "shift+ArrowDown",
+        "ctrl+shift+ArrowLeft",
+        "ctrl+shift+ArrowDown"
+      ]
+    },
+    "formatDrawRotateLeft": {
+      "label": "Nach links drehen",
+      "description": "Die ausgewählten Zeichnungen um 10 Grad gegen den Uhrzeigersinn drehen.",
+      "shortcut": [
+        "alt+ArrowLeft",
+        "ctrl+alt+ArrowLeft"
+      ]
+    },
+    "formatDrawRotateRight": {
+      "label": "Nach rechts drehen",
+      "description": "Die ausgewählten Zeichnungen um 10 Grad im Uhrzeigersinn drehen.",
+      "shortcut": [
+        "alt+ArrowRight",
+        "ctrl+alt+ArrowRight"
+      ]
+    },
+    "formatDrawAlignLeft": {
+      "label": "Links ausrichten",
+      "description": "Die ausgewählten Zeichnungen links ausrichten.",
+      "icon": "DrawAlignLeft"
+    },
+    "formatDrawAlignCenter": {
+      "label": "Zentriert ausrichten",
+      "description": "Die ausgewählten Zeichnungen vertikal zueinander ausrichten.",
+      "icon": "DrawAlignCenter"
+    },
+    "formatDrawAlignRight": {
+      "label": "Rechts ausrichten",
+      "description": "Die ausgewählten Zeichnungen rechts ausrichten.",
+      "icon": "DrawAlignRight"
+    },
+    "formatDrawAlignTop": {
+      "label": "Oben ausrichten",
+      "description": "Die ausgewählten Zeichnungen oben ausrichten.",
+      "icon": "DrawAlignTop"
+    },
+    "formatDrawAlignMiddle": {
+      "label": "Mittig ausrichten",
+      "description": "Die ausgewählten Zeichnungen horizontal zueinander ausrichten.",
+      "icon": "DrawAlignMiddle"
+    },
+    "formatDrawAlignBottom": {
+      "label": "Unten ausrichten",
+      "description": "Die ausgewählten Zeichnungen unten ausrichten.",
+      "icon": "DrawAlignBottom"
+    },
+    "formatDrawDistributeHorz": {
+      "label": "Horizontal verteilen",
+      "description": "Die ausgewählten Zeichnungen horizontal mit gleichem Abstand verteilen.",
+      "icon": "DrawDistributeHorz"
+    },
+    "formatDrawDistributeVert": {
+      "label": "Vertikal verteilen",
+      "description": "Die ausgewählten Zeichnungen vertikal mit gleichem Abstand verteilen.",
+      "icon": "DrawDistributeVert"
+    },
+    "formatDrawFlipHorz": {
+      "label": "Horizontal spiegeln",
+      "description": "Die ausgewählten Zeichnungen horizontal spiegeln."
+    },
+    "formatDrawFlipVert": {
+      "label": "Vertikal spiegeln",
+      "description": "Die ausgewählten Zeichnungen vertikal spiegeln."
+    },
+    "formatDrawGroup": {
+      "label": "Gruppieren",
+      "description": "Die ausgewählten Zeichnungen zu einer einzigen Zeichnung gruppieren.",
+      "icon": "DrawGroup"
+    },
+    "formatDrawUngroup": {
+      "label": "Gruppierung aufheben",
+      "description": "Die Gruppierung einer Zeichnung in einzelne Zeichnungen auflösen.",
+      "icon": "DrawUngroup"
+    },
+    "formatDrawSwapShapes": {
+      "label": "Formen tauschen",
+      "description": "Die Positionen der ausgewählten Formen tauschen."
+    },
+    "formatDrawSwapShapesHorz": {
+      "label": "Formen horizontal tauschen",
+      "description": "Die Positionen der ausgewählten Formen horizontal tauschen."
+    },
+    "formatDrawSwapShapesVert": {
+      "label": "Formen vertikal tauschen",
+      "description": "Die Positionen der ausgewählten Formen vertikal tauschen."
+    }
+  }
+}

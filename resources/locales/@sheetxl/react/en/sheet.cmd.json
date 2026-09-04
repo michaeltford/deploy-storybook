@@ -1,0 +1,1664 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "sheet",
+  "label": "Sheet",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "gridlinesToggle": {
+      "label": "Gridlines",
+      "description": "Toggle whether the lines between rows and columns in the sheet are displayed.",
+      "groupLabels": {
+        "view": "Gridlines"
+      }
+    },
+    "sheetViewToggleGridlinesRows": {
+      "label": "Row Gridlines",
+      "description": "Toggle whether the lines between rows in the sheet are displayed.",
+      "groupLabels": {
+        "view": "Row Gridlines",
+        "gridlinesOptions": "Rows"
+      }
+    },
+    "sheetViewToggleGridlinesColumns": {
+      "label": "Column Gridlines",
+      "description": "Toggle whether the lines between columns in the sheet are displayed.",
+      "groupLabels": {
+        "view": "Columns Gridlines",
+        "gridlinesOptions": "Columns"
+      }
+    },
+    "sheetViewFormatGridlinesColor": {
+      "label": "Gridlines Color",
+      "description": "Color the rows and column gridlines."
+    },
+    "sheetViewToggleShowHeadings": {
+      "label": "Headings",
+      "description": "Toggle whether the row and column headings are displayed.",
+      "groupLabels": {
+        "view": "Headings"
+      }
+    },
+    "sheetViewToggleShowHeadingRows": {
+      "label": "Row Headings",
+      "description": "Toggle whether the row headings are displayed.",
+      "groupLabels": {
+        "view": "Row Headings",
+        "headingsOptions": "Rows"
+      }
+    },
+    "sheetViewToggleShowHeadingColumns": {
+      "label": "Column Headings",
+      "description": "Toggle whether the column headings are displayed.",
+      "groupLabels": {
+        "view": "Columns Headings",
+        "headingsOptions": "Columns"
+      }
+    },
+    "sheetViewToggleShowHeadingsNumeric": {
+      "label": "Numeric Headers",
+      "description": "Toggle whether cell headings show numbers or A1 conventions.",
+      "shortcut": "ctrl+shift+h"
+    },
+    "sheetViewToggleFormulaView": {
+      "label": "Show Formulas",
+      "description": "Toggle whether cells show formula or values.",
+      "icon": "FormulaView",
+      "shortcut": "ctrl+`"
+    },
+    "sheetViewToggleShowZeros": {
+      "label": "Show Zeros",
+      "description": "Toggle whether cell with zero value shows '0' or blank.",
+      "icon": "ViewZero"
+    },
+    "selectComments": {
+      "label": "Select Comments",
+      "description": "Select the cells with comments.",
+      "shortcut": "ctrl+shift+O"
+    },
+    "selectAll": {
+      "label": "Select All",
+      "description": "Select the closest data or the entire sheet if no data is nearby.",
+      "shortcut": [
+        "ctrl+A",
+        "ctrl+shift+Space"
+      ]
+    },
+    "selectRegion": {
+      "label": "Select Region",
+      "description": "Select the closest data.",
+      "shortcut": "ctrl+shift+*"
+    },
+    "clearHiddenSelection": {
+      "label": "Select Visible Cells",
+      "description": "Break the selection around hidden rows and columns, leaving only the visible cells selected.",
+      "shortcut": "alt+Semicolon"
+    },
+    "formatTextRotate0": {
+      "label": "No Text Rotation",
+      "description": "Remove all text rotation.",
+      "icon": "TextRotation315",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextRotate45": {
+      "label": "Angle Clockwise",
+      "description": "Angle text 45 degrees downward.",
+      "icon": "TextRotation45",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextRotate90": {
+      "label": "Rotate Text Down",
+      "description": "Angle your text so that it aligns with the left.",
+      "icon": "TextRotation90",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextRotate270": {
+      "label": "Rotate Text Up",
+      "description": "Angle your text so that it aligns with the right.",
+      "icon": "TextRotation2702",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextRotate315": {
+      "label": "Angle Counterclockwise",
+      "description": "Angle text 45 degrees upward.",
+      "icon": "TextRotation315",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextRotateCustom": {
+      "label": "Custom Text Rotation",
+      "description": "Angle your text using a custom angle.",
+      "icon": "TextRotationCustom",
+      "tags": [
+        "mutator"
+      ],
+      "groupLabels": {
+        "textRotateOptions": "Custom"
+      }
+    },
+    "formatTextRotateVertical": {
+      "label": "Vertical Text",
+      "description": "Stack text vertically.",
+      "icon": "TextRotationVertical",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sortAscending": {
+      "label": "Sort Ascending",
+      "description": "Lowest to Highest.",
+      "groupLabels": {
+        "sortOptions": "Ascending",
+        "sortFilterOptions": "Ascending"
+      },
+      "icon": "SortIncrease",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sortDescending": {
+      "label": "Sort Descending",
+      "description": "Highest to Lowest.",
+      "groupLabels": {
+        "sortOptions": "Descending",
+        "sortFilterOptions": "Descending"
+      },
+      "icon": "SortDecrease",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sortCustom": {
+      "label": "Custom Sort…",
+      "description": "Choose more options, such as sorting by multiple columns or rows, and case-sensitive sorts.",
+      "groupLabels": {
+        "sortOptions": "Custom…",
+        "sortFilterOptions": "Custom…"
+      },
+      "icon": "SortCustom",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "protectionSheetToggle": {
+      "label": "{locked, select, true{Unprotect Sheet} other{Protect Sheet}}",
+      "description": "Prevent unwanted changes from others by limiting their ability to edit.\nFor example, you can prevent people from editing locked cells or making formatting changes.",
+      "groupLabels": {
+        "sheet": "{locked, select, true{Unprotect} other{Protect}}"
+      },
+      "icon": "Lock",
+      "params": {
+        "locked": false
+      }
+    },
+    "protectionSheetPause": {
+      "label": "{paused, select, true{Resume Protection} other{Pause Protection}}",
+      "description": "Temporarily lift protection on this sheet without unprotecting it.\nAsks for the sheet password, if there is one. It applies to this session only and is never saved with the file.",
+      "groupLabels": {
+        "protectionOptions": "{paused, select, true{Resume Protection} other{Pause Protection}}"
+      },
+      "icon": "LockOpen",
+      "params": {
+        "paused": false
+      }
+    },
+    "protectionHighlightLocked": {
+      "label": "Highlight Locked Cells",
+      "description": "Shade the cells sheet protection locks, leaving the ranges that stay editable clear.\nA view setting: it changes nothing in the workbook, and works whether or not the sheet is protected.",
+      "groupLabels": {
+        "protectionOptions": "Highlight Locked Cells"
+      }
+    },
+    "manageProtection": {
+      "label": "Manage Protection",
+      "description": "Sheet protection and its options, the ranges that stay editable, and workbook protection - in one place.",
+      "groupLabels": {
+        "protectionOptions": "Manage Protection…",
+        "sheetTabMenu": "Manage Protection…",
+        "contextMenu": "Manage Protection…"
+      },
+      "icon": "Lock"
+    },
+    "protectionUnlockRange": {
+      "label": "Unlock Range…",
+      "description": "Let the selected cells stay editable while the rest of the sheet is protected.",
+      "groupLabels": {
+        "protectionOptions": "Unlock Range…"
+      },
+      "icon": "LockRange"
+    },
+    "formatSheetTabColor": {
+      "label": "Tab Color",
+      "description": "Color the tab to help differentiate for other sheets.",
+      "icon": "stroke.colored"
+    },
+    "formatCellStyle": {
+      "label": "Cell Styles",
+      "description": "A colorful style is a great way to make important data stand out on the sheet.",
+      "groupLabels": {
+        "cellStyle": "Apply"
+      },
+      "icon": "PresetStyles",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTableStyle": {
+      "label": "{hasTable, select, true{Apply Table Style} other{Format as Table}}",
+      "description": "Create a table or apply style to the current table.",
+      "groupLabels": {
+        "tableStyleOptions": "Apply (Keep Styles)"
+      },
+      "icon": "PresetStyles",
+      "tags": [
+        "mutator"
+      ],
+      "params": {
+        "hasTable": false
+      }
+    },
+    "formatTableStyleClearCellStyles": {
+      "label": "Format as Table (Clear Styles)",
+      "description": "Create a table or apply style to the current table and clears all cell styles.",
+      "groupLabels": {
+        "tableStyleOptions": "Apply (Clear Styles)"
+      },
+      "icon": "PresetStyles"
+    },
+    "setDefaultTableStyle": {
+      "label": "Set Default Table Style",
+      "description": "Sets the default table style used when a table is inserted.",
+      "groupLabels": {
+        "tableStyleOptions": "Set As Default"
+      }
+    },
+    "deleteTableStyle": {
+      "label": "Delete Table Style",
+      "description": "Remove the current table style.",
+      "groupLabels": {
+        "tableStyleOptions": "Delete"
+      }
+    },
+    "formatBorder": {
+      "label": "Border",
+      "description": "Create an outline border.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatFillColor": {
+      "label": "Fill Color",
+      "description": "Color the background of the cells to make them stand out.",
+      "icon": "fill.colored",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatFontColor": {
+      "label": "Font Color",
+      "description": "Change the color of your text.",
+      "icon": "text.colored",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatBoldToggle": {
+      "label": "Bold",
+      "description": "Toggle bold formatting of text.",
+      "icon": "TextBold",
+      "shortcut": [
+        "ctrl+B",
+        "ctrl+2"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatItalicToggle": {
+      "label": "Italic",
+      "description": "Toggle italic formatting of text.",
+      "icon": "TextItalic",
+      "shortcut": [
+        "ctrl+I",
+        "ctrl+3"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatUnderlinedToggle": {
+      "label": "Underline",
+      "description": "Underline the text.",
+      "groupLabels": {
+        "underlineOptions": "Single"
+      },
+      "icon": "TextUnderline",
+      "shortcut": [
+        "ctrl+u",
+        "ctrl+4"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatUnderlinedDoubleToggle": {
+      "label": "Double Underline",
+      "description": "Double underline the text.",
+      "groupLabels": {
+        "underlineOptions": "Double"
+      },
+      "icon": "TextUnderlineDouble"
+    },
+    "formatUnderlinedAccountingToggle": {
+      "label": "Accounting Underline",
+      "description": "Use accounting underline for the text.",
+      "groupLabels": {
+        "underlineOptions": "Accounting"
+      },
+      "icon": "TextUnderlineAccounting"
+    },
+    "formatUnderlinedAccountingDoubleToggle": {
+      "label": "Double Accounting Underline",
+      "description": "Use accounting double underline the text.",
+      "groupLabels": {
+        "underlineOptions": "Double Accounting"
+      },
+      "icon": "TextUnderlineAccountingDouble"
+    },
+    "formatStrikeThroughToggle": {
+      "label": "Strikethrough",
+      "description": "Toggle strike-through formatting of text.",
+      "icon": "TextStrike",
+      "shortcut": "ctrl+5",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatSuperscriptToggle": {
+      "label": "Superscript",
+      "description": "Format your text to be smaller and sit at the top of the line.",
+      "icon": "TextSuperscript",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatSubscriptToggle": {
+      "label": "Subscript",
+      "description": "Format your text to be smaller and sit at the bottom of the line.",
+      "icon": "TextSubscript",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignTopToggle": {
+      "label": "Align Top",
+      "description": "Align text to the top.",
+      "icon": "TextVerticalTop",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextOverflowVisibleToggle": {
+      "label": "Overflow Text",
+      "description": "Overflow text to the next cells.",
+      "icon": "TextHorizontalOverflow",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextOverflowWrapToggle": {
+      "label": "Wrap Text",
+      "description": "Wrap text with the existing cell and increase the height as required.",
+      "icon": "TextHorizontalWrap",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextOverflowClipToggle": {
+      "label": "Clip Text",
+      "description": "Clip text that falls outside of the existing cell.",
+      "icon": "TextHorizontalClip",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextOverflowShrinkToggle": {
+      "label": "Shrink Text",
+      "description": "Shrink the text font to fit within existing cell.",
+      "icon": "TextHorizontalShrink",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatTextOverflowEllipsisToggle": {
+      "label": "Ellipsis Text",
+      "description": "Add a trailing '…' to the text to indicate text is partially hidden."
+    },
+    "formatAlignMiddleToggle": {
+      "label": "Align Middle",
+      "description": "Align text so that it is centered between the top and bottom of the cell.",
+      "icon": "TextVerticalCenter",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignBottomToggle": {
+      "label": "Align Bottom",
+      "description": "Align text to the bottom.",
+      "icon": "TextVerticalBottom",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignJustifyVerticalToggle": {
+      "label": "Justify Vertically",
+      "description": "Each 'word' in each line of text inside the cell is evenly distributed across the height of the cell.",
+      "icon": "FormatAlignJustify",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignDistributedVerticalToggle": {
+      "label": "Distribute Vertically",
+      "description": "Justify your content vertically.",
+      "icon": "FormatAlignJustify",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignLeftToggle": {
+      "label": "Align Left",
+      "description": "Align your content to the left.",
+      "icon": "FormatAlignLeft",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignCenterToggle": {
+      "label": "Align Center",
+      "description": "Center your content.",
+      "icon": "FormatAlignCenter",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignRightToggle": {
+      "label": "Align Right",
+      "description": "Align your content to the right.",
+      "icon": "FormatAlignRight",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignJustifyToggle": {
+      "label": "Align Justify",
+      "description": "Justify your content.",
+      "icon": "FormatAlignJustify",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignCenterContinuousToggle": {
+      "label": "Center Across",
+      "description": "Center your content across multiple cells.",
+      "icon": "FormatAlignCenter",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignFillToggle": {
+      "label": "Fill Across",
+      "description": "Repeat the value to fill the entire cell.",
+      "icon": "FormatAlignJustify",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatAlignDistributedHorizontalToggle": {
+      "label": "Distribute Horizontally",
+      "description": "Each 'word' in each line of text inside the cell is evenly distributed across the width of the cell.",
+      "icon": "FormatAlignJustify",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatFontSizeIncrease": {
+      "label": "Increase Font Size",
+      "description": "Make your text a bit bigger.",
+      "icon": "TextSizeIncrease",
+      "shortcut": "ctrl+shift+>",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatFontSizeDecrease": {
+      "label": "Decrease Font Size",
+      "description": "Make your text a bit smaller.",
+      "icon": "TextSizeDecrease",
+      "shortcut": "ctrl+shift+<",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatFontFamily": {
+      "label": "Font",
+      "description": "Select the font your text.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatFontSize": {
+      "label": "Font Size",
+      "description": "Change the size of your text.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatCells": {
+      "label": "Format Cells",
+      "description": "Open the Format Cells pane — number, alignment, font, fill and borders.",
+      "icon": "CellsFormat",
+      "groupLabels": {
+        "numberFormatOptions": "More Number Formats…",
+        "cellsFormatOptions": "Format Cells…",
+        "contextMenu": "Format Cells…"
+      }
+    },
+    "formatCellsNumber": {
+      "label": "Format Cells: Number",
+      "description": "Open the Format Cells pane on the Number tab.",
+      "icon": "CellsFormat",
+      "shortcut": [
+        "ctrl+1",
+        "ctrl+alt+1"
+      ]
+    },
+    "formatCellsFont": {
+      "label": "Format Cells: Font",
+      "description": "Open the Format Cells pane on the Font tab.",
+      "icon": "CellsFormat",
+      "shortcut": [
+        "ctrl+shift+F",
+        "ctrl+alt+F"
+      ]
+    },
+    "formatNumberFormat": {
+      "label": "Number Format",
+      "description": "Choose the format for your cells, such as percentage, currency, date or time.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatGeneralStyle": {
+      "label": "General Style",
+      "description": "Remove all specific formatting.",
+      "shortcut": "ctrl+shift+Backquote",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatNumberStyle": {
+      "label": "Number Style",
+      "description": "Format as number with two decimals and comma.",
+      "shortcut": "ctrl+shift+1",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatTimeStyle": {
+      "label": "Time Style",
+      "description": "Format as time with hour and minute, and AM or PM.",
+      "shortcut": "ctrl+shift+2",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatDateStyle": {
+      "label": "Date Style",
+      "description": "Format as date with day, month, and year.",
+      "shortcut": "ctrl+shift+3",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatAccountingStyle": {
+      "label": "Accounting Style",
+      "description": "Format as Dollars, Euros, or other currency.",
+      "icon": "CurrencyDollar",
+      "shortcut": "ctrl+shift+4",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatNumberFormatPercentStyle": {
+      "label": "Percent Style",
+      "description": "Format as a percentage.",
+      "icon": "Percent",
+      "shortcut": "ctrl+shift+5",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatNumberFormatScientificStyle": {
+      "label": "Scientific Style",
+      "description": "Format as a scientific number with two decimal places .",
+      "shortcut": "ctrl+shift+6",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatNumberFormatCommaStyle": {
+      "label": "Comma Style",
+      "description": "Format with a thousands separator.",
+      "icon": "Comma",
+      "shortcut": "ctrl+,",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatNumberFormatIncreaseDecimal": {
+      "label": "Increase Decimal",
+      "description": "Show more decimal places for a more precise value.",
+      "icon": "IncreaseDecimal2",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatNumberFormatDecreaseDecimal": {
+      "label": "Decrease Decimal",
+      "description": "Show few decimal places.",
+      "icon": "DecreaseDecimal2",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "displayPlaceholdersToggle": {
+      "label": "Display Placeholders",
+      "description": "Switch between hiding objects, displaying objects, and displaying placeholders for objects.",
+      "shortcut": "ctrl+6"
+    },
+    "noOp": {
+      "label": "Do nothing",
+      "description": "Do Nothing.",
+      "shortcut": "ctrl+7"
+    },
+    "displayOutlineSymbolsToggle": {
+      "label": "Display Outline Symbols",
+      "description": "Display or hide the outline symbols.",
+      "shortcut": "ctrl+8"
+    },
+    "hideRows": {
+      "label": "{count, plural, one{Hide Row} other{Hide # Rows}}",
+      "description": "Hide the rows.",
+      "icon": "HideRow",
+      "shortcut": "ctrl+9",
+      "tags": [
+        "mutator"
+      ],
+      "params": {
+        "count": 1
+      }
+    },
+    "unhideRows": {
+      "label": "Unhide Rows",
+      "description": "Unhide the rows.",
+      "icon": "ShowRow",
+      "shortcut": "ctrl+shift+(",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "hideColumns": {
+      "label": "{count, plural, one{Hide Column} other{Hide # Columns}}",
+      "description": "Hide the columns.",
+      "icon": "HideColumn",
+      "shortcut": [
+        "ctrl+0",
+        "ctrl+alt+0"
+      ],
+      "tags": [
+        "mutator"
+      ],
+      "params": {
+        "count": 1
+      }
+    },
+    "unhideColumns": {
+      "label": "Unhide Columns",
+      "description": "Unhide the columns.",
+      "icon": "ShowColumn",
+      "shortcut": "ctrl+shift+)",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "calculate": {
+      "label": "Calculate Sheet",
+      "description": "Recalculate the formulas on the current sheet.",
+      "icon": "CalculateSheet",
+      "shortcut": [
+        "shift+F9",
+        "ctrl+="
+      ]
+    },
+    "insertFunctionDialog": {
+      "label": "Insert Function",
+      "description": "Work with the function in the current cell.",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Function…"
+      },
+      "icon": "FunctionThin",
+      "shortcut": "shift+F3",
+      "borrow": [
+        "workbook"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetZoomOut": {
+      "label": "Zoom Out",
+      "description": "Zoom out to see less detail but more area.",
+      "shortcut": [
+        "ctrl+alt+-",
+        "ctrl+alt+NumpadSubtract"
+      ]
+    },
+    "sheetZoomIn": {
+      "label": "Zoom In",
+      "description": "Zoom in to see more detail but less area.",
+      "shortcut": [
+        "ctrl+alt+=",
+        "ctrl+alt+NumpadAdd"
+      ]
+    },
+    "sheetZoom100": {
+      "label": "Zoom 100%",
+      "description": "Zoom document to 100%.",
+      "shortcut": "ctrl+alt+o"
+    },
+    "sheetZoom200": {
+      "label": "Zoom 200%",
+      "description": "Zoom document to 200%."
+    },
+    "sheetZoom75": {
+      "label": "Zoom 75%",
+      "description": "Zoom document to 75%."
+    },
+    "sheetZoom50": {
+      "label": "Zoom 50%",
+      "description": "Zoom document to 50%."
+    },
+    "sheetZoom25": {
+      "label": "Zoom 25%",
+      "description": "Zoom document to 25%."
+    },
+    "sheetZoomCustom": {
+      "label": "Custom Zoom",
+      "description": "Zoom document to a custom scale.",
+      "groupLabels": {
+        "sheetZoomOptions": "Custom"
+      }
+    },
+    "updateHyperlink": {
+      "label": "Link",
+      "description": "Create a hyperlink to either another webpage or another location within this document.",
+      "groupLabels": {
+        "contextMenu": "Insert Link…",
+        "hyperlinkOptions": "Edit…"
+      },
+      "icon": "HyperlinkInsert",
+      "shortcut": [
+        "ctrl+K",
+        "ctrl+alt+K"
+      ]
+    },
+    "openContextMenu": {
+      "label": "Context Menu",
+      "description": "Open the context menu.",
+      "shortcut": [
+        "shift+F10",
+        "ContextMenu"
+      ]
+    },
+    "openHyperlink": {
+      "label": "Open Link",
+      "description": "Open the hyperlink or goto another location within this document.",
+      "groupLabels": {
+        "hyperlinkOptions": "Open"
+      },
+      "icon": "HyperlinkGoto",
+      "shortcut": "ctrl+Enter"
+    },
+    "deleteHyperlink": {
+      "label": "Delete Link",
+      "description": "Remove the hyperlink.",
+      "groupLabels": {
+        "hyperlinkOptions": "Delete"
+      },
+      "icon": "HyperlinkDelete"
+    },
+    "insertNote": {
+      "label": "Insert Note",
+      "description": "Add a note to the cell.",
+      "groupLabels": {
+        "contextMenu": "Insert Note…"
+      },
+      "shortcut": "shift+F2"
+    },
+    "updateComments": {
+      "label": "Comments",
+      "description": "Add a comment to the current cell.",
+      "groupLabels": {
+        "contextMenu": "Insert Comments…"
+      },
+      "icon": "CommentInsert",
+      "shortcut": "ctrl+alt+M",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "deleteComments": {
+      "label": "Delete Comments",
+      "description": "Remove any comments.",
+      "icon": "CommentDelete",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "insertImageFromFile": {
+      "label": "Insert Image",
+      "description": "Insert a picture from your device.",
+      "groupLabels": {
+        "contextMenu": "Insert Image…",
+        "insertImageOptions": "From Device…"
+      },
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "insertImageFromURL": {
+      "label": "Insert Image From Web",
+      "description": "Insert a picture from the web.",
+      "groupLabels": {
+        "insertImageOptions": "From the Web…"
+      },
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundToggle": {
+      "label": "Background",
+      "description": "Add or remove the picture that is tiled behind the sheet's cells.",
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundFromFile": {
+      "label": "Sheet Background",
+      "description": "Use a picture from your device as the sheet's background.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "From Device…"
+      },
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundFromURL": {
+      "label": "Sheet Background From Web",
+      "description": "Use a picture from the web as the sheet's background.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "From the Web…"
+      },
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundDelete": {
+      "label": "Delete Background",
+      "description": "Remove the sheet's background picture.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "Delete Background"
+      },
+      "icon": "Delete",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "manageDataValidation": {
+      "label": "Data Validation",
+      "description": "Manage data validation rules to limit the type of data entered in a cell.",
+      "groupLabels": {
+        "contextMenu": "Data Validation…"
+      },
+      "icon": "DataValidation"
+    },
+    "manageConditionalFormat": {
+      "label": "Conditional Formatting",
+      "description": "Manage conditional formatting rules to change how cells look based on their values.",
+      "groupLabels": {
+        "contextMenu": "Conditional Formatting…",
+        "conditionalFormatOptions": "Manage Rules…"
+      },
+      "icon": "ConditionalFormatOptions"
+    },
+    "conditionalFormatNewRule": {
+      "label": "New Conditional Formatting Rule",
+      "description": "Create a new conditional formatting rule for the selected cells.",
+      "groupLabels": {
+        "conditionalFormatOptions": "New Rule…"
+      }
+    },
+    "conditionalFormatGreaterThan": {
+      "label": "Highlight Cells Greater Than",
+      "description": "Highlight cells whose value is greater than a value you set.",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Greater Than…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatLessThan": {
+      "label": "Highlight Cells Less Than",
+      "description": "Highlight cells whose value is less than a value you set.",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Less Than…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatBetween": {
+      "label": "Highlight Cells Between",
+      "description": "Highlight cells whose value is between two values you set.",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Between…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatEqualTo": {
+      "label": "Highlight Cells Equal To",
+      "description": "Highlight cells whose value equals a value you set.",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Equal To…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatTextContains": {
+      "label": "Highlight Cells with Text that Contains",
+      "description": "Highlight cells whose text contains a value you set.",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Text that Contains…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatDateOccurring": {
+      "label": "Highlight Cells with a Date Occurring",
+      "description": "Highlight cells whose date falls in a period you set.",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "A Date Occurring…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatDuplicateValues": {
+      "label": "Highlight Duplicate Values",
+      "description": "Highlight cells whose value appears more than once in the selection.",
+      "groupLabels": {
+        "conditionalFormatHighlightOptions": "Duplicate Values…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatTopItems": {
+      "label": "Highlight Top 10 Items",
+      "description": "Highlight the highest-ranked values in the selection.",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Top 10 Items…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatTopPercent": {
+      "label": "Highlight Top 10%",
+      "description": "Highlight the top percentage of values in the selection.",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Top 10%…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatBottomItems": {
+      "label": "Highlight Bottom 10 Items",
+      "description": "Highlight the lowest-ranked values in the selection.",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Bottom 10 Items…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatBottomPercent": {
+      "label": "Highlight Bottom 10%",
+      "description": "Highlight the bottom percentage of values in the selection.",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Bottom 10%…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatAboveAverage": {
+      "label": "Highlight Above Average",
+      "description": "Highlight values above the average of the selection.",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Above Average…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatBelowAverage": {
+      "label": "Highlight Below Average",
+      "description": "Highlight values below the average of the selection.",
+      "groupLabels": {
+        "conditionalFormatTopBottomOptions": "Below Average…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatDataBar": {
+      "label": "Data Bars",
+      "description": "Add a colored bar to each cell whose length represents its value.",
+      "groupLabels": {
+        "conditionalFormatOptions": "Data Bars"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatColorScale": {
+      "label": "Color Scales",
+      "description": "Color each cell along a gradient according to its value.",
+      "groupLabels": {
+        "conditionalFormatOptions": "Color Scales"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatIconSet": {
+      "label": "Icon Sets",
+      "description": "Show an icon in each cell according to its value.",
+      "groupLabels": {
+        "conditionalFormatOptions": "Icon Sets"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatClearSelection": {
+      "label": "Clear Rules from Selected Cells",
+      "description": "Remove the conditional formatting rules that touch the selected cells.",
+      "groupLabels": {
+        "conditionalFormatClearOptions": "From Selected Cells"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "conditionalFormatClearSheet": {
+      "label": "Clear Rules from Entire Sheet",
+      "description": "Remove every conditional formatting rule on this sheet.",
+      "groupLabels": {
+        "conditionalFormatClearOptions": "From Entire Sheet"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "manageProtectedRange": {
+      "label": "Allow Edit Ranges",
+      "description": "Manage ranges that stay editable while the sheet is protected.",
+      "groupLabels": {
+        "contextMenu": "Allow Edit Ranges…"
+      },
+      "icon": "Lock"
+    },
+    "dataRemoveDuplicates": {
+      "label": "Remove Duplicates",
+      "description": "Remove duplicate rows from a sheet.",
+      "icon": "DataRemoveDuplicates",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "dataTextToColumns": {
+      "label": "Text to Columns",
+      "description": "Split a single columns of text into multiple columns.",
+      "icon": "DataTextToColumns",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "insertTable": {
+      "label": "Insert Table",
+      "description": "Create a table. Tables enable auto formatting, sorting, filtering, and other advanced features.",
+      "groupLabels": {
+        "contextMenu": "Insert Table…"
+      },
+      "icon": "TableInsert",
+      "shortcut": [
+        "ctrl+L"
+      ]
+    },
+    "editTable": {
+      "label": "Edit Table…",
+      "description": "Edit the table to adjust formatting, sorting, filtering, or other advanced features.",
+      "groupLabels": {
+        "tableOptions": "Edit…",
+        "namedItem": "Edit…"
+      },
+      "icon": "TableInsert"
+    },
+    "deleteTable": {
+      "label": "Delete Table",
+      "description": "Remove the table.\n\nThe table and table specific styling will be removed but the values will be preserved.",
+      "groupLabels": {
+        "tableOptions": "Delete",
+        "namedItem": "Delete"
+      },
+      "icon": "TableInsert",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "convertTableToRange": {
+      "label": "Convert To Range",
+      "description": "Convert the table into a normal range  of cells.\n\nThe values and the formatting are preserved.",
+      "icon": "TableInsert"
+    },
+    "tableFilterToggle": {
+      "label": "Sort & Filter",
+      "description": "Toggle Auto Table on/off.",
+      "groupLabels": {
+        "filterOptions": "Filter",
+        "sortFilterOptions": "Sort & Filter"
+      },
+      "icon": "FilterToggle",
+      "shortcut": "ctrl+shift+L"
+    },
+    "formatPainterToggle": {
+      "label": "Format Painter",
+      "description": "Apply style to another part of your workbook.",
+      "icon": "FormatPaint.yellow"
+    },
+    "insertCells": {
+      "label": "{span, select, rows{{mode, select, copy{Insert Copied Rows} cut{Insert Cut Rows} other{{count, plural, one{Insert Row} other{Insert # Rows}}}}} columns{{mode, select, copy{Insert Copied Columns} cut{Insert Cut Columns} other{{count, plural, one{Insert Column} other{Insert # Columns}}}}} other{{mode, select, copy{Insert Copied Cells} cut{Insert Cut Cells} other{Insert Cells}}{shift, select, right{ (Shift Right)} down{ (Shift Down)} other{}}}}",
+      "description": "Inserts cells at the current selection.",
+      "groupLabels": {
+        "insertCellsOptions": "{mode, select, copy{Copied At Selection} cut{Cut At Selection} other{At Selection}}"
+      },
+      "icon": "InsertCells",
+      "shortcut": "ctrl+shift+Equal",
+      "params": {
+        "mode": "none",
+        "shift": "none",
+        "span": "none",
+        "count": 1
+      }
+    },
+    "insertCellsShiftRight": {
+      "label": "{span, select, columns{{mode, select, copy{Insert Copied Columns} cut{Insert Cut Columns} other{{count, plural, one{Insert Column} other{Insert # Columns}}}}} other{Insert Cells (Shift Right)}}",
+      "description": "Insert cells to the left and shift the current cells to the right.",
+      "groupLabels": {
+        "insertCellsOptions": "{span, select, columns{{mode, select, copy{Copied Columns} cut{Cut Columns} other{{count, plural, one{Column} other{# Columns}}}}} other{Shift Right}}"
+      },
+      "icon": "InsertCellsRight",
+      "params": {
+        "mode": "none",
+        "span": "none",
+        "count": 1
+      }
+    },
+    "insertCellsShiftDown": {
+      "label": "{span, select, rows{{mode, select, copy{Insert Copied Rows} cut{Insert Cut Rows} other{{count, plural, one{Insert Row} other{Insert # Rows}}}}} other{Insert Cells (Shift Down)}}",
+      "description": "Insert cells above and shift the current cells downward.",
+      "groupLabels": {
+        "insertCellsOptions": "{span, select, rows{{mode, select, copy{Copied Rows} cut{Cut Rows} other{{count, plural, one{Row} other{# Rows}}}}} other{Shift Down}}"
+      },
+      "icon": "InsertCellsDown",
+      "params": {
+        "mode": "none",
+        "span": "none",
+        "count": 1
+      }
+    },
+    "insertRows": {
+      "label": "{mode, select, copy{Insert Copied Rows} cut{Insert Cut Rows} other{{count, plural, one{Insert Row} other{Insert # Rows}}}}",
+      "description": "Insert a row above the current position.",
+      "groupLabels": {
+        "insertCellsOptions": "{mode, select, copy{Copied Rows} cut{Cut Rows} other{{count, plural, one{Row} other{# Rows}}}}"
+      },
+      "icon": "InsertRow",
+      "params": {
+        "count": 1,
+        "mode": "none"
+      }
+    },
+    "insertColumns": {
+      "label": "{mode, select, copy{Insert Copied Columns} cut{Insert Cut Columns} other{{count, plural, one{Insert Column} other{Insert # Columns}}}}",
+      "description": "Insert a column before the current position.",
+      "groupLabels": {
+        "insertCellsOptions": "{mode, select, copy{Copied Columns} cut{Cut Columns} other{{count, plural, one{Column} other{# Columns}}}}"
+      },
+      "icon": "InsertColumn2",
+      "params": {
+        "count": 1,
+        "mode": "none"
+      }
+    },
+    "insertRowsAfter": {
+      "label": "{mode, select, copy{Insert Copied Rows Below} cut{Insert Cut Rows Below} other{{count, plural, one{Insert Row Below} other{Insert # Rows Below}}}}",
+      "description": "Insert a row below the current position.",
+      "groupLabels": {
+        "insertCellsOptions": "Row Below"
+      },
+      "params": {
+        "count": 1,
+        "mode": "none"
+      }
+    },
+    "insertColumnsAfter": {
+      "label": "{mode, select, copy{Insert Copied Columns After} cut{Insert Cut Columns After} other{{count, plural, one{Insert Column After} other{Insert # Columns After}}}}",
+      "description": "Insert a column after the current position.",
+      "groupLabels": {
+        "insertCellsOptions": "Column After"
+      },
+      "params": {
+        "count": 1,
+        "mode": "none"
+      }
+    },
+    "deleteCells": {
+      "label": "{span, select, rows{{count, plural, one{Delete Row} other{Delete # Rows}}} columns{{count, plural, one{Delete Column} other{Delete # Columns}}} other{Delete Cells{shift, select, left{ (Shift Left)} up{ (Shift Up)} other{}}}}",
+      "description": "Delete the cells.",
+      "groupLabels": {
+        "deleteCellsOptions": "At Selection"
+      },
+      "icon": "DeleteCells",
+      "shortcut": "ctrl+Minus",
+      "params": {
+        "span": "none",
+        "count": 1,
+        "shift": "none"
+      }
+    },
+    "deleteCellsShiftUp": {
+      "label": "{span, select, rows{{count, plural, one{Delete Row} other{Delete # Rows}}} other{Delete Cells (Shift Up)}}",
+      "description": "Delete cells the current current downward.",
+      "groupLabels": {
+        "deleteCellsOptions": "{span, select, rows{{count, plural, one{Row} other{# Rows}}} other{Shift up}}"
+      },
+      "icon": "DeleteCellsUp",
+      "params": {
+        "span": "none",
+        "count": 1
+      }
+    },
+    "deleteCellsShiftLeft": {
+      "label": "{span, select, columns{{count, plural, one{Delete Column} other{Delete # Columns}}} other{Delete Cells (Shift Left)}}",
+      "description": "Delete cells the current cells to the right.",
+      "groupLabels": {
+        "deleteCellsOptions": "{span, select, columns{{count, plural, one{Column} other{# Columns}}} other{Shift Left}}"
+      },
+      "icon": "DeleteCellsLeft",
+      "params": {
+        "span": "none",
+        "count": 1
+      }
+    },
+    "deleteRows": {
+      "label": "{count, plural, one{Delete Row} other{Delete # Rows}}",
+      "description": "Delete the rows at the current selection.",
+      "groupLabels": {
+        "deleteCellsOptions": "{count, plural, one{Row} other{# Rows}}"
+      },
+      "icon": "DeleteRows",
+      "params": {
+        "count": 1
+      }
+    },
+    "deleteColumns": {
+      "label": "{count, plural, one{Delete Column} other{Delete # Columns}}",
+      "description": "Delete the columns at the current selection.",
+      "groupLabels": {
+        "deleteCellsOptions": "{count, plural, one{Column} other{# Columns}}"
+      },
+      "icon": "DeleteColumns",
+      "params": {
+        "count": 1
+      }
+    },
+    "flashFill": {
+      "label": "Flash Fill",
+      "description": "Do a flash fill.",
+      "shortcut": [
+        "ctrl+e",
+        "ctrl+alt+e"
+      ]
+    },
+    "fillDown": {
+      "label": "Fill Down",
+      "description": "Copy the top-most value from the selection to the bottom of the selection.",
+      "icon": "FillDown",
+      "shortcut": [
+        "ctrl+d",
+        "ctrl+alt+d"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "fillRight": {
+      "label": "Fill Right",
+      "description": "Copy the left-most value from the selection to the right of the selection.",
+      "icon": "FillRight",
+      "shortcut": [
+        "ctrl+r"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "fillUp": {
+      "label": "Fill Up",
+      "description": "Copy the bottom-most value from the selection to the top of the selection.",
+      "icon": "FillUp",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "fillLeft": {
+      "label": "Fill Left",
+      "description": "Copy the right-most value from the selection to the left of the selection.",
+      "icon": "FillLeft",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "fillSeries": {
+      "label": "Series…",
+      "description": "Fill the selection with a series of numbers or dates, choosing the type, step value and stop value.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatBorderAddOutline": {
+      "label": "Add Outline Border",
+      "description": "Apply an outline border.",
+      "shortcut": "ctrl+shift+7",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatBorderClearOutline": {
+      "label": "Remove Outline Border",
+      "description": "Remove the outline border.",
+      "shortcut": "ctrl+shift+_",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "formatIndentDecrease": {
+      "label": "Decrease Indent",
+      "description": "Move your content closer to the border.",
+      "icon": "FormatIndentDecrease",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "formatIndentIncrease": {
+      "label": "Increase Indent",
+      "description": "Move your content further from the border.",
+      "icon": "FormatIndentIncrease",
+      "tags": [
+        "mutator",
+        "quickAction"
+      ]
+    },
+    "mergeToggle": {
+      "label": "Merge",
+      "description": "Combine and center the contents into a single cell.",
+      "icon": "MergeAll",
+      "shortcut": "ctrl+m"
+    },
+    "mergeHorizontal": {
+      "label": "Merge Horizontally",
+      "description": "Combine the contents into horizontal rows.",
+      "icon": "MergeHorizontal"
+    },
+    "mergeVertical": {
+      "label": "Merge Vertically",
+      "description": "Combine the contents into vertical columns.",
+      "icon": "MergeVertical"
+    },
+    "unmerge": {
+      "label": "Unmerge",
+      "description": "Split merged cells into multiple cells.",
+      "icon": "MergeUnMerge"
+    },
+    "clearContents": {
+      "label": "Clear Contents",
+      "description": "Clear only the contents in the cells.\n\nThe formatting is not cleared.",
+      "groupLabels": {
+        "clearOptions": "Contents"
+      },
+      "icon": "ClearContents",
+      "shortcut": "Delete",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "clearFormats": {
+      "label": "Clear Formats",
+      "description": "Clear only the formatting that is applied to the cells.",
+      "groupLabels": {
+        "clearOptions": "Formats"
+      },
+      "icon": "ClearFormats",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "clearHyperlinks": {
+      "label": "Clear Hyperlinks",
+      "description": "Clear only the hyperlinks in the cells.",
+      "groupLabels": {
+        "clearOptions": "Hyperlinks"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "clearComments": {
+      "label": "Clear Comments",
+      "description": "Clear the comments from the cells.",
+      "groupLabels": {
+        "clearOptions": "Comments"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "clearAll": {
+      "label": "Clear All",
+      "description": "Clears everything from the cells.\n\nAll contents and formatting are removed.",
+      "groupLabels": {
+        "clearOptions": "All"
+      },
+      "icon": "ClearAll",
+      "shortcut": "ctrl+shift+Delete",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "freezeToggle": {
+      "label": "Freeze Panes",
+      "description": "Keep rows and columns visible while the rest of the sheet scrolls (based on current selection).",
+      "icon": "FreezeBoth"
+    },
+    "freezeToggleHorizontal": {
+      "label": "Freeze Top Rows",
+      "description": "Keep the top rows visible while scrolling through the rest of the sheet.",
+      "icon": "FreezeRows"
+    },
+    "freezeToggleVertical": {
+      "label": "Freeze Left Columns",
+      "description": "Keep the left columns visible while scrolling through the rest of the sheet.",
+      "icon": "FreezeColumns"
+    },
+    "unfreeze": {
+      "label": "Unfreeze Panes",
+      "description": "Unfreeze both the rows and columns.",
+      "icon": "MergeUnMerge"
+    },
+    "autoFitRows": {
+      "label": "Autofit Rows",
+      "description": "Adjust the rows to the best height.",
+      "icon": "RowsResizeAuto",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "resizeRows": {
+      "label": "Resize Rows",
+      "description": "Resize the rows to the specified height.",
+      "icon": "RowsResize",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "autoFitColumns": {
+      "label": "Autofit Columns",
+      "description": "Adjust the columns to the best width.",
+      "icon": "ColumnsResizeAuto",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "resizeColumns": {
+      "label": "Resize Columns",
+      "description": "Resize the columns to the specified width.",
+      "icon": "ColumnsResize",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "pasteValues": {
+      "label": "Paste Values",
+      "description": "Paste only the values of the selected cells.\n\nThe formatting is not applied.",
+      "groupLabels": {
+        "pasteOptions": "Values"
+      },
+      "icon": "PasteValues",
+      "shortcut": "ctrl+shift+V"
+    },
+    "pasteFormats": {
+      "label": "Paste Formatting",
+      "description": "Paste only the formats of the selected cells.\n\nThe content is not applied.",
+      "groupLabels": {
+        "pasteOptions": "Formatting"
+      },
+      "icon": "PasteFormats"
+    },
+    "pasteFormulas": {
+      "label": "Paste Formulas",
+      "description": "Paste only the formulas of the selected cells. The values and formatting is not applied.",
+      "groupLabels": {
+        "pasteOptions": "Formulas"
+      },
+      "icon": "PasteFormulas"
+    },
+    "pasteTranspose": {
+      "label": "Paste Transpose",
+      "description": "Paste with the rows and columns flipped.",
+      "groupLabels": {
+        "pasteOptions": "Transpose"
+      },
+      "icon": "PasteTranspose"
+    },
+    "pasteLinks": {
+      "label": "Paste Links",
+      "description": "Paste as formula references to the original cells.",
+      "groupLabels": {
+        "pasteOptions": "Links"
+      },
+      "icon": "PasteLinks"
+    },
+    "undo": {
+      "label": "Undo",
+      "icon": "Undo",
+      "shortcut": "ctrl+z",
+      "borrow": [
+        "workbook"
+      ],
+      "description": "{hasAction, select, true{Undo {action}} other{Undo the last action.}}",
+      "params": {
+        "hasAction": false,
+        "action": ""
+      }
+    },
+    "redo": {
+      "label": "Redo",
+      "icon": "Redo",
+      "shortcut": [
+        "ctrl+y",
+        "F4",
+        "alt+Enter"
+      ],
+      "borrow": [
+        "workbook"
+      ],
+      "description": "{hasAction, select, true{Redo {action}} other{Repeat the last action or undo the redo.}}",
+      "params": {
+        "hasAction": false,
+        "action": ""
+      }
+    }
+  }
+}
