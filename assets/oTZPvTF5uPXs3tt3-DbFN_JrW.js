@@ -1,0 +1,1 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";var t;e((()=>{t={FILTERXML:{s:`Returns specific data from XML content using the specified XPath.`,p:{xml:{d:`is a string in valid XML format.`},xpath:{d:`is a string in standard XPath format.`}}}}}))();export{t as default};

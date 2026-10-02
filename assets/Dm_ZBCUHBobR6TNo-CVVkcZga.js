@@ -1,0 +1,1 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";var t;e((()=>{t={DELTA:{s:`Tests whether two numbers are equal.`,p:{number1:{d:`is the first number.`},number2:{d:`is the second number.`}}},GESTEP:{s:`Tests whether a number is greater than a threshold value.`,p:{number:{d:`is the value to test against step.`},step:{d:`is the threshold value.`}}}}}))();export{t as default};

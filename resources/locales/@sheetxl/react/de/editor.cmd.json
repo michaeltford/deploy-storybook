@@ -1,0 +1,128 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "editor",
+  "label": "Zelleneditor",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "relativeReferencesToggle": {
+      "label": "Bezüge umschalten",
+      "description": "Zellbezüge von relativ zu absolut, zu teilweise absolut und wieder zu relativ umschalten.",
+      "shortcut": "F4",
+      "tags": [
+        "editor"
+      ]
+    },
+    "toggleEditorFocus": {
+      "label": "Editorfokus umschalten",
+      "description": "Den Fokus zwischen Editoren wie dem Formeleditor und dem Inline-Editor wechseln.",
+      "shortcut": "ctrl+F2",
+      "tags": [
+        "editor"
+      ]
+    },
+    "insertFunctionSum": {
+      "label": "Schnellsumme",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Summe"
+      },
+      "description": "Schnelle Summe der Zellen.",
+      "icon": "FunctionSum",
+      "shortcut": "alt+=",
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertFunctionAverage": {
+      "label": "Schnellmittelwert",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Mittelwert"
+      },
+      "description": "Schneller Mittelwert der Zellen.",
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertFunctionCount": {
+      "label": "Schnellanzahl",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Anzahl Zahlen"
+      },
+      "description": "Schnelle Anzahl der Zellen.",
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertFunctionMax": {
+      "label": "Schnellmaximum",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Maximum"
+      },
+      "description": "Schnelles Maximum der Zellen.",
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertFunctionMin": {
+      "label": "Schnellminimum",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Minimum"
+      },
+      "description": "Schnelles Minimum der Zellen.",
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertCurrentTime": {
+      "label": "Aktuelle Uhrzeit",
+      "description": "Die aktuelle Uhrzeit einfügen.",
+      "shortcut": "ctrl+shift+Semicolon",
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertCurrentDate": {
+      "label": "Aktuelles Datum",
+      "description": "Das aktuelle Datum einfügen.",
+      "shortcut": "ctrl+Semicolon",
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertValueAbove": {
+      "label": "Von oben kopieren",
+      "description": "Den Wert aus der Zelle über der aktiven Zelle in die Zelle oder die Bearbeitungsleiste kopieren.",
+      "shortcut": [
+        "ctrl+Quote",
+        "ctrl+shift+\""
+      ],
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    }
+  }
+}

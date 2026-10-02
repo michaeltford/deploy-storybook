@@ -1,0 +1,209 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "movable",
+  "label": "Objects",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "moveToFront": {
+      "label": "Bring to Front",
+      "description": "Move to the front of all of the other drawings.",
+      "icon": "DrawToFront",
+      "shortcut": "ctrl+shift+BracketRight"
+    },
+    "moveForward": {
+      "label": "Bring Forward",
+      "description": "Move forward one layer in the z order.",
+      "icon": "DrawMoveForward",
+      "shortcut": "ctrl+BracketRight"
+    },
+    "moveToBack": {
+      "label": "Send to Back",
+      "description": "Move to the back of all of the other drawings.",
+      "icon": "DrawToBack",
+      "shortcut": "ctrl+shift+BracketLeft"
+    },
+    "moveBackward": {
+      "label": "Send Backward",
+      "description": "Move backwards one layer in the z order.",
+      "icon": "DrawMoveBackward",
+      "shortcut": "ctrl+BracketLeft"
+    },
+    "deleteDrawings": {
+      "label": "Delete",
+      "description": "Delete the selected drawings.",
+      "shortcut": "Delete"
+    },
+    "selectAllDrawings": {
+      "label": "Select All Drawings",
+      "description": "Select all of the drawings on the sheet.",
+      "shortcut": "ctrl+A"
+    },
+    "toggleLockAspectRatio": {
+      "label": "Lock Aspect Ratio",
+      "description": "Toggle whether the aspect ratio should be maintained when resizing from corners.",
+      "icon": "DrawAspect"
+    },
+    "formatAnchorTypeTwoCell": {
+      "label": "Move and size with cells",
+      "description": "Set your drawing to move and resize when underling sheet resizes.",
+      "icon": "DrawResize"
+    },
+    "formatAnchorTypeOneCell": {
+      "label": "Move but don't size with cells",
+      "description": "Set your drawing to only move when underling sheet resizes.",
+      "icon": "DrawResize"
+    },
+    "formatAnchorTypeAbsolute": {
+      "label": "Don't move or size with cells",
+      "description": "Set your drawing to never move or resize when underling sheet resizes.",
+      "icon": "DrawResize"
+    },
+    "formatDrawNudgeLeft": {
+      "label": "Nudge Left",
+      "description": "Move the selected drawings 1 pixel left.",
+      "shortcut": "ArrowLeft"
+    },
+    "formatDrawNudgeRight": {
+      "label": "Nudge Right",
+      "description": "Move the selected drawings 1 pixel right.",
+      "shortcut": "ArrowRight"
+    },
+    "formatDrawNudgeUp": {
+      "label": "Nudge Up",
+      "description": "Move the selected drawings 1 pixel up.",
+      "shortcut": "ArrowUp"
+    },
+    "formatDrawNudgeDown": {
+      "label": "Nudge Down",
+      "description": "Move the selected drawings 1 pixel down.",
+      "shortcut": "ArrowDown"
+    },
+    "formatDrawNudgeLeftLarge": {
+      "label": "Nudge Left (Large)",
+      "description": "Move the selected drawings 10 pixels left.",
+      "shortcut": "ctrl+ArrowLeft"
+    },
+    "formatDrawNudgeRightLarge": {
+      "label": "Nudge Right (Large)",
+      "description": "Move the selected drawings 10 pixels right.",
+      "shortcut": "ctrl+ArrowRight"
+    },
+    "formatDrawNudgeUpLarge": {
+      "label": "Nudge Up (Large)",
+      "description": "Move the selected drawings 10 pixels up.",
+      "shortcut": "ctrl+ArrowUp"
+    },
+    "formatDrawNudgeDownLarge": {
+      "label": "Nudge Down (Large)",
+      "description": "Move the selected drawings 10 pixels down.",
+      "shortcut": "ctrl+ArrowDown"
+    },
+    "formatDrawSizeIncrease": {
+      "label": "Increase Size",
+      "description": "Grow the selected drawings by 10%.",
+      "shortcut": [
+        "shift+ArrowRight",
+        "shift+ArrowUp",
+        "ctrl+shift+ArrowRight",
+        "ctrl+shift+ArrowUp"
+      ]
+    },
+    "formatDrawSizeDecrease": {
+      "label": "Decrease Size",
+      "description": "Shrink the selected drawings by 10%.",
+      "shortcut": [
+        "shift+ArrowLeft",
+        "shift+ArrowDown",
+        "ctrl+shift+ArrowLeft",
+        "ctrl+shift+ArrowDown"
+      ]
+    },
+    "formatDrawRotateLeft": {
+      "label": "Rotate Left",
+      "description": "Rotate the selected drawings 10 degrees counterclockwise.",
+      "shortcut": [
+        "alt+ArrowLeft",
+        "ctrl+alt+ArrowLeft"
+      ]
+    },
+    "formatDrawRotateRight": {
+      "label": "Rotate Right",
+      "description": "Rotate the selected drawings 10 degrees clockwise.",
+      "shortcut": [
+        "alt+ArrowRight",
+        "ctrl+alt+ArrowRight"
+      ]
+    },
+    "formatDrawAlignLeft": {
+      "label": "Align Left",
+      "description": "Align the selected drawings to the left.",
+      "icon": "DrawAlignLeft"
+    },
+    "formatDrawAlignCenter": {
+      "label": "Align Center",
+      "description": "Align the selected drawings vertically relative to each other.",
+      "icon": "DrawAlignCenter"
+    },
+    "formatDrawAlignRight": {
+      "label": "Align Right",
+      "description": "Align the selected drawings to the right.",
+      "icon": "DrawAlignRight"
+    },
+    "formatDrawAlignTop": {
+      "label": "Align Top",
+      "description": "Align the selected drawings to the top.",
+      "icon": "DrawAlignTop"
+    },
+    "formatDrawAlignMiddle": {
+      "label": "Align Middle",
+      "description": "Align the selected drawings horizontally relative to each other.",
+      "icon": "DrawAlignMiddle"
+    },
+    "formatDrawAlignBottom": {
+      "label": "Align Bottom",
+      "description": "Align the selected drawings to the bottom.",
+      "icon": "DrawAlignBottom"
+    },
+    "formatDrawDistributeHorz": {
+      "label": "Distribute Horizontally",
+      "description": "Distribute the selected drawings horizontally with equal spacing between each.",
+      "icon": "DrawDistributeHorz"
+    },
+    "formatDrawDistributeVert": {
+      "label": "Distribute Vertically",
+      "description": "Distribute the selected drawings vertically with equal spacing between each.",
+      "icon": "DrawDistributeVert"
+    },
+    "formatDrawFlipHorz": {
+      "label": "Flip Horizontally",
+      "description": "Flip the selected drawings horizontally."
+    },
+    "formatDrawFlipVert": {
+      "label": "Flip Vertically",
+      "description": "Flip the selected drawings vertically."
+    },
+    "formatDrawGroup": {
+      "label": "Group",
+      "description": "Group the selected drawings into a single drawing.",
+      "icon": "DrawGroup"
+    },
+    "formatDrawUngroup": {
+      "label": "Ungroup",
+      "description": "Break the group of a drawing into individual drawings.",
+      "icon": "DrawUngroup"
+    },
+    "formatDrawSwapShapes": {
+      "label": "Swap Shapes",
+      "description": "Swap the positions of the swap."
+    },
+    "formatDrawSwapShapesHorz": {
+      "label": "Swap Shapes Horizontally",
+      "description": "Swap the positions of the swap horizontally."
+    },
+    "formatDrawSwapShapesVert": {
+      "label": "Swap Shapes Vertically",
+      "description": "Swap the positions of the swap vertically."
+    }
+  }
+}

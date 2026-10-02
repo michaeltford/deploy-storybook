@@ -1,0 +1,16 @@
+{
+  "kind": "locales",
+  "package": "@sheetxl/utils-mui",
+  "entries": [
+    {
+      "path": "de/ui.msg.json",
+      "locale": "de",
+      "role": "messages"
+    },
+    {
+      "path": "en/ui.msg.json",
+      "locale": "en",
+      "role": "messages"
+    }
+  ]
+}

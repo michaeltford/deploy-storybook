@@ -1,0 +1,1 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";var t;e((()=>{t={BAHTTEXT:{s:`Converts a number to baht (Thai) text.`,c:`Baht`,p:{number:{d:`is the number to convert.`}},h:`Thai`}}}))();export{t as default};

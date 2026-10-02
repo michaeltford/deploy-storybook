@@ -1,0 +1,1 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";var t;e((()=>{t={ENCODEURL:{s:`Returns a URL-encoded string.`,p:{text:{d:`is a string to be URL encoded.`}}},WEBSERVICE:{s:`Retrieves data from a web service.`,p:{url:{d:`is the URL of the web service.`}}}}}))();export{t as default};

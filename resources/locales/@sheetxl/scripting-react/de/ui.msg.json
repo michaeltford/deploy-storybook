@@ -1,0 +1,9 @@
+{
+  "reason.noChangesToSave": "Keine Änderungen zum Speichern",
+  "reason.scriptsReadOnly": "Skripte können nicht geändert werden, solange die Arbeitsmappenstruktur geschützt ist.",
+  "scriptEditor.glyph.autoRun": "Automatisch ausführen",
+  "scriptEditor.glyph.formula": "Formel",
+  "scriptEditor.glyph.macro": "Makro",
+  "scriptEditor.loading": "Wird geladen...",
+  "scriptEditor.saving": "Skripte werden gespeichert..."
+}

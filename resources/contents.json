@@ -1,0 +1,159 @@
+{
+  "entries": [
+    {
+      "path": "locales/@sheetxl/formulas-extended/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/formulas-extended/de/functions.json"
+    },
+    {
+      "path": "locales/@sheetxl/formulas/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/formulas/de/functions.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/clipboard.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/editor.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/movable.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/selection.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/sheet.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/table.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/workbook.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/clipboard.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/editor.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/movable.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/selection.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/sheet.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/table.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/workbook.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/de/groups.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/de/scriptEditor.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/de/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/de/workbookScript.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/en/groups.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/en/scriptEditor.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/en/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/en/workbookScript.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/sdk/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/sdk/de/grammar.json"
+    },
+    {
+      "path": "locales/@sheetxl/sdk/de/model.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/sdk/en/model.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/de/groups.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/de/studio.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/de/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/en/groups.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/en/studio.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/en/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/utils-mui/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/utils-mui/de/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/utils-mui/en/ui.msg.json"
+    }
+  ],
+  "folders": [
+    "locales",
+    "locales/@sheetxl",
+    "locales/@sheetxl/formulas",
+    "locales/@sheetxl/formulas-extended",
+    "locales/@sheetxl/formulas-extended/de",
+    "locales/@sheetxl/formulas/de",
+    "locales/@sheetxl/react",
+    "locales/@sheetxl/react/de",
+    "locales/@sheetxl/react/en",
+    "locales/@sheetxl/scripting-react",
+    "locales/@sheetxl/scripting-react/de",
+    "locales/@sheetxl/scripting-react/en",
+    "locales/@sheetxl/sdk",
+    "locales/@sheetxl/sdk/de",
+    "locales/@sheetxl/sdk/en",
+    "locales/@sheetxl/studio-mui",
+    "locales/@sheetxl/studio-mui/de",
+    "locales/@sheetxl/studio-mui/en",
+    "locales/@sheetxl/utils-mui",
+    "locales/@sheetxl/utils-mui/de",
+    "locales/@sheetxl/utils-mui/en"
+  ]
+}
