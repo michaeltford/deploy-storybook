@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{a as t,i as n,n as r,r as i,t as a}from"./BMfPbIIHONAiD7lH-BxlrzPaa.js";function o(){return(o=e((()=>{i()})))()}o();export{t as addSubpathsBounds,a as decorateSubpaths,n as emptyBox,r as subpathsToSVG};

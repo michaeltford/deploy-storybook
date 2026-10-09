@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";var t;function n(){return(n=e((()=>{t={CONVERT:{s:`Converts a number from one measurement system to another.`,p:{number:{d:`is the value in fromUnit to convert.`},fromUnit:{d:`is the units for number.`},toUnit:{d:`is the units for the result.`}}}}})))()}n();export{t as default};

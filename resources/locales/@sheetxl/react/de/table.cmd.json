@@ -1,0 +1,83 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "table",
+  "label": "Tabelle",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "tableStyleOptions": {
+      "label": "Optionen für Tabellenformatvorlagen",
+      "description": "Legt fest, welche Strukturelemente (Kopfzeile, Ergebniszeile, verbundene Zeilen/Spalten, Filter) die Tabelle anzeigt."
+    },
+    "tableTotalRowToggle": {
+      "label": "Tabellen-Ergebniszeile umschalten",
+      "groupLabels": {
+        "tableStyleOptions": "Ergebniszeile"
+      },
+      "description": "Ergebniszeile ein-/ausschalten.",
+      "shortcut": "ctrl+alt+T"
+    },
+    "tableHeaderRowToggle": {
+      "label": "Tabellen-Kopfzeile umschalten",
+      "groupLabels": {
+        "tableStyleOptions": "Kopfzeile"
+      },
+      "description": "Kopfzeile ein-/ausschalten."
+    },
+    "tableBandedRowsToggle": {
+      "label": "Verbundene Zeilen umschalten",
+      "groupLabels": {
+        "tableStyleOptions": "Verbundene Zeilen"
+      },
+      "description": "Verbundene Zeilen ein-/ausschalten."
+    },
+    "tableFirstColumnToggle": {
+      "label": "Erste Spalte umschalten",
+      "groupLabels": {
+        "tableStyleOptions": "Erste Spalte"
+      },
+      "description": "Erste Spalte ein-/ausschalten."
+    },
+    "tableLastColumnToggle": {
+      "label": "Letzte Spalte umschalten",
+      "groupLabels": {
+        "tableStyleOptions": "Letzte Spalte"
+      },
+      "description": "Letzte Spalte ein-/ausschalten."
+    },
+    "tableBandedColumnsToggle": {
+      "label": "Verbundene Spalten umschalten",
+      "groupLabels": {
+        "tableStyleOptions": "Verbundene Spalten"
+      },
+      "description": "Verbundene Spalten ein-/ausschalten."
+    },
+    "tableFilterRefresh": {
+      "label": "Sortierung und Filter erneut anwenden",
+      "groupLabels": {
+        "filterOptions": "Erneut anwenden",
+        "sortFilterOptions": "Erneut anwenden"
+      },
+      "description": "Sortierung und Filter mit den neuesten Änderungen erneut anwenden.",
+      "icon": "FilterReapply",
+      "shortcut": "ctrl+alt+L"
+    },
+    "tableFilterClear": {
+      "label": "Sortierung und Filter löschen",
+      "groupLabels": {
+        "filterOptions": "Löschen",
+        "sortFilterOptions": "Löschen"
+      },
+      "description": "Die Sortier- und Filterkriterien aus dem aktuellen Bereich entfernen.",
+      "icon": "FilterClear"
+    },
+    "formatTableStyleClearTableStyle": {
+      "label": "Tabellenformat löschen",
+      "groupLabels": {
+        "tableStyleOptions": "Format löschen"
+      },
+      "description": "Alle tabellenspezifischen Formatierungen entfernen.",
+      "icon": "ClearFormats"
+    }
+  }
+}

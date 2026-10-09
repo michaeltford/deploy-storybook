@@ -1,0 +1,20 @@
+import{a as e,n as t}from"./rolldown-runtime-DkW27tQK.js";import{mt as n}from"./iframe-Dk6xXpge.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{$ as i,O as a,Wt as o,ft as s,j as c,kt as l,yt as u}from"./esm-DTVy7_Fo.js";import{X as d}from"./CKvQvOH6xV4SqE_t-CJxCiKEq.js";import{d as f,h as p}from"./esm-DLJwqohc.js";var m,h,g,_,v,y,b,x,S;function C(){return(C=t((()=>{m=e(n(),1),f(),u(),h=r(),g=(e,t)=>{if(!t)return null;try{let n=t.scope?e.getSheet(t.scope):e.getSelectedSheet(),r=n.getRange({rowStart:t.rowStart,colStart:t.colStart,rowEnd:t.rowEnd,colEnd:t.colEnd}).toString();return d.sheetAndRangeToString(d.sheetNameToString(n.getName()),r)}catch{return null}},_=({workbook:e})=>{let t=s(),[n,r]=(0,m.useState)(``),[i,o]=(0,m.useState)(!1),l=(0,m.useRef)(null),u=(0,m.useRef)(null),d=(0,m.useRef)(``),f=(0,m.useRef)(null);f.current||={insertText:()=>{},selectAll:()=>l.current?.select(),setSelection:e=>l.current?.setSelectionRange(e.start,e.end),focus:()=>l.current?.focus(),toggleReferences:()=>{}};let p=e=>{let n=u.current;u.current=null,o(!1),e||r(d.current),t.setMode(e=>e&&e.selection===n?null:e),l.current?.focus()},_=()=>{if(u.current)return;d.current=n;let r=e.getSelectedSheet(),i=r.getSelection().createSelection({shapePolicy:`ranges`,navigationPolicy:`modify`});i.updateCoords({cell:{...r.getSelection().getCoords().cell,scope:r.getName()},ranges:[],rangeIndex:-1}),u.current=i,o(!0),t.setMode({mode:`point`,selection:i,activeInput:f.current,onDone:e=>{p(e.reason===`accept`)}}),l.current?.focus()};return(0,m.useEffect)(()=>{if(!i)return;let t=u.current;if(t)return t.addListeners({onChange:()=>{if(a())return;let n=(t.getCoords().ranges??[]).map(t=>g(e,t)).filter(Boolean);r(n.join(`, `))}})},[i,e]),(0,m.useEffect)(()=>()=>p(!0),[]),(0,h.jsxs)(`div`,{style:{display:`flex`,gap:8,alignItems:`center`,padding:`6px 8px`,border:`1px solid #888`,borderRadius:6},children:[(0,h.jsx)(`span`,{style:{fontFamily:`sans-serif`,fontSize:13},children:`My widget:`}),(0,h.jsx)(`input`,{ref:l,value:n,placeholder:`Click Pick, then drag / arrow on the grid…`,onChange:e=>r(e.target.value),onKeyDown:n=>{if(i){if(c(n,t.getMode(),e.getSelectedSheet().getName()))return;if(n.key===`Enter`){n.preventDefault(),p(!0);return}if(n.key===`Escape`){n.preventDefault(),p(!1);return}}},style:{flex:1,padding:`4px 6px`,fontFamily:`monospace`}}),(0,h.jsx)(`button`,{onClick:()=>i?p(!0):_(),style:{fontFamily:`sans-serif`,fontSize:12,padding:`4px 10px`,borderRadius:4,cursor:`pointer`,border:`1px solid ${i?`#2e7d32`:`#888`}`,background:i?`#e8f5e9`:`transparent`,color:i?`#2e7d32`:`inherit`},children:i?`picking… (click to commit)`:`Pick`})]})},v=()=>{let e=new p;e.addSheet(`Sheet2`);let t=e.getSheetAt(0);return t.getRange(`A1:B1`).setValues([[`Pick`,`me`]]),t.getRange(`B3`).setValue(42),e},y=()=>{let e=(0,m.useMemo)(v,[]),t=(0,m.useMemo)(()=>i(),[]);return(0,h.jsx)(o,{store:t,children:(0,h.jsxs)(`div`,{className:`storybook-container`,style:{display:`flex`,flexDirection:`column`,gap:8,height:`100%`},children:[(0,h.jsx)(_,{workbook:e}),(0,h.jsx)(`div`,{style:{flex:`1 1 100%`,minHeight:0},children:(0,h.jsx)(l,{workbook:e})})]})})},b=y.bind({}),b.storyName=`Third-party picker (custom provider)`,x={title:`Editor/Reference Picking (Third-party)`,component:b},S=[`ThirdPartyPickerStory`],b.parameters={...b.parameters,docs:{...b.parameters?.docs,source:{originalSource:`() => {
+  const workbook = useMemo(seedWorkbook, []);
+  const store = useMemo(() => createReferenceModeStore(), []);
+  return <ReferenceModeProvider store={store}>
+      <div className="storybook-container" style={{
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 8,
+      height: '100%'
+    }}>
+        <ThirdPartyPicker workbook={workbook} />
+        <div style={{
+        flex: '1 1 100%',
+        minHeight: 0
+      }}>
+          <WorkbookElement workbook={workbook} />
+        </div>
+      </div>
+    </ReferenceModeProvider>;
+}`,...b.parameters?.docs?.source}}}})))()}C();export{b as ThirdPartyPickerStory,S as __namedExportsOrder,x as default};

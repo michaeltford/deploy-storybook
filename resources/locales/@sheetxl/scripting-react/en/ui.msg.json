@@ -1,0 +1,10 @@
+{
+  "reason.noChangesToSave": "No changes to save",
+  "reason.scriptsReadOnly": "Scripts can't be changed while the workbook structure is protected.",
+  "scriptEditor.glyph.autoRun": "Auto Run",
+  "scriptEditor.glyph.formula": "Formula",
+  "scriptEditor.glyph.macro": "Macro",
+  "scriptEditor.loading": "Loading...",
+  "scriptEditor.retry": "Retry",
+  "scriptEditor.saving": "Saving Scripts..."
+}

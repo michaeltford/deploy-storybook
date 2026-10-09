@@ -1,0 +1,114 @@
+{
+  "kind": "locales",
+  "package": "@sheetxl/react",
+  "entries": [
+    {
+      "path": "de/clipboard.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "app",
+      "sourceId": "clipboard"
+    },
+    {
+      "path": "de/editor.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "editor",
+      "sourceId": "editor"
+    },
+    {
+      "path": "de/movable.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "movable",
+      "sourceId": "movable"
+    },
+    {
+      "path": "de/selection.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "selection",
+      "sourceId": "selection"
+    },
+    {
+      "path": "de/sheet.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "sheet",
+      "sourceId": "sheet"
+    },
+    {
+      "path": "de/table.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "table",
+      "sourceId": "table"
+    },
+    {
+      "path": "de/ui.msg.json",
+      "locale": "de",
+      "role": "messages"
+    },
+    {
+      "path": "de/workbook.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "workbook",
+      "sourceId": "workbook"
+    },
+    {
+      "path": "en/clipboard.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "app",
+      "sourceId": "clipboard"
+    },
+    {
+      "path": "en/editor.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "editor",
+      "sourceId": "editor"
+    },
+    {
+      "path": "en/movable.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "movable",
+      "sourceId": "movable"
+    },
+    {
+      "path": "en/selection.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "selection",
+      "sourceId": "selection"
+    },
+    {
+      "path": "en/sheet.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "sheet",
+      "sourceId": "sheet"
+    },
+    {
+      "path": "en/table.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "table",
+      "sourceId": "table"
+    },
+    {
+      "path": "en/ui.msg.json",
+      "locale": "en",
+      "role": "messages"
+    },
+    {
+      "path": "en/workbook.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "workbook",
+      "sourceId": "workbook"
+    }
+  ]
+}
