@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";var t;function n(){return(n=e((()=>{t={BAHTTEXT:{s:`Converts a number to baht (Thai) text.`,c:`Baht`,p:{number:{d:`is the number to convert.`}},h:`Thai`}}})))()}n();export{t as default};

@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "ui",
+  "label": "Interface",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "customFunctionOptions": {
+      "label": "Custom",
+      "description": "Insert a custom function."
+    },
+    "scriptEditor": {
+      "label": "Script (Typescript)",
+      "icon": "ScriptRun"
+    },
+    "scriptsOptions": {
+      "label": "Macros",
+      "description": "Run or manage macros."
+    }
+  }
+}

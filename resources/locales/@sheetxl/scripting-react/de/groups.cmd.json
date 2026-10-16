@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "ui",
+  "label": "Benutzeroberfläche",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "customFunctionOptions": {
+      "label": "Benutzerdefiniert",
+      "description": "Eine benutzerdefinierte Funktion einfügen."
+    },
+    "scriptEditor": {
+      "label": "Skript (TypeScript)",
+      "icon": "ScriptRun"
+    },
+    "scriptsOptions": {
+      "label": "Makros",
+      "description": "Makros ausführen oder verwalten."
+    }
+  }
+}

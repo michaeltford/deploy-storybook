@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "picture",
+  "label": "Bild",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "changePictureFromFile": {
+      "label": "Bild ändern",
+      "description": "Ein anderes Bild von Ihrem Gerät im selben Rahmen anzeigen; Größe und Formatierung bleiben erhalten.",
+      "groupLabels": {
+        "changePictureOptions": "Vom Gerät…"
+      },
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "changePictureFromURL": {
+      "label": "Bild aus dem Web ändern",
+      "description": "Ein anderes Bild aus dem Web im selben Rahmen anzeigen; Größe und Formatierung bleiben erhalten.",
+      "groupLabels": {
+        "changePictureOptions": "Aus dem Web…"
+      },
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    }
+  }
+}

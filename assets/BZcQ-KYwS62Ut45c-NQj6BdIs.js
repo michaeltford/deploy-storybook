@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./react-Q1GcV6wX.js";import{t as n}from"./jsx-runtime-DeHZSEgm.js";function r(e){let{sheet:t,children:n}=e;return(0,o.jsx)(s.Provider,{value:t,children:n})}function i(){return(0,a.useContext)(s)}var a,o,s;function c(){return(c=e((()=>{a=t(),o=n(),s=(0,a.createContext)(null)})))()}export{r as n,c as r,i as t};

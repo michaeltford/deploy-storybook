@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "slicer",
+  "label": "Slicer",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "formatSlicerStyle": {
+      "label": "Slicer Styles",
+      "description": "Change how the slicer and its items look.",
+      "icon": "PresetStyles",
+      "tags": [
+        "mutator"
+      ]
+    }
+  }
+}

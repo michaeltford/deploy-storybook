@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";var t;function n(){return(n=e((()=>{t={FILTERXML:{s:`Returns specific data from XML content using the specified XPath.`,p:{xml:{d:`is a string in valid XML format.`},xpath:{d:`is a string in standard XPath format.`}}}}})))()}n();export{t as default};
