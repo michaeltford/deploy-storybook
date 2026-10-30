@@ -1,0 +1,188 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "picture",
+  "label": "Picture",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "changePictureFromFile": {
+      "label": "Change Picture",
+      "description": "Show another picture from your device in the same frame, keeping its size and formatting.",
+      "groupLabels": {
+        "changePictureOptions": "From Device…"
+      },
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "changePictureFromURL": {
+      "label": "Change Picture From Web",
+      "description": "Show another picture from the web in the same frame, keeping its size and formatting.",
+      "groupLabels": {
+        "changePictureOptions": "From the Web…"
+      },
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropOptions": {
+      "label": "Crop",
+      "description": "Crop the picture to a shape or a proportion, or place it in its frame.",
+      "icon": "Crop"
+    },
+    "cropToShape": {
+      "label": "Crop to Shape",
+      "description": "Clip the picture to the outline of a shape, keeping its size and formatting.",
+      "icon": "Crop",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspectOptions": {
+      "label": "Aspect Ratio",
+      "description": "Crop the picture to a proportion.",
+      "icon": "DrawAspect"
+    },
+    "cropAspect1x1": {
+      "label": "1:1",
+      "description": "Crop the picture to a proportion of 1:1, about its center.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect2x3": {
+      "label": "2:3",
+      "description": "Crop the picture to a proportion of 2:3, about its center.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect3x4": {
+      "label": "3:4",
+      "description": "Crop the picture to a proportion of 3:4, about its center.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect3x5": {
+      "label": "3:5",
+      "description": "Crop the picture to a proportion of 3:5, about its center.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect4x5": {
+      "label": "4:5",
+      "description": "Crop the picture to a proportion of 4:5, about its center.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect3x2": {
+      "label": "3:2",
+      "description": "Crop the picture to a proportion of 3:2, about its center.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect4x3": {
+      "label": "4:3",
+      "description": "Crop the picture to a proportion of 4:3, about its center.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect5x3": {
+      "label": "5:3",
+      "description": "Crop the picture to a proportion of 5:3, about its center.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect5x4": {
+      "label": "5:4",
+      "description": "Crop the picture to a proportion of 5:4, about its center.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect16x9": {
+      "label": "16:9",
+      "description": "Crop the picture to a proportion of 16:9, about its center.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect16x10": {
+      "label": "16:10",
+      "description": "Crop the picture to a proportion of 16:10, about its center.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropFill": {
+      "label": "Fill",
+      "description": "Cover the whole frame with the picture, keeping its proportions. What overflows is cropped.",
+      "icon": "Crop",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropFit": {
+      "label": "Fit",
+      "description": "Show the whole picture inside the frame, keeping its proportions.",
+      "icon": "Crop",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "pictureHyperlinkOptions": {
+      "label": "Link",
+      "description": "Link the picture to a web page, a place in this workbook or an email address.",
+      "icon": "HyperlinkInsert"
+    },
+    "updatePictureHyperlink": {
+      "label": "Link",
+      "description": "Add or edit the link a click on the picture follows.",
+      "groupLabels": {
+        "pictureHyperlinkOptions": "Edit Link…"
+      },
+      "icon": "HyperlinkEdit",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "openPictureHyperlink": {
+      "label": "Open Link",
+      "description": "Follow the link on the picture.",
+      "groupLabels": {
+        "pictureHyperlinkOptions": "Open Link"
+      },
+      "icon": "HyperlinkGoto"
+    },
+    "deletePictureHyperlink": {
+      "label": "Remove Link",
+      "description": "Remove the link from the picture.",
+      "groupLabels": {
+        "pictureHyperlinkOptions": "Remove Link"
+      },
+      "icon": "HyperlinkDelete",
+      "tags": [
+        "mutator"
+      ]
+    }
+  }
+}

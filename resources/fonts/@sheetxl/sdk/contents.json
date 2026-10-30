@@ -1,0 +1,406 @@
+{
+  "kind": "fonts",
+  "package": "@sheetxl/sdk",
+  "entries": [
+    {
+      "path": "arial-bold-italic.hinted.json",
+      "family": "Arial",
+      "weight": 700,
+      "italic": true,
+      "hinted": true
+    },
+    {
+      "path": "arial-bold-italic.metrics.json",
+      "family": "Arial",
+      "weight": 700,
+      "italic": true
+    },
+    {
+      "path": "arial-bold-italic.rows.json",
+      "family": "Arial",
+      "weight": 700,
+      "italic": true,
+      "rows": true
+    },
+    {
+      "path": "arial-bold.hinted.json",
+      "family": "Arial",
+      "weight": 700,
+      "italic": false,
+      "hinted": true
+    },
+    {
+      "path": "arial-bold.metrics.json",
+      "family": "Arial",
+      "weight": 700,
+      "italic": false
+    },
+    {
+      "path": "arial-bold.rows.json",
+      "family": "Arial",
+      "weight": 700,
+      "italic": false,
+      "rows": true
+    },
+    {
+      "path": "arial-italic.hinted.json",
+      "family": "Arial",
+      "weight": 400,
+      "italic": true,
+      "hinted": true
+    },
+    {
+      "path": "arial-italic.metrics.json",
+      "family": "Arial",
+      "weight": 400,
+      "italic": true
+    },
+    {
+      "path": "arial-italic.rows.json",
+      "family": "Arial",
+      "weight": 400,
+      "italic": true,
+      "rows": true
+    },
+    {
+      "path": "arial-regular.hinted.json",
+      "family": "Arial",
+      "weight": 400,
+      "italic": false,
+      "hinted": true
+    },
+    {
+      "path": "arial-regular.metrics.json",
+      "family": "Arial",
+      "weight": 400,
+      "italic": false
+    },
+    {
+      "path": "arial-regular.rows.json",
+      "family": "Arial",
+      "weight": 400,
+      "italic": false,
+      "rows": true
+    },
+    {
+      "path": "calibri-bold-italic.hinted.json",
+      "family": "Calibri",
+      "weight": 700,
+      "italic": true,
+      "hinted": true
+    },
+    {
+      "path": "calibri-bold-italic.metrics.json",
+      "family": "Calibri",
+      "weight": 700,
+      "italic": true
+    },
+    {
+      "path": "calibri-bold-italic.rows.json",
+      "family": "Calibri",
+      "weight": 700,
+      "italic": true,
+      "rows": true
+    },
+    {
+      "path": "calibri-bold.hinted.json",
+      "family": "Calibri",
+      "weight": 700,
+      "italic": false,
+      "hinted": true
+    },
+    {
+      "path": "calibri-bold.metrics.json",
+      "family": "Calibri",
+      "weight": 700,
+      "italic": false
+    },
+    {
+      "path": "calibri-bold.rows.json",
+      "family": "Calibri",
+      "weight": 700,
+      "italic": false,
+      "rows": true
+    },
+    {
+      "path": "calibri-italic.hinted.json",
+      "family": "Calibri",
+      "weight": 400,
+      "italic": true,
+      "hinted": true
+    },
+    {
+      "path": "calibri-italic.metrics.json",
+      "family": "Calibri",
+      "weight": 400,
+      "italic": true
+    },
+    {
+      "path": "calibri-italic.rows.json",
+      "family": "Calibri",
+      "weight": 400,
+      "italic": true,
+      "rows": true
+    },
+    {
+      "path": "calibri-regular.hinted.json",
+      "family": "Calibri",
+      "weight": 400,
+      "italic": false,
+      "hinted": true
+    },
+    {
+      "path": "calibri-regular.metrics.json",
+      "family": "Calibri",
+      "weight": 400,
+      "italic": false
+    },
+    {
+      "path": "calibri-regular.rows.json",
+      "family": "Calibri",
+      "weight": 400,
+      "italic": false,
+      "rows": true
+    },
+    {
+      "path": "cambria-bold-italic.hinted.json",
+      "family": "Cambria",
+      "weight": 700,
+      "italic": true,
+      "hinted": true
+    },
+    {
+      "path": "cambria-bold-italic.metrics.json",
+      "family": "Cambria",
+      "weight": 700,
+      "italic": true
+    },
+    {
+      "path": "cambria-bold-italic.rows.json",
+      "family": "Cambria",
+      "weight": 700,
+      "italic": true,
+      "rows": true
+    },
+    {
+      "path": "cambria-bold.hinted.json",
+      "family": "Cambria",
+      "weight": 700,
+      "italic": false,
+      "hinted": true
+    },
+    {
+      "path": "cambria-bold.metrics.json",
+      "family": "Cambria",
+      "weight": 700,
+      "italic": false
+    },
+    {
+      "path": "cambria-bold.rows.json",
+      "family": "Cambria",
+      "weight": 700,
+      "italic": false,
+      "rows": true
+    },
+    {
+      "path": "cambria-italic.hinted.json",
+      "family": "Cambria",
+      "weight": 400,
+      "italic": true,
+      "hinted": true
+    },
+    {
+      "path": "cambria-italic.metrics.json",
+      "family": "Cambria",
+      "weight": 400,
+      "italic": true
+    },
+    {
+      "path": "cambria-italic.rows.json",
+      "family": "Cambria",
+      "weight": 400,
+      "italic": true,
+      "rows": true
+    },
+    {
+      "path": "cambria-regular.hinted.json",
+      "family": "Cambria",
+      "weight": 400,
+      "italic": false,
+      "hinted": true
+    },
+    {
+      "path": "cambria-regular.metrics.json",
+      "family": "Cambria",
+      "weight": 400,
+      "italic": false
+    },
+    {
+      "path": "cambria-regular.rows.json",
+      "family": "Cambria",
+      "weight": 400,
+      "italic": false,
+      "rows": true
+    },
+    {
+      "path": "courier-new-bold-italic.hinted.json",
+      "family": "Courier New",
+      "weight": 700,
+      "italic": true,
+      "hinted": true
+    },
+    {
+      "path": "courier-new-bold-italic.metrics.json",
+      "family": "Courier New",
+      "weight": 700,
+      "italic": true
+    },
+    {
+      "path": "courier-new-bold-italic.rows.json",
+      "family": "Courier New",
+      "weight": 700,
+      "italic": true,
+      "rows": true
+    },
+    {
+      "path": "courier-new-bold.hinted.json",
+      "family": "Courier New",
+      "weight": 700,
+      "italic": false,
+      "hinted": true
+    },
+    {
+      "path": "courier-new-bold.metrics.json",
+      "family": "Courier New",
+      "weight": 700,
+      "italic": false
+    },
+    {
+      "path": "courier-new-bold.rows.json",
+      "family": "Courier New",
+      "weight": 700,
+      "italic": false,
+      "rows": true
+    },
+    {
+      "path": "courier-new-italic.hinted.json",
+      "family": "Courier New",
+      "weight": 400,
+      "italic": true,
+      "hinted": true
+    },
+    {
+      "path": "courier-new-italic.metrics.json",
+      "family": "Courier New",
+      "weight": 400,
+      "italic": true
+    },
+    {
+      "path": "courier-new-italic.rows.json",
+      "family": "Courier New",
+      "weight": 400,
+      "italic": true,
+      "rows": true
+    },
+    {
+      "path": "courier-new-regular.hinted.json",
+      "family": "Courier New",
+      "weight": 400,
+      "italic": false,
+      "hinted": true
+    },
+    {
+      "path": "courier-new-regular.metrics.json",
+      "family": "Courier New",
+      "weight": 400,
+      "italic": false
+    },
+    {
+      "path": "courier-new-regular.rows.json",
+      "family": "Courier New",
+      "weight": 400,
+      "italic": false,
+      "rows": true
+    },
+    {
+      "path": "times-new-roman-bold-italic.hinted.json",
+      "family": "Times New Roman",
+      "weight": 700,
+      "italic": true,
+      "hinted": true
+    },
+    {
+      "path": "times-new-roman-bold-italic.metrics.json",
+      "family": "Times New Roman",
+      "weight": 700,
+      "italic": true
+    },
+    {
+      "path": "times-new-roman-bold-italic.rows.json",
+      "family": "Times New Roman",
+      "weight": 700,
+      "italic": true,
+      "rows": true
+    },
+    {
+      "path": "times-new-roman-bold.hinted.json",
+      "family": "Times New Roman",
+      "weight": 700,
+      "italic": false,
+      "hinted": true
+    },
+    {
+      "path": "times-new-roman-bold.metrics.json",
+      "family": "Times New Roman",
+      "weight": 700,
+      "italic": false
+    },
+    {
+      "path": "times-new-roman-bold.rows.json",
+      "family": "Times New Roman",
+      "weight": 700,
+      "italic": false,
+      "rows": true
+    },
+    {
+      "path": "times-new-roman-italic.hinted.json",
+      "family": "Times New Roman",
+      "weight": 400,
+      "italic": true,
+      "hinted": true
+    },
+    {
+      "path": "times-new-roman-italic.metrics.json",
+      "family": "Times New Roman",
+      "weight": 400,
+      "italic": true
+    },
+    {
+      "path": "times-new-roman-italic.rows.json",
+      "family": "Times New Roman",
+      "weight": 400,
+      "italic": true,
+      "rows": true
+    },
+    {
+      "path": "times-new-roman-regular.hinted.json",
+      "family": "Times New Roman",
+      "weight": 400,
+      "italic": false,
+      "hinted": true
+    },
+    {
+      "path": "times-new-roman-regular.metrics.json",
+      "family": "Times New Roman",
+      "weight": 400,
+      "italic": false
+    },
+    {
+      "path": "times-new-roman-regular.rows.json",
+      "family": "Times New Roman",
+      "weight": 400,
+      "italic": false,
+      "rows": true
+    }
+  ]
+}

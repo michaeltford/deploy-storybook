@@ -1,0 +1,188 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "picture",
+  "label": "Bild",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "changePictureFromFile": {
+      "label": "Bild ändern",
+      "description": "Ein anderes Bild von Ihrem Gerät im selben Rahmen anzeigen; Größe und Formatierung bleiben erhalten.",
+      "groupLabels": {
+        "changePictureOptions": "Vom Gerät…"
+      },
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "changePictureFromURL": {
+      "label": "Bild aus dem Web ändern",
+      "description": "Ein anderes Bild aus dem Web im selben Rahmen anzeigen; Größe und Formatierung bleiben erhalten.",
+      "groupLabels": {
+        "changePictureOptions": "Aus dem Web…"
+      },
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropOptions": {
+      "label": "Zuschneiden",
+      "description": "Das Bild auf eine Form oder ein Seitenverhältnis zuschneiden oder im Rahmen platzieren.",
+      "icon": "Crop"
+    },
+    "cropToShape": {
+      "label": "Auf Form zuschneiden",
+      "description": "Das Bild auf den Umriss einer Form zuschneiden; Größe und Formatierung bleiben erhalten.",
+      "icon": "Crop",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspectOptions": {
+      "label": "Seitenverhältnis",
+      "description": "Das Bild auf ein Seitenverhältnis zuschneiden.",
+      "icon": "DrawAspect"
+    },
+    "cropAspect1x1": {
+      "label": "1:1",
+      "description": "Das Bild um seine Mitte auf das Seitenverhältnis 1:1 zuschneiden.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect2x3": {
+      "label": "2:3",
+      "description": "Das Bild um seine Mitte auf das Seitenverhältnis 2:3 zuschneiden.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect3x4": {
+      "label": "3:4",
+      "description": "Das Bild um seine Mitte auf das Seitenverhältnis 3:4 zuschneiden.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect3x5": {
+      "label": "3:5",
+      "description": "Das Bild um seine Mitte auf das Seitenverhältnis 3:5 zuschneiden.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect4x5": {
+      "label": "4:5",
+      "description": "Das Bild um seine Mitte auf das Seitenverhältnis 4:5 zuschneiden.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect3x2": {
+      "label": "3:2",
+      "description": "Das Bild um seine Mitte auf das Seitenverhältnis 3:2 zuschneiden.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect4x3": {
+      "label": "4:3",
+      "description": "Das Bild um seine Mitte auf das Seitenverhältnis 4:3 zuschneiden.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect5x3": {
+      "label": "5:3",
+      "description": "Das Bild um seine Mitte auf das Seitenverhältnis 5:3 zuschneiden.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect5x4": {
+      "label": "5:4",
+      "description": "Das Bild um seine Mitte auf das Seitenverhältnis 5:4 zuschneiden.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect16x9": {
+      "label": "16:9",
+      "description": "Das Bild um seine Mitte auf das Seitenverhältnis 16:9 zuschneiden.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropAspect16x10": {
+      "label": "16:10",
+      "description": "Das Bild um seine Mitte auf das Seitenverhältnis 16:10 zuschneiden.",
+      "icon": "DrawAspect",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropFill": {
+      "label": "Ausfüllen",
+      "description": "Den ganzen Rahmen mit dem Bild ausfüllen; die Proportionen bleiben erhalten, Überstehendes wird abgeschnitten.",
+      "icon": "Crop",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "cropFit": {
+      "label": "Einpassen",
+      "description": "Das ganze Bild im Rahmen anzeigen; die Proportionen bleiben erhalten.",
+      "icon": "Crop",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "pictureHyperlinkOptions": {
+      "label": "Link",
+      "description": "Das Bild mit einer Webseite, einer Stelle in dieser Arbeitsmappe oder einer E-Mail-Adresse verknüpfen.",
+      "icon": "HyperlinkInsert"
+    },
+    "updatePictureHyperlink": {
+      "label": "Link",
+      "description": "Den Link hinzufügen oder bearbeiten, dem ein Klick auf das Bild folgt.",
+      "groupLabels": {
+        "pictureHyperlinkOptions": "Link bearbeiten…"
+      },
+      "icon": "HyperlinkEdit",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "openPictureHyperlink": {
+      "label": "Link öffnen",
+      "description": "Dem Link auf dem Bild folgen.",
+      "groupLabels": {
+        "pictureHyperlinkOptions": "Link öffnen"
+      },
+      "icon": "HyperlinkGoto"
+    },
+    "deletePictureHyperlink": {
+      "label": "Link entfernen",
+      "description": "Den Link vom Bild entfernen.",
+      "groupLabels": {
+        "pictureHyperlinkOptions": "Link entfernen"
+      },
+      "icon": "HyperlinkDelete",
+      "tags": [
+        "mutator"
+      ]
+    }
+  }
+}

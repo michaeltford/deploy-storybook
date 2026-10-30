@@ -1,0 +1,369 @@
+{
+  "entries": [
+    {
+      "path": "fonts/@sheetxl/sdk/arial-bold-italic.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/arial-bold-italic.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/arial-bold-italic.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/arial-bold.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/arial-bold.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/arial-bold.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/arial-italic.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/arial-italic.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/arial-italic.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/arial-regular.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/arial-regular.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/arial-regular.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-bold-italic.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-bold-italic.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-bold-italic.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-bold.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-bold.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-bold.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-italic.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-italic.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-italic.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-regular.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-regular.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/calibri-regular.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-bold-italic.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-bold-italic.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-bold-italic.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-bold.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-bold.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-bold.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-italic.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-italic.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-italic.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-regular.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-regular.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/cambria-regular.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/contents.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-bold-italic.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-bold-italic.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-bold-italic.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-bold.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-bold.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-bold.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-italic.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-italic.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-italic.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-regular.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-regular.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/courier-new-regular.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-bold-italic.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-bold-italic.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-bold-italic.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-bold.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-bold.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-bold.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-italic.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-italic.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-italic.rows.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-regular.hinted.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-regular.metrics.json"
+    },
+    {
+      "path": "fonts/@sheetxl/sdk/times-new-roman-regular.rows.json"
+    },
+    {
+      "path": "locales/@sheetxl/formulas-extended/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/formulas-extended/de/functions.json"
+    },
+    {
+      "path": "locales/@sheetxl/formulas/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/formulas/de/functions.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/chart.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/clipboard.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/editor.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/movable.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/picture.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/selection.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/shape.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/sheet.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/slicer.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/table.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/de/workbook.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/chart.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/clipboard.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/editor.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/movable.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/picture.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/selection.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/shape.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/sheet.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/slicer.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/table.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/react/en/workbook.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/de/groups.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/de/scriptEditor.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/de/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/de/workbookScript.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/en/groups.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/en/scriptEditor.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/en/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/scripting-react/en/workbookScript.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/sdk/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/sdk/de/grammar.json"
+    },
+    {
+      "path": "locales/@sheetxl/sdk/de/model.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/sdk/en/model.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/de/groups.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/de/studio.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/de/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/en/groups.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/en/studio.cmd.json"
+    },
+    {
+      "path": "locales/@sheetxl/studio-mui/en/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/utils-mui/contents.json"
+    },
+    {
+      "path": "locales/@sheetxl/utils-mui/de/ui.msg.json"
+    },
+    {
+      "path": "locales/@sheetxl/utils-mui/en/ui.msg.json"
+    }
+  ],
+  "folders": [
+    "fonts",
+    "fonts/@sheetxl",
+    "fonts/@sheetxl/sdk",
+    "locales",
+    "locales/@sheetxl",
+    "locales/@sheetxl/formulas",
+    "locales/@sheetxl/formulas-extended",
+    "locales/@sheetxl/formulas-extended/de",
+    "locales/@sheetxl/formulas/de",
+    "locales/@sheetxl/react",
+    "locales/@sheetxl/react/de",
+    "locales/@sheetxl/react/en",
+    "locales/@sheetxl/scripting-react",
+    "locales/@sheetxl/scripting-react/de",
+    "locales/@sheetxl/scripting-react/en",
+    "locales/@sheetxl/sdk",
+    "locales/@sheetxl/sdk/de",
+    "locales/@sheetxl/sdk/en",
+    "locales/@sheetxl/studio-mui",
+    "locales/@sheetxl/studio-mui/de",
+    "locales/@sheetxl/studio-mui/en",
+    "locales/@sheetxl/utils-mui",
+    "locales/@sheetxl/utils-mui/de",
+    "locales/@sheetxl/utils-mui/en"
+  ]
+}

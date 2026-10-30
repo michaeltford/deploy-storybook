@@ -1,0 +1,82 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "chart",
+  "label": "Chart",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "chartChangeType": {
+      "label": "Change Chart Type",
+      "description": "Draw every series as another type of chart.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartSwitchRowColumn": {
+      "label": "Switch Row/Column",
+      "description": "Plot the data's rows as series instead of its columns, or the other way round.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartSelectData": {
+      "label": "Select Data",
+      "description": "Change the cells the chart plots.",
+      "groupLabels": {
+        "contextMenu": "Select Data…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartAddElement": {
+      "label": "Add Chart Element",
+      "description": "Add, move or remove a title, legend, data labels, data table, gridlines, axis titles, trendlines, error bars, lines or up/down bars.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartTitleToggle": {
+      "label": "Chart Title",
+      "description": "Show the chart's title above the chart, or remove it.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartLegendToggle": {
+      "label": "Legend",
+      "description": "Show the legend at the right, or remove it.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartDataLabelsToggle": {
+      "label": "Data Labels",
+      "description": "Label every point with its value, or remove the labels.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartDataTableToggle": {
+      "label": "Data Table",
+      "description": "Show the plotted values in a table under the chart, or remove it.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartGridlinesToggle": {
+      "label": "Gridlines",
+      "description": "Show the value axis's major gridlines, or remove them.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartAxisTitlesToggle": {
+      "label": "Axis Titles",
+      "description": "Show a title on each primary axis, or remove them.",
+      "tags": [
+        "mutator"
+      ]
+    }
+  }
+}
