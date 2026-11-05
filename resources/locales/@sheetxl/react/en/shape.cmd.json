@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "shape",
+  "label": "Shape",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "changeShape": {
+      "label": "Change Shape",
+      "description": "Change the selected shape to another one, keeping its text and formatting.",
+      "icon": "shape:Shapes",
+      "tags": [
+        "mutator"
+      ]
+    }
+  }
+}

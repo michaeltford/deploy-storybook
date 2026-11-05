@@ -1,0 +1,381 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "selection",
+  "label": "Auswahl",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "moveToPageDown": {
+      "label": "Seite nach unten",
+      "description": "Ansicht eine Seite nach unten verschieben.",
+      "shortcut": "PageDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToPageDown": {
+      "label": "Auswahl eine Seite nach unten",
+      "description": "Ansicht verschieben und eine Seite nach unten auswählen.",
+      "shortcut": "shift+PageDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToPageRight": {
+      "label": "Seite nach rechts",
+      "description": "Ansicht eine Seite nach rechts verschieben.",
+      "shortcut": "alt+PageDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToPageRight": {
+      "label": "Auswahl eine Seite nach rechts",
+      "description": "Ansicht verschieben und eine Seite nach rechts auswählen.",
+      "shortcut": "shift+alt+PageDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToPageUp": {
+      "label": "Seite nach oben",
+      "description": "Ansicht eine Seite nach oben verschieben.",
+      "shortcut": "PageUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToPageUp": {
+      "label": "Auswahl eine Seite nach oben",
+      "description": "Ansicht verschieben und eine Seite nach oben auswählen.",
+      "shortcut": "shift+PageUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToPageLeft": {
+      "label": "Seite nach links",
+      "description": "Ansicht eine Seite nach links verschieben.",
+      "shortcut": "alt+PageUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToPageLeft": {
+      "label": "Auswahl eine Seite nach links",
+      "description": "Ansicht verschieben und eine Seite nach links auswählen.",
+      "shortcut": "shift+alt+PageUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectArray": {
+      "label": "Array auswählen",
+      "description": "Den gesamten überlaufenden oder als Array eingegebenen Block der aktiven Zelle auswählen.",
+      "shortcut": "ctrl+shift+?",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectColumn": {
+      "label": "Spalte auswählen",
+      "description": "Die Spalten der ausgewählten Zellen auswählen.",
+      "shortcut": "ctrl+Space",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectRow": {
+      "label": "Zeile auswählen",
+      "description": "Die Zeilen der ausgewählten Zellen auswählen.",
+      "shortcut": "shift+Space",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToColumnStart": {
+      "label": "Bis zum Spaltenanfang auswählen",
+      "description": "Die Spalten bis zum Anfang des Blatts auswählen.",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToColumnEnd": {
+      "label": "Bis zum Spaltenende auswählen",
+      "description": "Die Spalten bis zum Ende des Blatts auswählen.",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToRowStart": {
+      "label": "Zum Zeilenanfang",
+      "description": "Zum Anfang der Zeile wechseln.",
+      "shortcut": "Home",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToRowStart": {
+      "label": "Bis zum Zeilenanfang auswählen",
+      "description": "Bis zum Anfang der Zeile auswählen.",
+      "shortcut": "shift+Home",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToGridStart": {
+      "label": "Zum Anfang des Blatts",
+      "description": "Zum Anfang des Blatts wechseln.",
+      "shortcut": "ctrl+Home",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToGridStart": {
+      "label": "Bis zum Anfang des Blatts auswählen",
+      "description": "Bis zum Anfang des Blatts auswählen.",
+      "shortcut": "ctrl+shift+Home",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToRowEnd": {
+      "label": "Zum Zeilenende",
+      "description": "Zum Ende der Zeile wechseln.",
+      "shortcut": "End",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToRowEnd": {
+      "label": "Bis zum Zeilenende auswählen",
+      "description": "Bis zum Ende der Zeile auswählen.",
+      "shortcut": "shift+End",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveToGridEnd": {
+      "label": "Zum Ende des Blatts",
+      "description": "Zum Ende des Blatts wechseln.",
+      "shortcut": "ctrl+End",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectToGridEnd": {
+      "label": "Bis zum Ende des Blatts auswählen",
+      "description": "Bis zum Ende des Blatts auswählen.",
+      "shortcut": "ctrl+shift+End",
+      "tags": [
+        "selection"
+      ]
+    },
+    "scrollToActiveCoords": {
+      "label": "Zur aktiven Zelle scrollen",
+      "description": "Zur aktiven Zelle scrollen.",
+      "shortcut": "ctrl+Backspace",
+      "tags": [
+        "selection"
+      ]
+    },
+    "scrollToActiveCoordsClearSelection": {
+      "label": "Zur aktiven Zelle scrollen",
+      "description": "Zur aktiven Zelle scrollen und die Auswahl aufheben.",
+      "shortcut": "shift+Backspace",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionRight": {
+      "label": "Nach rechts durchlaufen",
+      "description": "Die Auswahl nach rechts durchlaufen.",
+      "shortcut": "Tab",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionLeft": {
+      "label": "Nach links durchlaufen",
+      "description": "Die Auswahl nach links durchlaufen.",
+      "shortcut": "shift+Tab",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionDown": {
+      "label": "Nach unten durchlaufen",
+      "description": "Die Auswahl nach unten durchlaufen.",
+      "shortcut": [
+        "Enter",
+        "NumpadEnter"
+      ],
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionUp": {
+      "label": "Nach oben durchlaufen",
+      "description": "Die Auswahl nach oben durchlaufen.",
+      "shortcut": [
+        "shift+Enter",
+        "shift+NumpadEnter"
+      ],
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveLeft": {
+      "label": "Nach links",
+      "description": "Aktive Zelle nach links verschieben.",
+      "shortcut": "ArrowLeft",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectLeft": {
+      "label": "Auswahl nach links",
+      "description": "Auswahl nach links erweitern.",
+      "shortcut": "shift+ArrowLeft",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveContentfulLeft": {
+      "label": "Nach links zum Inhalt",
+      "description": "Nach links zur nächsten Zelle mit Inhalt wechseln.",
+      "shortcut": "ctrl+ArrowLeft",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectContentfulLeft": {
+      "label": "Auswahl nach links zum Inhalt",
+      "description": "Auswahl nach links bis zur nächsten Zelle mit Inhalt erweitern.",
+      "shortcut": "ctrl+shift+ArrowLeft",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveRight": {
+      "label": "Nach rechts",
+      "description": "Aktive Zelle nach rechts verschieben.",
+      "shortcut": "ArrowRight",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectRight": {
+      "label": "Auswahl nach rechts",
+      "description": "Auswahl nach rechts erweitern.",
+      "shortcut": "shift+ArrowRight",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveContentfulRight": {
+      "label": "Nach rechts zum Inhalt",
+      "description": "Nach rechts zur nächsten Zelle mit Inhalt wechseln.",
+      "shortcut": "ctrl+ArrowRight",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectContentfulRight": {
+      "label": "Auswahl nach rechts zum Inhalt",
+      "description": "Auswahl nach rechts bis zur nächsten Zelle mit Inhalt erweitern.",
+      "shortcut": "ctrl+shift+ArrowRight",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveUp": {
+      "label": "Nach oben",
+      "description": "Aktive Zelle nach oben verschieben.",
+      "shortcut": "ArrowUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectUp": {
+      "label": "Auswahl nach oben",
+      "description": "Auswahl nach oben erweitern.",
+      "shortcut": "shift+ArrowUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveContentfulUp": {
+      "label": "Nach oben zum Inhalt",
+      "description": "Nach oben zur nächsten Zelle mit Inhalt wechseln.",
+      "shortcut": "ctrl+ArrowUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectContentfulUp": {
+      "label": "Auswahl nach oben zum Inhalt",
+      "description": "Auswahl nach oben bis zur nächsten Zelle mit Inhalt erweitern.",
+      "shortcut": "ctrl+shift+ArrowUp",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveDown": {
+      "label": "Nach unten",
+      "description": "Aktive Zelle nach unten verschieben.",
+      "shortcut": "ArrowDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectDown": {
+      "label": "Auswahl nach unten",
+      "description": "Auswahl nach unten erweitern.",
+      "shortcut": "shift+ArrowDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "moveContentfulDown": {
+      "label": "Nach unten zum Inhalt",
+      "description": "Nach unten zur nächsten Zelle mit Inhalt wechseln.",
+      "shortcut": "ctrl+ArrowDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "selectContentfulDown": {
+      "label": "Auswahl nach unten zum Inhalt",
+      "description": "Auswahl nach unten bis zur nächsten Zelle mit Inhalt erweitern.",
+      "shortcut": "ctrl+shift+ArrowDown",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionPreviousRange": {
+      "label": "Vorherigen Bereich durchlaufen",
+      "description": "Die Auswahl zum vorherigen Bereich durchlaufen.",
+      "shortcut": "ctrl+alt+ArrowLeft",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionNextRange": {
+      "label": "Nächsten Bereich durchlaufen",
+      "description": "Die Auswahl zum nächsten Bereich durchlaufen.",
+      "shortcut": "ctrl+alt+ArrowRight",
+      "tags": [
+        "selection"
+      ]
+    },
+    "traverseSelectionCorners": {
+      "label": "Ecken durchlaufen",
+      "description": "Die Auswahl über die Ecken des ausgewählten Bereichs durchlaufen.",
+      "shortcut": "ctrl+.",
+      "tags": [
+        "selection"
+      ]
+    }
+  }
+}

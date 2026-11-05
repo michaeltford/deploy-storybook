@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "pivot",
+  "label": "PivotTable",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "pivotTableFields": {
+      "label": "PivotTable-Felder",
+      "icon": "Table"
+    },
+    "pivotStyleOptions": {
+      "label": "Optionen für PivotTable-Formate",
+      "description": "Auswählen, welche Teile des PivotTable-Formats angezeigt werden.",
+      "groupLabels": {
+        "pivotToolbar": "Format"
+      }
+    },
+    "pivotRefreshOptions": {
+      "label": "Aktualisieren",
+      "description": "Die Quelle der PivotTable erneut lesen und sie neu anordnen, oder alles aktualisieren, was die Arbeitsmappe liest.",
+      "icon": "RefreshAll"
+    },
+    "pivotShowOptions": {
+      "label": "Anzeigen",
+      "description": "Auswählen, welche Schaltflächen und Kopfzeilen der PivotTable angezeigt werden."
+    },
+    "pivotDrillIndicatorsToggle": {
+      "label": "PivotTable-Schaltflächen +/- ein/aus",
+      "description": "Die Schaltflächen zum Erweitern und Reduzieren der PivotTable-Elemente ein- oder ausblenden.",
+      "groupLabels": {
+        "pivotShowOptions": "Schaltflächen +/-"
+      }
+    },
+    "pivotFieldHeadersToggle": {
+      "label": "PivotTable-Feldkopfzeilen ein/aus",
+      "description": "Die Beschriftungen und Filterschaltflächen über den Zeilen- und Spaltenfeldern der PivotTable ein- oder ausblenden.",
+      "groupLabels": {
+        "pivotShowOptions": "Feldkopfzeilen"
+      }
+    },
+    "pivotRowHeadersToggle": {
+      "label": "PivotTable-Zeilenkopfzeilen ein/aus",
+      "description": "Die erste Spalte der PivotTable besonders formatieren.",
+      "groupLabels": {
+        "pivotStyleOptions": "Zeilenköpfe"
+      }
+    },
+    "pivotColumnHeadersToggle": {
+      "label": "PivotTable-Spaltenkopfzeilen ein/aus",
+      "description": "Die erste Zeile der PivotTable besonders formatieren.",
+      "groupLabels": {
+        "pivotStyleOptions": "Spaltenköpfe"
+      }
+    },
+    "pivotBandedRowsToggle": {
+      "label": "PivotTable-Zeilen gebändert ein/aus",
+      "description": "Gebänderte Zeilen anzeigen: gerade Zeilen anders formatiert als ungerade.",
+      "groupLabels": {
+        "pivotStyleOptions": "Gebänderte Zeilen"
+      }
+    },
+    "pivotBandedColumnsToggle": {
+      "label": "PivotTable-Spalten gebändert ein/aus",
+      "description": "Gebänderte Spalten anzeigen: gerade Spalten anders formatiert als ungerade.",
+      "groupLabels": {
+        "pivotStyleOptions": "Gebänderte Spalten"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+import{a as e,n as t}from"./rolldown-runtime-DkW27tQK.js";import{t as n}from"./react-Q1GcV6wX.js";import{t as r}from"./jsx-runtime-DeHZSEgm.js";import{qr as i}from"./gQzj95vSMXdKhpWf-CQqfUi5i.js";import{_ as a,h as o}from"./esm-BGYLa-oz.js";import{D as s,Dt as c,V as l,Vt as u,jt as d,o as f,qt as p}from"./esm-DWpwXhBJ.js";var m,h,g,_,v,y,b,x,S;function C(){return(C=t((()=>{m=e(n(),1),o(),c(),h=r(),g=(e,t)=>{if(!t)return null;try{let n=t.scope?e.getWorksheet(t.scope):e.getSelectedWorksheet(),r=n.getRange({rowStart:t.rowStart,colStart:t.colStart,rowEnd:t.rowEnd,colEnd:t.colEnd}).toString();return i.sheetAndRangeToString(i.sheetNameToString(n.getName()),r)}catch{return null}},_=({workbook:e})=>{let t=d(),[n,r]=(0,m.useState)(``),[i,a]=(0,m.useState)(!1),o=(0,m.useRef)(null),s=(0,m.useRef)(null),c=(0,m.useRef)(``),l=(0,m.useRef)(null);l.current||={insertText:()=>{},selectAll:()=>o.current?.select(),setSelection:e=>o.current?.setSelectionRange(e.start,e.end),focus:()=>o.current?.focus(),toggleReferences:()=>{}};let f=e=>{let n=s.current;s.current=null,a(!1),e||r(c.current),t.setMode(e=>e&&e.selection===n?null:e),o.current?.focus()},_=()=>{if(s.current)return;c.current=n;let r=e.getSelectedWorksheet(),i=r.getSelection().createSelection({shapePolicy:`ranges`,navigationPolicy:`modify`});i.updateCoords({cell:{...r.getSelection().getCoords().cell,scope:r.getName()},ranges:[],rangeIndex:-1}),s.current=i,a(!0),t.setMode({mode:`point`,selection:i,activeInput:l.current,onDone:e=>{f(e.reason===`accept`)}}),o.current?.focus()};return(0,m.useEffect)(()=>{if(!i)return;let t=s.current;if(t)return t.addListeners({onChange:()=>{if(u())return;let n=(t.getCoords().ranges??[]).map(t=>g(e,t)).filter(Boolean);r(n.join(`, `))}})},[i,e]),(0,m.useEffect)(()=>()=>f(!0),[]),(0,h.jsxs)(`div`,{style:{display:`flex`,gap:8,alignItems:`center`,padding:`6px 8px`,border:`1px solid #888`,borderRadius:6},children:[(0,h.jsx)(`span`,{style:{fontFamily:`sans-serif`,fontSize:13},children:`My widget:`}),(0,h.jsx)(`input`,{ref:o,value:n,placeholder:`Click Pick, then drag / arrow on the grid…`,onChange:e=>r(e.target.value),onKeyDown:n=>{if(i){if(p(n,t.getMode(),e.getWorksheet().getName()))return;if(n.key===`Enter`){n.preventDefault(),f(!0);return}if(n.key===`Escape`){n.preventDefault(),f(!1);return}}},style:{flex:1,padding:`4px 6px`,fontFamily:`monospace`}}),(0,h.jsx)(`button`,{onClick:()=>i?f(!0):_(),style:{fontFamily:`sans-serif`,fontSize:12,padding:`4px 10px`,borderRadius:4,cursor:`pointer`,border:`1px solid ${i?`#2e7d32`:`#888`}`,background:i?`#e8f5e9`:`transparent`,color:i?`#2e7d32`:`inherit`},children:i?`picking… (click to commit)`:`Pick`})]})},v=()=>{let e=new a;e.addWorksheet(`Sheet2`);let t=e.getWorksheetAt(0);return t.getRange(`A1:B1`).setValues([[`Pick`,`me`]]),t.getRange(`B3`).setValue(42),e},y=()=>{let e=(0,m.useMemo)(v,[]),t=(0,m.useMemo)(()=>l(),[]);return(0,h.jsx)(f,{store:t,children:(0,h.jsxs)(`div`,{className:`storybook-container`,style:{display:`flex`,flexDirection:`column`,gap:8,height:`100%`},children:[(0,h.jsx)(_,{workbook:e}),(0,h.jsx)(`div`,{style:{flex:`1 1 100%`,minHeight:0},children:(0,h.jsx)(s,{workbook:e})})]})})},b=y.bind({}),b.storyName=`Third-party picker (custom provider)`,x={title:`Editor/Reference Picking (Third-party)`,component:b},S=[`ThirdPartyPickerStory`],b.parameters={...b.parameters,docs:{...b.parameters?.docs,source:{originalSource:`() => {
+  const workbook = useMemo(seedWorkbook, []);
+  const store = useMemo(() => createReferenceModeStore(), []);
+  return <ReferenceModeProvider store={store}>
+      <div className="storybook-container" style={{
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 8,
+      height: '100%'
+    }}>
+        <ThirdPartyPicker workbook={workbook} />
+        <div style={{
+        flex: '1 1 100%',
+        minHeight: 0
+      }}>
+          <WorkbookElement workbook={workbook} />
+        </div>
+      </div>
+    </ReferenceModeProvider>;
+}`,...b.parameters?.docs?.source}}}})))()}C();export{b as ThirdPartyPickerStory,S as __namedExportsOrder,x as default};

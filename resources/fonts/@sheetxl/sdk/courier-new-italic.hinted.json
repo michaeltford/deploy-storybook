@@ -1,0 +1,11 @@
+{
+  "format": "sheetxl-font-hinting/1",
+  "family": "Courier New",
+  "weight": 400,
+  "italic": true,
+  "source": { "family": "Courier New", "version": "Version 6.95" },
+  "unitsPerEm": 2048,
+  "sizes": [
+    [10, [76,-1,313,-1,315,-1,317,-1,319,-1,456,-1,7734,-1,7736,-1,7738,-1,7740,-1]]
+  ]
+}

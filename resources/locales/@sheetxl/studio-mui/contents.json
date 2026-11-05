@@ -1,0 +1,44 @@
+{
+  "kind": "locales",
+  "package": "@sheetxl/studio-mui",
+  "entries": [
+    {
+      "path": "de/groups.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "ui",
+      "sourceId": "groups"
+    },
+    {
+      "path": "de/studio.cmd.json",
+      "locale": "de",
+      "role": "catalog",
+      "scope": "app",
+      "sourceId": "studio"
+    },
+    {
+      "path": "de/ui.msg.json",
+      "locale": "de",
+      "role": "messages"
+    },
+    {
+      "path": "en/groups.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "ui",
+      "sourceId": "groups"
+    },
+    {
+      "path": "en/studio.cmd.json",
+      "locale": "en",
+      "role": "catalog",
+      "scope": "app",
+      "sourceId": "studio"
+    },
+    {
+      "path": "en/ui.msg.json",
+      "locale": "en",
+      "role": "messages"
+    }
+  ]
+}
