@@ -1,0 +1,128 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "editor",
+  "label": "Cell Editor",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "relativeReferencesToggle": {
+      "label": "Toggle References",
+      "description": "Toggle cell references from relative to absolute, to partially absolute, back to relative again.",
+      "shortcut": "F4",
+      "tags": [
+        "editor"
+      ]
+    },
+    "toggleEditorFocus": {
+      "label": "Toggle Editor Focus",
+      "description": "Move focus between editors such as the formula editor and the inline editor.",
+      "shortcut": "ctrl+F2",
+      "tags": [
+        "editor"
+      ]
+    },
+    "insertFunctionSum": {
+      "label": "Quick Sum",
+      "description": "Quick sum of the cells.",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Sum"
+      },
+      "icon": "FunctionSum",
+      "shortcut": "alt+=",
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertFunctionAverage": {
+      "label": "Quick Average",
+      "description": "Quick average of the cells.",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Average"
+      },
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertFunctionCount": {
+      "label": "Quick Count",
+      "description": "Quick count of the cells.",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Count Numbers"
+      },
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertFunctionMax": {
+      "label": "Quick Max",
+      "description": "Quick maximum of the cells.",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Max"
+      },
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertFunctionMin": {
+      "label": "Quick Min",
+      "description": "Quick minimum of the cells.",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Min"
+      },
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertCurrentTime": {
+      "label": "Current Time",
+      "description": "Insert the current time.",
+      "shortcut": "ctrl+shift+Semicolon",
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertCurrentDate": {
+      "label": "Current Date",
+      "description": "Insert the current date.",
+      "shortcut": "ctrl+Semicolon",
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    },
+    "insertValueAbove": {
+      "label": "Copy From Above",
+      "description": "Copy the value from the cell above the active cell into the cell or the formula bar.",
+      "shortcut": [
+        "ctrl+Quote",
+        "ctrl+shift+\""
+      ],
+      "tags": [
+        "mutator"
+      ],
+      "borrow": [
+        "sheet"
+      ]
+    }
+  }
+}

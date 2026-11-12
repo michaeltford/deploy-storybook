@@ -1,0 +1,82 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "chart",
+  "label": "Diagramm",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "chartChangeType": {
+      "label": "Diagrammtyp ändern",
+      "description": "Jede Datenreihe als einen anderen Diagrammtyp zeichnen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartSwitchRowColumn": {
+      "label": "Zeile/Spalte wechseln",
+      "description": "Die Zeilen der Daten statt der Spalten als Datenreihen darstellen, oder umgekehrt.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartSelectData": {
+      "label": "Daten auswählen",
+      "description": "Die Zellen ändern, die das Diagramm darstellt.",
+      "groupLabels": {
+        "contextMenu": "Daten auswählen…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartAddElement": {
+      "label": "Diagrammelement hinzufügen",
+      "description": "Titel, Legende, Datenbeschriftungen, Datentabelle, Gitternetzlinien, Achsentitel, Trendlinien, Fehlerindikatoren, Linien oder Auf-/Abwärtsbalken hinzufügen, verschieben oder entfernen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartTitleToggle": {
+      "label": "Diagrammtitel",
+      "description": "Den Diagrammtitel über dem Diagramm anzeigen oder entfernen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartLegendToggle": {
+      "label": "Legende",
+      "description": "Die Legende rechts anzeigen oder entfernen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartDataLabelsToggle": {
+      "label": "Datenbeschriftungen",
+      "description": "Jeden Punkt mit seinem Wert beschriften oder die Beschriftungen entfernen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartDataTableToggle": {
+      "label": "Datentabelle",
+      "description": "Die dargestellten Werte in einer Tabelle unter dem Diagramm anzeigen oder entfernen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartGridlinesToggle": {
+      "label": "Gitternetzlinien",
+      "description": "Die Hauptgitternetzlinien der Größenachse anzeigen oder entfernen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "chartAxisTitlesToggle": {
+      "label": "Achsentitel",
+      "description": "Auf jeder Primärachse einen Titel anzeigen oder die Titel entfernen.",
+      "tags": [
+        "mutator"
+      ]
+    }
+  }
+}

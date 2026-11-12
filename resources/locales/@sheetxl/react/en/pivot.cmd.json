@@ -1,0 +1,79 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "pivot",
+  "label": "PivotTable",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "pivotTableFields": {
+      "label": "PivotTable Fields",
+      "icon": "Pivot"
+    },
+    "insertSlicer": {
+      "label": "Insert Slicer",
+      "description": "Add a slicer that filters the PivotTable by the selected field, or by a field picked from the list.",
+      "icon": "SlicerInsert",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "pivotStyleOptions": {
+      "label": "PivotTable Style Options",
+      "description": "Choose which parts of the PivotTable style show.",
+      "groupLabels": {
+        "pivotToolbar": "Style"
+      }
+    },
+    "pivotRefreshOptions": {
+      "label": "Refresh",
+      "description": "Read the PivotTable's source again and lay it out, or refresh everything the workbook reads.",
+      "icon": "RefreshAll"
+    },
+    "pivotShowOptions": {
+      "label": "Show",
+      "description": "Choose which of the PivotTable's buttons and headers show."
+    },
+    "pivotDrillIndicatorsToggle": {
+      "label": "Toggle PivotTable +/- Buttons",
+      "description": "Show or hide the buttons that expand and collapse the PivotTable's items.",
+      "groupLabels": {
+        "pivotShowOptions": "+/- Buttons"
+      }
+    },
+    "pivotFieldHeadersToggle": {
+      "label": "Toggle PivotTable Field Headers",
+      "description": "Show or hide the captions and filter buttons over the PivotTable's row and column fields.",
+      "groupLabels": {
+        "pivotShowOptions": "Field Headers"
+      }
+    },
+    "pivotRowHeadersToggle": {
+      "label": "Toggle PivotTable Row Headers",
+      "description": "Show special formatting for the first column of the PivotTable.",
+      "groupLabels": {
+        "pivotStyleOptions": "Row Headers"
+      }
+    },
+    "pivotColumnHeadersToggle": {
+      "label": "Toggle PivotTable Column Headers",
+      "description": "Show special formatting for the first row of the PivotTable.",
+      "groupLabels": {
+        "pivotStyleOptions": "Column Headers"
+      }
+    },
+    "pivotBandedRowsToggle": {
+      "label": "Toggle PivotTable Banded Rows",
+      "description": "Show banded rows, even rows formatted differently from odd ones.",
+      "groupLabels": {
+        "pivotStyleOptions": "Banded Rows"
+      }
+    },
+    "pivotBandedColumnsToggle": {
+      "label": "Toggle PivotTable Banded Columns",
+      "description": "Show banded columns, even columns formatted differently from odd ones.",
+      "groupLabels": {
+        "pivotStyleOptions": "Banded Columns"
+      }
+    }
+  }
+}

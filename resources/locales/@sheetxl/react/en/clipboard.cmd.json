@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "app",
+  "label": "Application",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "cut": {
+      "label": "Cut",
+      "description": "Remove the selection and put it on the clipboard so you can paste it somewhere else.",
+      "icon": "cut",
+      "shortcut": [
+        "ctrl+X",
+        "shift+Delete"
+      ]
+    },
+    "copy": {
+      "label": "Copy",
+      "description": "Put a copy of the selection on the clipboard so you can paste it somewhere else.",
+      "icon": "copy",
+      "shortcut": [
+        "ctrl+C",
+        "ctrl+Insert"
+      ]
+    },
+    "paste": {
+      "label": "Paste",
+      "description": "Add content on the clipboard to your document.",
+      "icon": "paste.yellow",
+      "shortcut": [
+        "ctrl+V",
+        "shift+Insert"
+      ]
+    }
+  }
+}
