@@ -1,0 +1,301 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "sparkline",
+  "label": "Sparkline",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "sparklineEditData": {
+      "label": "Edit Data",
+      "description": "Change the cells the active cell's sparkline group draws in, and the cells it draws.",
+      "icon": "NamedRangeEdit",
+      "groupLabels": {
+        "sparklineOptions": "Edit Group Location & Data…"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineTypeLine": {
+      "label": "Line",
+      "description": "Change the selected sparkline groups to line sparklines.",
+      "icon": "SparklineLine",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineTypeColumn": {
+      "label": "Column",
+      "description": "Change the selected sparkline groups to column sparklines.",
+      "icon": "SparklineColumn",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineTypeWinLoss": {
+      "label": "Win/Loss",
+      "description": "Change the selected sparkline groups to win/loss sparklines: up for a positive value, down for a negative one.",
+      "icon": "SparklineWinLoss",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineShowOptions": {
+      "label": "Show",
+      "description": "Choose which points the sparklines highlight."
+    },
+    "sparklineHighPointToggle": {
+      "label": "Toggle High Point",
+      "description": "Highlight the highest point of each sparkline.",
+      "groupLabels": {
+        "sparklineShowOptions": "High Point"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineLowPointToggle": {
+      "label": "Toggle Low Point",
+      "description": "Highlight the lowest point of each sparkline.",
+      "groupLabels": {
+        "sparklineShowOptions": "Low Point"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineNegativePointsToggle": {
+      "label": "Toggle Negative Points",
+      "description": "Highlight the negative points of each sparkline.",
+      "groupLabels": {
+        "sparklineShowOptions": "Negative Points"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineFirstPointToggle": {
+      "label": "Toggle First Point",
+      "description": "Highlight the first point of each sparkline.",
+      "groupLabels": {
+        "sparklineShowOptions": "First Point"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineLastPointToggle": {
+      "label": "Toggle Last Point",
+      "description": "Highlight the last point of each sparkline.",
+      "groupLabels": {
+        "sparklineShowOptions": "Last Point"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineMarkersToggle": {
+      "label": "Toggle Markers",
+      "description": "Show a marker on every point of a line sparkline.",
+      "groupLabels": {
+        "sparklineShowOptions": "Markers"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineColorSeries": {
+      "label": "Sparkline Color",
+      "description": "Color the line or columns of the selected sparkline groups.",
+      "icon": "stroke.colored",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineColorNegative": {
+      "label": "Negative Points Color",
+      "description": "Color the negative points of the selected sparkline groups.",
+      "icon": "fill.colored",
+      "groupLabels": {
+        "sparklineMarkerColorOptions": "Negative Points"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineColorMarkers": {
+      "label": "Markers Color",
+      "description": "Color the markers of the selected line sparkline groups.",
+      "icon": "fill.colored",
+      "groupLabels": {
+        "sparklineMarkerColorOptions": "Markers"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineColorHigh": {
+      "label": "High Point Color",
+      "description": "Color the highest point of each sparkline.",
+      "icon": "fill.colored",
+      "groupLabels": {
+        "sparklineMarkerColorOptions": "High Point"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineColorLow": {
+      "label": "Low Point Color",
+      "description": "Color the lowest point of each sparkline.",
+      "icon": "fill.colored",
+      "groupLabels": {
+        "sparklineMarkerColorOptions": "Low Point"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineColorFirst": {
+      "label": "First Point Color",
+      "description": "Color the first point of each sparkline.",
+      "icon": "fill.colored",
+      "groupLabels": {
+        "sparklineMarkerColorOptions": "First Point"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineColorLast": {
+      "label": "Last Point Color",
+      "description": "Color the last point of each sparkline.",
+      "icon": "fill.colored",
+      "groupLabels": {
+        "sparklineMarkerColorOptions": "Last Point"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineColorAxis": {
+      "label": "Axis Color",
+      "description": "Color the horizontal axis of the selected sparkline groups.",
+      "icon": "stroke.colored",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineAxisOptions": {
+      "label": "Axis",
+      "description": "Change the axes, the scaling and how empty and hidden cells are drawn."
+    },
+    "sparklineAxisToggle": {
+      "label": "Toggle Axis",
+      "description": "Draw a horizontal axis at zero when zero is within the range.",
+      "groupLabels": {
+        "sparklineAxisOptions": "Show Axis"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineRightToLeftToggle": {
+      "label": "Toggle Right-to-Left",
+      "description": "Draw the points from right to left.",
+      "groupLabels": {
+        "sparklineAxisOptions": "Plot Data Right-to-Left"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineSameMinToggle": {
+      "label": "Toggle Same Minimum",
+      "description": "Scale every sparkline of the group to the group's lowest value.",
+      "groupLabels": {
+        "sparklineAxisOptions": "Same Minimum for All Sparklines"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineSameMaxToggle": {
+      "label": "Toggle Same Maximum",
+      "description": "Scale every sparkline of the group to the group's highest value.",
+      "groupLabels": {
+        "sparklineAxisOptions": "Same Maximum for All Sparklines"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineEmptyCellsGap": {
+      "label": "Show Empty Cells as Gaps",
+      "description": "Leave a gap where a cell is empty.",
+      "groupLabels": {
+        "sparklineAxisOptions": "Empty Cells as Gaps"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineEmptyCellsZero": {
+      "label": "Show Empty Cells as Zero",
+      "description": "Draw an empty cell as zero.",
+      "groupLabels": {
+        "sparklineAxisOptions": "Empty Cells as Zero"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineEmptyCellsSpan": {
+      "label": "Connect Over Empty Cells",
+      "description": "Draw the line straight across an empty cell.",
+      "groupLabels": {
+        "sparklineAxisOptions": "Connect Data Points with Line"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineShowHiddenToggle": {
+      "label": "Toggle Hidden Data",
+      "description": "Draw the values of hidden rows and columns.",
+      "groupLabels": {
+        "sparklineAxisOptions": "Show Data in Hidden Rows and Columns"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineClearOptions": {
+      "label": "Clear",
+      "description": "Clear the selected sparklines.",
+      "icon": "ClearAll"
+    },
+    "sparklineClear": {
+      "label": "Clear Selected Sparklines",
+      "description": "Remove the sparklines from the selected cells. The cells' values stay.",
+      "groupLabels": {
+        "sparklineClearOptions": "Clear Selected Sparklines"
+      },
+      "icon": "ClearAll",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sparklineClearGroups": {
+      "label": "Clear Selected Sparkline Groups",
+      "description": "Remove every sparkline of the groups the selection touches.",
+      "groupLabels": {
+        "sparklineClearOptions": "Clear Selected Sparkline Groups"
+      },
+      "icon": "ClearAll",
+      "tags": [
+        "mutator"
+      ]
+    }
+  }
+}

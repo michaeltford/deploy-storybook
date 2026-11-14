@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";function t(e,t,n){let r=e.metrics(t);return function(e,t){let n=Math.max(0,t-(e.ascent+e.descent));return{lineHeight:t,lineGap:n,baseline:Math.floor(n/2)+e.ascent}}(r,n?n(e,t):r.lineHeight)}function n(){return(n=e((()=>{})))()}export{n,t};
