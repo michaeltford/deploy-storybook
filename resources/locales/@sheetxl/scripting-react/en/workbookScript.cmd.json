@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "workbook",
+  "label": "Workbook",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "showScriptEditor": {
+      "label": "Scripts",
+      "description": "Show the script editor.",
+      "groupLabels": {
+        "scriptsOptions": "Script Editor…"
+      },
+      "icon": "ScriptRun",
+      "shortcut": [
+        "alt+F11"
+      ]
+    },
+    "executeScript": {
+      "label": "Run Script",
+      "description": "Run the last executed script.",
+      "icon": "ScriptRun",
+      "shortcut": "F8"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{n as t}from"./4VkvY2rXOd49uHcQ-DulsxhUb.js";async function n(e,t){let n=e;return t?.sourceMap&&(n+=`
+//# sourceMappingURL=${t.sourceMap}`),Function(`url`,`return import(url)`)(`data:text/javascript,${encodeURIComponent(n)}`)}function r(){return(r=e((()=>{t()})))()}r();export{n as loadCompiledModule};

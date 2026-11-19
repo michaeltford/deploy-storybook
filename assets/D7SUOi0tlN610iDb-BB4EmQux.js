@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";var t;function n(){return(n=e((()=>{t={ENCODEURL:{s:`Returns a URL-encoded string.`,p:{text:{d:`is a string to be URL encoded.`}}},WEBSERVICE:{s:`Retrieves data from a web service.`,p:{url:{d:`is the URL of the web service.`}}}}})))()}n();export{t as default};

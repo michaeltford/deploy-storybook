@@ -1,0 +1,9 @@
+{
+  "kind": "locales",
+  "package": "@sheetxl/formulas",
+  "entries": [
+    {
+      "path": "de/functions.json"
+    }
+  ]
+}

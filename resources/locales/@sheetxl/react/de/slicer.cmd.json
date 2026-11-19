@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "slicer",
+  "label": "Datenschnitt",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "formatSlicerStyle": {
+      "label": "Datenschnittformatvorlagen",
+      "description": "Das Aussehen des Datenschnitts und seiner Elemente ändern.",
+      "icon": "PresetStyles",
+      "tags": [
+        "mutator"
+      ]
+    }
+  }
+}

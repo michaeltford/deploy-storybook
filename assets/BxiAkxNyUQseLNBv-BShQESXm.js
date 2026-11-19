@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";var t,n,r,i;function a(){return(a=e((()=>{t=Object.defineProperty,n=(e,n)=>{let r={};for(var i in e)t(r,i,{get:e[i],enumerable:!0});return n||t(r,Symbol.toStringTag,{value:`Module`}),r},r=n({GLOBAL_CONTEXT_VARIABLE:()=>i}),i=`__SHEETXL`})))()}export{r as i,n,i as r,a as t};

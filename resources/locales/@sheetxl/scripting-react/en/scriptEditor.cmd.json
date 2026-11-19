@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "scriptEditor",
+  "label": "Script Editor",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "scriptingHelp": {
+      "label": "Scripting Help",
+      "description": "Open Documentation For Scripting.",
+      "groupLabels": {
+        "scriptsOptions": "Help"
+      },
+      "icon": "Help"
+    },
+    "showScriptingCommands": {
+      "label": "Scripting Command Palette",
+      "description": "Show commands for scripting.",
+      "groupLabels": {
+        "scriptsOptions": "Command Palette"
+      },
+      "icon": "Keyboard",
+      "shortcut": "F1"
+    },
+    "insertScript": {
+      "label": "Insert Script",
+      "description": "Inserts a script from a set of templates.",
+      "icon": "ScriptInsert"
+    },
+    "saveScripts": {
+      "label": "Save Script",
+      "description": "Save the current scripts.",
+      "icon": "ScriptSave"
+    }
+  }
+}

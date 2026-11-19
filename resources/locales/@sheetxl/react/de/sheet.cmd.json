@@ -1,0 +1,490 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "sheet",
+  "label": "Blatt",
+  "tag": "de",
+  "version": 1,
+  "commands": {
+    "gridlinesToggle": {
+      "label": "Gitternetzlinien",
+      "groupLabels": {
+        "view": "Gitternetzlinien"
+      },
+      "description": "Umschalten, ob die Linien zwischen Zeilen und Spalten angezeigt werden."
+    },
+    "sheetViewToggleGridlinesRows": {
+      "label": "Zeilen-Gitternetzlinien",
+      "groupLabels": {
+        "gridlinesOptions": "Zeilen",
+        "view": "Zeilen-Gitternetzlinien"
+      },
+      "description": "Umschalten, ob die Linien zwischen Zeilen angezeigt werden."
+    },
+    "sheetViewToggleGridlinesColumns": {
+      "label": "Spalten-Gitternetzlinien",
+      "groupLabels": {
+        "gridlinesOptions": "Spalten",
+        "view": "Spalten-Gitternetzlinien"
+      },
+      "description": "Umschalten, ob die Linien zwischen Spalten angezeigt werden."
+    },
+    "sheetViewFormatGridlinesColor": {
+      "label": "Farbe der Gitternetzlinien",
+      "description": "Die Gitternetzlinien der Zeilen und Spalten einfärben."
+    },
+    "sheetViewToggleShowHeadings": {
+      "label": "Überschriften",
+      "groupLabels": {
+        "view": "Überschriften"
+      },
+      "description": "Umschalten, ob die Zeilen- und Spaltenüberschriften angezeigt werden."
+    },
+    "sheetViewToggleShowHeadingRows": {
+      "label": "Zeilenüberschriften",
+      "groupLabels": {
+        "headingsOptions": "Zeilen",
+        "view": "Zeilenüberschriften"
+      },
+      "description": "Umschalten, ob die Zeilenüberschriften angezeigt werden."
+    },
+    "sheetViewToggleShowHeadingColumns": {
+      "label": "Spaltenüberschriften",
+      "groupLabels": {
+        "headingsOptions": "Spalten",
+        "view": "Spaltenüberschriften"
+      },
+      "description": "Umschalten, ob die Spaltenüberschriften angezeigt werden."
+    },
+    "sheetViewToggleShowHeadingsNumeric": {
+      "label": "Numerische Überschriften",
+      "description": "Umschalten, ob Zellüberschriften Zahlen oder A1-Konventionen anzeigen.",
+      "shortcut": "ctrl+shift+h"
+    },
+    "sheetViewToggleFormulaView": {
+      "label": "Formeln anzeigen",
+      "description": "Umschalten, ob Zellen Formeln oder Werte anzeigen.",
+      "icon": "FormulaView",
+      "shortcut": "ctrl+`"
+    },
+    "sheetViewToggleShowZeros": {
+      "label": "Nullwerte anzeigen",
+      "description": "Umschalten, ob Zellen mit dem Wert Null „0“ oder nichts anzeigen.",
+      "icon": "ViewZero"
+    },
+    "protectionSheetToggle": {
+      "label": "{locked, select, true{Blattschutz aufheben} other{Blatt schützen}}",
+      "groupLabels": {
+        "sheet": "{locked, select, true{Schutz aufheben} other{Schützen}}"
+      },
+      "description": "Unerwünschte Änderungen durch andere verhindern, indem deren Bearbeitungsmöglichkeiten eingeschränkt werden.\\nSie können z. B. verhindern, dass gesperrte Zellen bearbeitet oder Formatierungen geändert werden.",
+      "icon": "Lock",
+      "params": {
+        "locked": false
+      }
+    },
+    "protectionSheetPause": {
+      "label": "{paused, select, true{Schutz fortsetzen} other{Schutz anhalten}}",
+      "groupLabels": {
+        "protectionOptions": "{paused, select, true{Schutz fortsetzen} other{Schutz anhalten}}"
+      },
+      "description": "Den Schutz dieses Blatts vorübergehend aufheben, ohne den Blattschutz zu entfernen.\nFragt nach dem Blattkennwort, falls eines gesetzt ist. Gilt nur für diese Sitzung und wird nie mit der Datei gespeichert.",
+      "icon": "LockOpen",
+      "params": {
+        "paused": false
+      }
+    },
+    "protectionSheetProtectOrPause": {
+      "label": "{state, select, paused{Schutz fortsetzen} locked{Schutz anhalten} other{Blatt schützen}}",
+      "description": "Das Blatt schützen oder den Schutz eines geschützten Blatts anhalten.\nHebt den Schutz nie auf: Anhalten behält Kennwort und Optionen und gilt nur für diese Sitzung.",
+      "icon": "Lock",
+      "params": {
+        "state": "none"
+      }
+    },
+    "protectionHighlight": {
+      "label": "Gesperrte Zellen hervorheben",
+      "groupLabels": {
+        "protectionOptions": "Gesperrte Zellen hervorheben"
+      },
+      "description": "Die Zellen schattieren, die der Blattschutz sperrt, und die weiterhin bearbeitbaren Bereiche frei lassen.\nEine Ansichtseinstellung: Sie ändert nichts an der Arbeitsmappe und funktioniert unabhängig davon, ob das Blatt geschützt ist."
+    },
+    "manageProtection": {
+      "label": "Schutz verwalten",
+      "groupLabels": {
+        "protectionOptions": "Schutz verwalten…",
+        "sheetTabMenu": "Schutz verwalten…",
+        "contextMenu": "Schutz verwalten…"
+      },
+      "description": "Blattschutz und seine Optionen, die bearbeitbar bleibenden Bereiche und der Arbeitsmappenschutz – an einem Ort.",
+      "icon": "Lock"
+    },
+    "formatSheetTabColor": {
+      "label": "Registerfarbe",
+      "description": "Die Registerkarte einfärben, um sie von anderen Blättern zu unterscheiden.",
+      "icon": "stroke.colored"
+    },
+    "displayPlaceholdersToggle": {
+      "label": "Platzhalter anzeigen",
+      "description": "Zwischen dem Ausblenden von Objekten, dem Anzeigen von Objekten und dem Anzeigen von Platzhaltern wechseln.",
+      "shortcut": "ctrl+6"
+    },
+    "noOp": {
+      "label": "Nichts tun",
+      "description": "Nichts tun.",
+      "shortcut": "ctrl+7"
+    },
+    "displayOutlineSymbolsToggle": {
+      "label": "Gliederungssymbole anzeigen",
+      "description": "Die Gliederungssymbole ein- oder ausblenden.",
+      "shortcut": "ctrl+8"
+    },
+    "calculate": {
+      "label": "Blatt berechnen",
+      "description": "Die Formeln des aktuellen Blatts neu berechnen.",
+      "icon": "CalculateSheet",
+      "shortcut": [
+        "shift+F9",
+        "ctrl+="
+      ]
+    },
+    "insertFunctionDialog": {
+      "label": "Funktion einfügen",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Weitere Funktionen…"
+      },
+      "description": "Mit der Funktion in der aktuellen Zelle arbeiten.",
+      "icon": "FunctionThin",
+      "shortcut": "shift+F3",
+      "borrow": [
+        "workbook"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetZoomOut": {
+      "label": "Verkleinern",
+      "description": "Verkleinern, um weniger Details, aber mehr Fläche zu sehen.",
+      "shortcut": [
+        "ctrl+alt+-",
+        "ctrl+alt+NumpadSubtract"
+      ]
+    },
+    "sheetZoomIn": {
+      "label": "Vergrößern",
+      "description": "Vergrößern, um mehr Details, aber weniger Fläche zu sehen.",
+      "shortcut": [
+        "ctrl+alt+=",
+        "ctrl+alt+NumpadAdd"
+      ]
+    },
+    "sheetZoom100": {
+      "label": "Zoom 100 %",
+      "description": "Dokument auf 100 % zoomen.",
+      "shortcut": "ctrl+alt+o"
+    },
+    "sheetZoom200": {
+      "label": "Zoom 200 %",
+      "description": "Dokument auf 200 % zoomen."
+    },
+    "sheetZoom75": {
+      "label": "Zoom 75 %",
+      "description": "Dokument auf 75 % zoomen."
+    },
+    "sheetZoom50": {
+      "label": "Zoom 50 %",
+      "description": "Dokument auf 50 % zoomen."
+    },
+    "sheetZoom25": {
+      "label": "Zoom 25 %",
+      "description": "Dokument auf 25 % zoomen."
+    },
+    "sheetZoomSelection": {
+      "label": "Auf Auswahl zoomen",
+      "description": "So zoomen, dass der ausgewählte Bereich das Fenster füllt."
+    },
+    "sheetZoomCustom": {
+      "label": "Benutzerdefinierter Zoom",
+      "description": "Dokument auf einen benutzerdefinierten Maßstab zoomen.",
+      "groupLabels": {
+        "sheetZoomOptions": "Benutzerdefiniert"
+      }
+    },
+    "openContextMenu": {
+      "label": "Kontextmenü",
+      "description": "Das Kontextmenü öffnen.",
+      "shortcut": [
+        "shift+F10",
+        "ContextMenu"
+      ]
+    },
+    "insertImageFromFile": {
+      "label": "Bild einfügen",
+      "groupLabels": {
+        "contextMenu": "Bild einfügen…",
+        "insertImageOverCellsOptions": "Vom Gerät…"
+      },
+      "description": "Ein Bild von Ihrem Gerät einfügen.",
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "insertImageFromURL": {
+      "label": "Bild aus dem Web einfügen",
+      "groupLabels": {
+        "insertImageOverCellsOptions": "Aus dem Web…"
+      },
+      "description": "Ein Bild aus dem Web einfügen.",
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "insertShape": {
+      "label": "Formen",
+      "description": "Eine vorgefertigte Form einfügen, etwa ein Rechteck, einen Pfeil, eine Legende oder ein Flussdiagrammsymbol.",
+      "icon": "shape:Shapes",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundToggle": {
+      "label": "Blatthintergrund umschalten",
+      "description": "Das Bild, das hinter den Zellen des Blattes gekachelt wird, hinzufügen oder entfernen.",
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundFromFile": {
+      "label": "Blatthintergrund vom Gerät",
+      "description": "Ein Bild von Ihrem Gerät als Hintergrund des Blattes verwenden.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "Vom Gerät…"
+      },
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundFromURL": {
+      "label": "Blatthintergrund aus dem Web",
+      "description": "Ein Bild aus dem Web als Hintergrund des Blattes verwenden.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "Aus dem Web…"
+      },
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundDelete": {
+      "label": "Blatthintergrund löschen",
+      "description": "Das Hintergrundbild des Blattes entfernen.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "Hintergrund löschen"
+      },
+      "icon": "Delete",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "manageDataValidation": {
+      "label": "Datenüberprüfung",
+      "groupLabels": {
+        "contextMenu": "Datenüberprüfung…",
+        "dataValidationOptions": "Regeln verwalten…"
+      },
+      "description": "Regeln zur Datenüberprüfung verwalten, um die Art der Dateneingabe in einer Zelle zu beschränken.",
+      "icon": "DataValidation"
+    },
+    "dataValidationShowInvalid": {
+      "label": "Ungültige Daten anzeigen",
+      "description": "Zellen markieren, deren Wert eine Datenüberprüfung nicht besteht.\nEine Ansichtseinstellung: Die Regeln bleiben unverändert.",
+      "groupLabels": {
+        "dataValidationOptions": "Ungültige anzeigen"
+      }
+    },
+    "dataValidationClearSheet": {
+      "label": "Datenüberprüfung aus dem gesamten Blatt löschen",
+      "description": "Alle Regeln zur Datenüberprüfung auf diesem Blatt entfernen.",
+      "groupLabels": {
+        "dataValidationClearOptions": "Aus dem gesamten Blatt"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "manageConditionalFormat": {
+      "label": "Bedingte Formatierung",
+      "groupLabels": {
+        "contextMenu": "Bedingte Formatierung…",
+        "conditionalFormatOptions": "Regeln verwalten…"
+      },
+      "description": "Regeln für bedingte Formatierung verwalten, um das Aussehen von Zellen abhängig von ihren Werten zu ändern.",
+      "icon": "ConditionalFormatOptions"
+    },
+    "conditionalFormatClearSheet": {
+      "label": "Regeln aus gesamtem Blatt löschen",
+      "groupLabels": {
+        "conditionalFormatClearOptions": "Aus gesamtem Blatt"
+      },
+      "description": "Alle Regeln für bedingte Formatierung auf diesem Blatt entfernen.",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "manageProtectedRange": {
+      "label": "Bereiche bearbeiten zulassen",
+      "groupLabels": {
+        "contextMenu": "Bereiche bearbeiten zulassen…"
+      },
+      "description": "Bereiche verwalten, die bearbeitbar bleiben, während das Blatt geschützt ist.",
+      "icon": "Lock"
+    },
+    "formatPainterToggle": {
+      "label": "Format übertragen",
+      "description": "Format auf einen anderen Bereich Ihrer Arbeitsmappe übertragen.",
+      "icon": "FormatPaint.yellow"
+    },
+    "flashFill": {
+      "label": "Blitzvorschau",
+      "description": "Eine Blitzvorschau ausführen.",
+      "shortcut": [
+        "ctrl+e",
+        "ctrl+alt+e"
+      ]
+    },
+    "freezeToggle": {
+      "label": "Fenster fixieren",
+      "description": "Zeilen und Spalten sichtbar halten, während der Rest des Blatts scrollt (basierend auf der aktuellen Auswahl).",
+      "icon": "FreezeBoth"
+    },
+    "freezeToggleHorizontal": {
+      "label": "Obere Zeilen fixieren",
+      "description": "Die oberen Zeilen beim Scrollen durch den Rest des Blatts sichtbar halten.",
+      "icon": "FreezeRows"
+    },
+    "freezeToggleVertical": {
+      "label": "Linke Spalten fixieren",
+      "description": "Die linken Spalten beim Scrollen durch den Rest des Blatts sichtbar halten.",
+      "icon": "FreezeColumns"
+    },
+    "unfreeze": {
+      "label": "Fixierung aufheben",
+      "description": "Die Fixierung von Zeilen und Spalten aufheben.",
+      "icon": "MergeUnMerge"
+    },
+    "freezePanesAt": {
+      "label": "Fixierung verschieben",
+      "description": "Die Zeilen oder Spalten bis zur angegebenen fixieren."
+    },
+    "pasteValues": {
+      "label": "Werte einfügen",
+      "groupLabels": {
+        "pasteOptions": "Werte"
+      },
+      "description": "Nur die Werte der ausgewählten Zellen einfügen.\\n\\nDie Formatierung wird nicht übernommen.",
+      "icon": "PasteValues",
+      "shortcut": "ctrl+shift+V"
+    },
+    "pasteFormats": {
+      "label": "Formatierung einfügen",
+      "groupLabels": {
+        "pasteOptions": "Formatierung"
+      },
+      "description": "Nur die Formate der ausgewählten Zellen einfügen.\\n\\nDer Inhalt wird nicht übernommen.",
+      "icon": "PasteFormats"
+    },
+    "pasteFormulas": {
+      "label": "Formeln einfügen",
+      "groupLabels": {
+        "pasteOptions": "Formeln"
+      },
+      "description": "Nur die Formeln der ausgewählten Zellen einfügen. Werte und Formatierung werden nicht übernommen.",
+      "icon": "PasteFormulas"
+    },
+    "pasteTranspose": {
+      "label": "Transponiert einfügen",
+      "groupLabels": {
+        "pasteOptions": "Transponieren"
+      },
+      "description": "Mit vertauschten Zeilen und Spalten einfügen.",
+      "icon": "PasteTranspose"
+    },
+    "pasteLinks": {
+      "label": "Verknüpfungen einfügen",
+      "groupLabels": {
+        "pasteOptions": "Verknüpfungen"
+      },
+      "description": "Als Formelbezüge auf die ursprünglichen Zellen einfügen.",
+      "icon": "PasteLinks"
+    },
+    "undo": {
+      "label": "Rückgängig",
+      "icon": "Undo",
+      "shortcut": "ctrl+z",
+      "borrow": [
+        "workbook"
+      ],
+      "description": "{hasAction, select, true{Rückgängig: {action}} other{Letzte Aktion rückgängig machen.}}",
+      "params": {
+        "hasAction": false,
+        "action": ""
+      }
+    },
+    "redo": {
+      "label": "Wiederholen",
+      "icon": "Redo",
+      "shortcut": [
+        "ctrl+y",
+        "F4",
+        "alt+Enter"
+      ],
+      "borrow": [
+        "workbook"
+      ],
+      "description": "{hasAction, select, true{Wiederholen: {action}} other{Letzte Aktion wiederholen oder das Rückgängigmachen aufheben.}}",
+      "params": {
+        "hasAction": false,
+        "action": ""
+      }
+    },
+    "editTable": {
+      "label": "Tabelle bearbeiten…",
+      "groupLabels": {
+        "namedItem": "Bearbeiten…",
+        "tableOptions": "Bearbeiten…"
+      },
+      "description": "Die Tabelle bearbeiten, um Formatierung, Sortierung, Filter oder andere erweiterte Funktionen anzupassen.",
+      "icon": "TableInsert"
+    },
+    "editPivotTable": {
+      "label": "PivotTable bearbeiten…",
+      "description": "Die Felder der PivotTable anzeigen, um zu wählen, was sie gruppiert und was sie berechnet.",
+      "groupLabels": {
+        "pivotToolbar": "Feldliste"
+      },
+      "icon": "Pivot"
+    },
+    "formatCellControl": {
+      "label": "Steuerelement-Optionen",
+      "description": "Die Optionen des Zellsteuerelements unter der aktiven Zelle anzeigen.",
+      "icon": "CellsFormat"
+    },
+    "showCommentsPane": {
+      "label": "Kommentare anzeigen",
+      "description": "Alle Kommentare des Blatts in einem Bereich auflisten.",
+      "icon": "CommentManage"
+    },
+    "chartDetails": {
+      "label": "Diagrammdetails",
+      "groupLabels": {
+        "taskPane": "Diagramm"
+      },
+      "description": "Zeigt die Datenreihen, Achsen und weiteren Elemente des ausgewählten Diagramms.",
+      "icon": "chart:columnClustered"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";function t(e,t){if(!Number.isFinite(e))return`0`;let n=e.toFixed(t);return n.indexOf(`.`)>=0&&(n=n.replace(/\.?0+$/,``)),n===`-0`?`0`:n}function n(){return(n=e((()=>{})))()}export{n,t};

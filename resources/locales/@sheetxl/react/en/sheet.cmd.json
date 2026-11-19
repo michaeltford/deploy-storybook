@@ -1,0 +1,490 @@
+{
+  "$schema": "../../../utils-react/command-catalog.schema.json",
+  "scope": "sheet",
+  "label": "Sheet",
+  "tag": "en",
+  "version": 1,
+  "commands": {
+    "gridlinesToggle": {
+      "label": "Gridlines",
+      "description": "Toggle whether the lines between rows and columns in the sheet are displayed.",
+      "groupLabels": {
+        "view": "Gridlines"
+      }
+    },
+    "sheetViewToggleGridlinesRows": {
+      "label": "Row Gridlines",
+      "description": "Toggle whether the lines between rows in the sheet are displayed.",
+      "groupLabels": {
+        "view": "Row Gridlines",
+        "gridlinesOptions": "Rows"
+      }
+    },
+    "sheetViewToggleGridlinesColumns": {
+      "label": "Column Gridlines",
+      "description": "Toggle whether the lines between columns in the sheet are displayed.",
+      "groupLabels": {
+        "view": "Columns Gridlines",
+        "gridlinesOptions": "Columns"
+      }
+    },
+    "sheetViewFormatGridlinesColor": {
+      "label": "Gridlines Color",
+      "description": "Color the rows and column gridlines."
+    },
+    "sheetViewToggleShowHeadings": {
+      "label": "Headings",
+      "description": "Toggle whether the row and column headings are displayed.",
+      "groupLabels": {
+        "view": "Headings"
+      }
+    },
+    "sheetViewToggleShowHeadingRows": {
+      "label": "Row Headings",
+      "description": "Toggle whether the row headings are displayed.",
+      "groupLabels": {
+        "view": "Row Headings",
+        "headingsOptions": "Rows"
+      }
+    },
+    "sheetViewToggleShowHeadingColumns": {
+      "label": "Column Headings",
+      "description": "Toggle whether the column headings are displayed.",
+      "groupLabels": {
+        "view": "Columns Headings",
+        "headingsOptions": "Columns"
+      }
+    },
+    "sheetViewToggleShowHeadingsNumeric": {
+      "label": "Numeric Headers",
+      "description": "Toggle whether cell headings show numbers or A1 conventions.",
+      "shortcut": "ctrl+shift+h"
+    },
+    "sheetViewToggleFormulaView": {
+      "label": "Show Formulas",
+      "description": "Toggle whether cells show formula or values.",
+      "icon": "FormulaView",
+      "shortcut": "ctrl+`"
+    },
+    "sheetViewToggleShowZeros": {
+      "label": "Show Zeros",
+      "description": "Toggle whether cell with zero value shows '0' or blank.",
+      "icon": "ViewZero"
+    },
+    "protectionSheetToggle": {
+      "label": "{locked, select, true{Unprotect Sheet} other{Protect Sheet}}",
+      "description": "Prevent unwanted changes from others by limiting their ability to edit.\nFor example, you can prevent people from editing locked cells or making formatting changes.",
+      "groupLabels": {
+        "sheet": "{locked, select, true{Unprotect} other{Protect}}"
+      },
+      "icon": "Lock",
+      "params": {
+        "locked": false
+      }
+    },
+    "protectionSheetPause": {
+      "label": "{paused, select, true{Resume Protection} other{Pause Protection}}",
+      "description": "Temporarily lift protection on this sheet without unprotecting it.\nAsks for the sheet password, if there is one. It applies to this session only and is never saved with the file.",
+      "groupLabels": {
+        "protectionOptions": "{paused, select, true{Resume Protection} other{Pause Protection}}"
+      },
+      "icon": "LockOpen",
+      "params": {
+        "paused": false
+      }
+    },
+    "protectionSheetProtectOrPause": {
+      "label": "{state, select, paused{Resume Protection} locked{Pause Protection} other{Protect Sheet}}",
+      "description": "Protect the sheet, or pause protection on a protected one.\nNever unprotects: pausing keeps the password and options, and applies to this session only.",
+      "icon": "Lock",
+      "params": {
+        "state": "none"
+      }
+    },
+    "protectionHighlight": {
+      "label": "Highlight Locked Cells",
+      "description": "Shade the cells sheet protection locks, leaving the ranges that stay editable clear.\nA view setting: it changes nothing in the workbook, and works whether or not the sheet is protected.",
+      "groupLabels": {
+        "protectionOptions": "Highlight Locked Cells"
+      }
+    },
+    "manageProtection": {
+      "label": "Manage Protection",
+      "description": "Sheet protection and its options, the ranges that stay editable, and workbook protection - in one place.",
+      "groupLabels": {
+        "protectionOptions": "Manage Protection…",
+        "sheetTabMenu": "Manage Protection…",
+        "contextMenu": "Manage Protection…"
+      },
+      "icon": "Lock"
+    },
+    "formatSheetTabColor": {
+      "label": "Tab Color",
+      "description": "Color the tab to help differentiate for other sheets.",
+      "icon": "stroke.colored"
+    },
+    "displayPlaceholdersToggle": {
+      "label": "Display Placeholders",
+      "description": "Switch between hiding objects, displaying objects, and displaying placeholders for objects.",
+      "shortcut": "ctrl+6"
+    },
+    "noOp": {
+      "label": "Do nothing",
+      "description": "Do Nothing.",
+      "shortcut": "ctrl+7"
+    },
+    "displayOutlineSymbolsToggle": {
+      "label": "Display Outline Symbols",
+      "description": "Display or hide the outline symbols.",
+      "shortcut": "ctrl+8"
+    },
+    "calculate": {
+      "label": "Calculate Sheet",
+      "description": "Recalculate the formulas on the current sheet.",
+      "icon": "CalculateSheet",
+      "shortcut": [
+        "shift+F9",
+        "ctrl+="
+      ]
+    },
+    "insertFunctionDialog": {
+      "label": "Insert Function",
+      "description": "Work with the function in the current cell.",
+      "groupLabels": {
+        "insertFunctionSumOptions": "Function…"
+      },
+      "icon": "FunctionThin",
+      "shortcut": "shift+F3",
+      "borrow": [
+        "workbook"
+      ],
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetZoomOut": {
+      "label": "Zoom Out",
+      "description": "Zoom out to see less detail but more area.",
+      "shortcut": [
+        "ctrl+alt+-",
+        "ctrl+alt+NumpadSubtract"
+      ]
+    },
+    "sheetZoomIn": {
+      "label": "Zoom In",
+      "description": "Zoom in to see more detail but less area.",
+      "shortcut": [
+        "ctrl+alt+=",
+        "ctrl+alt+NumpadAdd"
+      ]
+    },
+    "sheetZoom100": {
+      "label": "Zoom 100%",
+      "description": "Zoom document to 100%.",
+      "shortcut": "ctrl+alt+o"
+    },
+    "sheetZoom200": {
+      "label": "Zoom 200%",
+      "description": "Zoom document to 200%."
+    },
+    "sheetZoom75": {
+      "label": "Zoom 75%",
+      "description": "Zoom document to 75%."
+    },
+    "sheetZoom50": {
+      "label": "Zoom 50%",
+      "description": "Zoom document to 50%."
+    },
+    "sheetZoom25": {
+      "label": "Zoom 25%",
+      "description": "Zoom document to 25%."
+    },
+    "sheetZoomSelection": {
+      "label": "Zoom to Selection",
+      "description": "Zoom so the selected range fills the window."
+    },
+    "sheetZoomCustom": {
+      "label": "Custom Zoom",
+      "description": "Zoom document to a custom scale.",
+      "groupLabels": {
+        "sheetZoomOptions": "Custom"
+      }
+    },
+    "openContextMenu": {
+      "label": "Context Menu",
+      "description": "Open the context menu.",
+      "shortcut": [
+        "shift+F10",
+        "ContextMenu"
+      ]
+    },
+    "insertImageFromFile": {
+      "label": "Insert Image",
+      "description": "Insert a picture from your device.",
+      "groupLabels": {
+        "contextMenu": "Insert Image…",
+        "insertImageOverCellsOptions": "From Device…"
+      },
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "insertImageFromURL": {
+      "label": "Insert Image From Web",
+      "description": "Insert a picture from the web.",
+      "groupLabels": {
+        "insertImageOverCellsOptions": "From the Web…"
+      },
+      "icon": "InsertImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "insertShape": {
+      "label": "Shapes",
+      "description": "Insert a ready-made shape, such as a rectangle, an arrow, a callout or a flowchart symbol.",
+      "icon": "shape:Shapes",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundToggle": {
+      "label": "Toggle Sheet Background",
+      "description": "Add or remove the picture that is tiled behind the sheet's cells.",
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundFromFile": {
+      "label": "Sheet Background From Device",
+      "description": "Use a picture from your device as the sheet's background.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "From Device…"
+      },
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundFromURL": {
+      "label": "Sheet Background From Web",
+      "description": "Use a picture from the web as the sheet's background.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "From the Web…"
+      },
+      "icon": "BackgroundImage",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "sheetBackgroundDelete": {
+      "label": "Delete Sheet Background",
+      "description": "Remove the sheet's background picture.",
+      "groupLabels": {
+        "sheetBackgroundOptions": "Delete Background"
+      },
+      "icon": "Delete",
+      "tags": [
+        "mutator"
+      ]
+    },
+    "manageDataValidation": {
+      "label": "Data Validation",
+      "description": "Manage data validation rules to limit the type of data entered in a cell.",
+      "groupLabels": {
+        "contextMenu": "Data Validation…",
+        "dataValidationOptions": "Manage Rules…"
+      },
+      "icon": "DataValidation"
+    },
+    "dataValidationShowInvalid": {
+      "label": "Show Invalid Data",
+      "description": "Mark the cells whose value fails a data validation.\nA view setting: it changes nothing in the rules.",
+      "groupLabels": {
+        "dataValidationOptions": "Show Invalid"
+      }
+    },
+    "dataValidationClearSheet": {
+      "label": "Clear Data Validation from Entire Sheet",
+      "description": "Remove every data validation rule on this sheet.",
+      "groupLabels": {
+        "dataValidationClearOptions": "From Entire Sheet"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "manageConditionalFormat": {
+      "label": "Conditional Formatting",
+      "description": "Manage conditional formatting rules to change how cells look based on their values.",
+      "groupLabels": {
+        "contextMenu": "Conditional Formatting…",
+        "conditionalFormatOptions": "Manage Rules…"
+      },
+      "icon": "ConditionalFormatOptions"
+    },
+    "conditionalFormatClearSheet": {
+      "label": "Clear Rules from Entire Sheet",
+      "description": "Remove every conditional formatting rule on this sheet.",
+      "groupLabels": {
+        "conditionalFormatClearOptions": "From Entire Sheet"
+      },
+      "tags": [
+        "mutator"
+      ]
+    },
+    "manageProtectedRange": {
+      "label": "Allow Edit Ranges",
+      "description": "Manage ranges that stay editable while the sheet is protected.",
+      "groupLabels": {
+        "contextMenu": "Allow Edit Ranges…"
+      },
+      "icon": "Lock"
+    },
+    "formatPainterToggle": {
+      "label": "Format Painter",
+      "description": "Apply style to another part of your workbook.",
+      "icon": "FormatPaint.yellow"
+    },
+    "flashFill": {
+      "label": "Flash Fill",
+      "description": "Do a flash fill.",
+      "shortcut": [
+        "ctrl+e",
+        "ctrl+alt+e"
+      ]
+    },
+    "freezeToggle": {
+      "label": "Freeze Panes",
+      "description": "Keep rows and columns visible while the rest of the sheet scrolls (based on current selection).",
+      "icon": "FreezeBoth"
+    },
+    "freezeToggleHorizontal": {
+      "label": "Freeze Top Rows",
+      "description": "Keep the top rows visible while scrolling through the rest of the sheet.",
+      "icon": "FreezeRows"
+    },
+    "freezeToggleVertical": {
+      "label": "Freeze Left Columns",
+      "description": "Keep the left columns visible while scrolling through the rest of the sheet.",
+      "icon": "FreezeColumns"
+    },
+    "unfreeze": {
+      "label": "Unfreeze Panes",
+      "description": "Unfreeze both the rows and columns.",
+      "icon": "MergeUnMerge"
+    },
+    "freezePanesAt": {
+      "label": "Move Freeze",
+      "description": "Freeze the rows or columns up to the given one."
+    },
+    "pasteValues": {
+      "label": "Paste Values",
+      "description": "Paste only the values of the selected cells.\n\nThe formatting is not applied.",
+      "groupLabels": {
+        "pasteOptions": "Values"
+      },
+      "icon": "PasteValues",
+      "shortcut": "ctrl+shift+V"
+    },
+    "pasteFormats": {
+      "label": "Paste Formatting",
+      "description": "Paste only the formats of the selected cells.\n\nThe content is not applied.",
+      "groupLabels": {
+        "pasteOptions": "Formatting"
+      },
+      "icon": "PasteFormats"
+    },
+    "pasteFormulas": {
+      "label": "Paste Formulas",
+      "description": "Paste only the formulas of the selected cells. The values and formatting is not applied.",
+      "groupLabels": {
+        "pasteOptions": "Formulas"
+      },
+      "icon": "PasteFormulas"
+    },
+    "pasteTranspose": {
+      "label": "Paste Transpose",
+      "description": "Paste with the rows and columns flipped.",
+      "groupLabels": {
+        "pasteOptions": "Transpose"
+      },
+      "icon": "PasteTranspose"
+    },
+    "pasteLinks": {
+      "label": "Paste Links",
+      "description": "Paste as formula references to the original cells.",
+      "groupLabels": {
+        "pasteOptions": "Links"
+      },
+      "icon": "PasteLinks"
+    },
+    "undo": {
+      "label": "Undo",
+      "icon": "Undo",
+      "shortcut": "ctrl+z",
+      "borrow": [
+        "workbook"
+      ],
+      "description": "{hasAction, select, true{Undo {action}} other{Undo the last action.}}",
+      "params": {
+        "hasAction": false,
+        "action": ""
+      }
+    },
+    "redo": {
+      "label": "Redo",
+      "icon": "Redo",
+      "shortcut": [
+        "ctrl+y",
+        "F4",
+        "alt+Enter"
+      ],
+      "borrow": [
+        "workbook"
+      ],
+      "description": "{hasAction, select, true{Redo {action}} other{Repeat the last action or undo the redo.}}",
+      "params": {
+        "hasAction": false,
+        "action": ""
+      }
+    },
+    "editTable": {
+      "label": "Edit Table…",
+      "description": "Edit the table to adjust formatting, sorting, filtering, or other advanced features.",
+      "groupLabels": {
+        "tableOptions": "Edit…",
+        "namedItem": "Edit…"
+      },
+      "icon": "TableInsert"
+    },
+    "editPivotTable": {
+      "label": "Edit PivotTable…",
+      "description": "Show the PivotTable's fields to choose what it groups and what it computes.",
+      "groupLabels": {
+        "pivotToolbar": "Field List"
+      },
+      "icon": "Pivot"
+    },
+    "formatCellControl": {
+      "label": "Control Options",
+      "description": "Show the options of the cell control under the active cell.",
+      "icon": "CellsFormat"
+    },
+    "showCommentsPane": {
+      "label": "Show Comments",
+      "description": "List every comment on the sheet in a pane.",
+      "icon": "CommentManage"
+    },
+    "chartDetails": {
+      "label": "Chart Details",
+      "groupLabels": {
+        "taskPane": "Chart"
+      },
+      "description": "Show the series, axes and other elements of the selected chart.",
+      "icon": "chart:columnClustered"
+    }
+  }
+}

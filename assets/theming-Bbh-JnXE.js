@@ -1,0 +1,1 @@
+import"./react-DCluhXK3.js";import{_ as e,c as t}from"./theming-DJ0v92Rw.js";t();export{e as color};

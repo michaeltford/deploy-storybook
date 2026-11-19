@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./react-DCluhXK3.js";import{t as n}from"./jsx-runtime-DeHZSEgm.js";import{n as r,t as i}from"./BTaV-3I7QFMeZ9Vo-Dc9hRFX7.js";var a,o,s;function c(){return(c=e((()=>{i(),a=t(),o=n(),s=(0,a.memo)(e=>(0,o.jsx)(r,{...e,variant:`edit`}))})))()}c();export{s as SparklineEditDialog,s as default};

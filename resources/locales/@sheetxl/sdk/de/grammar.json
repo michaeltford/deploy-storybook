@@ -1,0 +1,16 @@
+{
+  "booleans": { "true": "WAHR", "false": "FALSCH" },
+  "errors": {
+    "Value": "#WERT!",
+    "Ref": "#BEZUG!",
+    "Num": "#ZAHL!",
+    "NA": "#NV"
+  },
+  "specifiers": {
+    "all": "Alle",
+    "data": "Daten",
+    "headers": "Kopfzeilen",
+    "totals": "Ergebnisse",
+    "thisRow": "Diese Zeile"
+  }
+}
